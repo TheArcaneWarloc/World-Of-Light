@@ -38,11 +38,11 @@
 			],
 			"symbol": "Three Pointed Celestial Star",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/kS2EqHt.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/kS2EqHt.png"
+				}
 			},
 			"entries": [
 				{
@@ -99,7 +99,6 @@
 			],
 			"source": "WorldOfLight"
 		},
-
 		{
 			"name": "Angaradd",
 			"title": "God of Crafting, Creation and Smithing",
@@ -129,11 +128,11 @@
 			],
 			"symbol": "Hammer and anvil",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/WxL2kmQ.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/WxL2kmQ.png"
+				}
 			},
 			"entries": [
 				{
@@ -216,11 +215,11 @@
 			],
 			"symbol": "Golden Phoenix",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/jnEsjuv.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/jnEsjuv.png"
+				}
 			},
 			"entries": [
 				{
@@ -302,11 +301,11 @@
 			],
 			"symbol": "Upper half of a clockwork gear",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/QZvKn7E.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/QZvKn7E.png"
+				}
 			},
 			"entries": [
 				{
@@ -390,11 +389,11 @@
 			"symbol": "Wavelike Swirl",
 			"source": "WorldOfLight",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/67c4Bhc.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/67c4Bhc.png"
+				}
 			},
 			"entries": [
 				{
@@ -450,7 +449,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Ioun",
 			"title": "Goddess of Knowledge and Magic",
@@ -475,11 +473,11 @@
 			],
 			"symbol": "Crook shaped like a stylized eye",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/cP81vG4.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/cP81vG4.png"
+				}
 			},
 			"entries": [
 				{
@@ -549,11 +547,11 @@
 			],
 			"symbol": "A wooden Buckler shield cracked with blue lightning",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/WsVKN6c.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/WsVKN6c.png"
+				}
 			},
 			"entries": [
 				{
@@ -631,11 +629,11 @@
 			],
 			"symbol": "Crescent moon",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/AwLHsLB.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/AwLHsLB.png"
+				}
 			},
 			"entries": [
 				{
@@ -693,7 +691,6 @@
 			],
 			"source": "WorldOfLight"
 		},
-
 		{
 			"name": "Bahamut",
 			"title": "God of Honor, Justice and Nobility",
@@ -721,11 +718,11 @@
 			],
 			"symbol": "Dragon's head in profile",
 			"symbolImg": {
-      			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/Yoi3wwX.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/Yoi3wwX.png"
+				}
 			},
 			"entries": [
 				{
@@ -809,11 +806,11 @@
 			],
 			"symbol": "Eclipsed Starburst",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/I3Bl28z.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/I3Bl28z.png"
+				}
 			},
 			"source": "WorldOfLight",
 			"entries": [
@@ -902,11 +899,11 @@
 			],
 			"symbol": "Dragon's Head in Profile",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/Giu6JKL.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/Giu6JKL.png"
+				}
 			},
 			"source": "WorldOfLight",
 			"entries": [
@@ -917,7 +914,7 @@
 						{
 							"type": "entries",
 							"name": "Takhisis's Influence",
-								"entries": [
+							"entries": [
 								{
 									"type": "entries",
 									"entries": [
@@ -962,7 +959,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Tharizdun",
 			"title": "Deity of Decay and Madness",
@@ -986,11 +982,11 @@
 			],
 			"symbol": "Jagged counter-clockwise spiral",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/eOIn4kl.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/eOIn4kl.png"
+				}
 			},
 			"source": "WorldOfLight",
 			"entries": [
@@ -1048,7 +1044,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Hextor",
 			"title": "God of War and Conquest",
@@ -1072,11 +1067,11 @@
 			],
 			"symbol": "Two Red-feathered arrows intertwined",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/inlgSDQ.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/inlgSDQ.png"
+				}
 			},
 			"entries": [
 				{
@@ -1157,11 +1152,11 @@
 			],
 			"symbol": "Partially shattered one-eyed skull",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/s03J5R7.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/s03J5R7.png"
+				}
 			},
 			"entries": [
 				{
@@ -1239,11 +1234,11 @@
 			],
 			"symbol": "Snake in the shape of a dagger",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/r3GDBmp.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/r3GDBmp.png"
+				}
 			},
 			"source": "WorldOfLight",
 			"entries": [
@@ -1251,56 +1246,54 @@
 					"type": "section",
 					"entries": [
 						"A wanderer in the shadows and the creator of snakes and serpentkin, Zehir is the evil god of poisons, assassins, and darkness. The ancient serpentkin worship him over all other deities, dragging screaming offerings to their temples in his honor. Most of the Midnight Serpent's worshipers were annihilated during the Dawn War, however recently Zehir has started to gain more prominence after re-emerging as a god worshipped by the Ashen Drow of Nordabȧd.",
-							{
-								"type": "entries",
-								"name": "Zehir's Influence",
-								"entries": [
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Depiction",
-												"entries": [
-													"Many forgotten temples were once built to the Cloaked Serpent, and within these chambers his image was embedded within much of the architecture. He is shown as a human body with six arms and a gargantuan serpentine head, fanged and frilled in aggression. Strands of thick, dark hair that sprout from his scaled body form layers of swirling shadow, obscuring his form."
-
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Enemies",
-												"entries": [
-													"Zehir loathes {@deity Erathis|Ilúvë|WorldOfLight} and {@deity Melora|Ilúvë|WorldOfLight}, for he despises life, order, and love above all things. His surviving worshipers use poison and fire to undermine civilization and consume nature, hoping to infuriate both gods and cast Ilúvë into chaos."
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Commandments of Zehir",
-										"entries": [
-											{
-												"type": "list",
-												"items": [
-													"Hide under the cloak of night, that your deeds might be kept in secret.",
-													"Kill in Zehir's name and offer each murder as a sacrifice.",
-													"Delight in poison, and surround yourself with snakes."
-												]
-											}
-										]
-									}
-								]
-							}
+						{
+							"type": "entries",
+							"name": "Zehir's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Many forgotten temples were once built to the Cloaked Serpent, and within these chambers his image was embedded within much of the architecture. He is shown as a human body with six arms and a gargantuan serpentine head, fanged and frilled in aggression. Strands of thick, dark hair that sprout from his scaled body form layers of swirling shadow, obscuring his form."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Enemies",
+											"entries": [
+												"Zehir loathes {@deity Erathis|Ilúvë|WorldOfLight} and {@deity Melora|Ilúvë|WorldOfLight}, for he despises life, order, and love above all things. His surviving worshipers use poison and fire to undermine civilization and consume nature, hoping to infuriate both gods and cast Ilúvë into chaos."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Zehir",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Hide under the cloak of night, that your deeds might be kept in secret.",
+												"Kill in Zehir's name and offer each murder as a sacrifice.",
+												"Delight in poison, and surround yourself with snakes."
+											]
+										}
+									]
+								}
+							]
+						}
 					]
 				}
 			]
 		},
-
 		{
 			"name": "Gruumsh",
 			"title": "God of Destruction and Murder",
@@ -1324,11 +1317,11 @@
 			],
 			"symbol": "Grey triangular eye with bony protrusions",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/D0cdq2a.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/D0cdq2a.png"
+				}
 			},
 			"entries": [
 				{
@@ -1406,11 +1399,11 @@
 			],
 			"symbol": "Spider",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/1cricGm.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/1cricGm.png"
+				}
 			},
 			"entries": [
 				{
@@ -1483,11 +1476,11 @@
 			],
 			"symbol": "Raven, in profile, facing right",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/WECySuM.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/WECySuM.png"
+				}
 			},
 			"entries": [
 				{
@@ -1568,67 +1561,66 @@
 			],
 			"symbol": "Letter \"T\" attached to a circular shackle",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/bnNLfrM.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/bnNLfrM.png"
+				}
 			},
 			"entries": [
 				{
 					"type": "section",
 					"entries": [
 						"The dark god of the endless tunnels and caverns beneath Ilúvë, Torog is the patron of torturers, slavers, and jailers across the realms. His violent tears carved the pathways under the world, and his realm of imprisonment is a network of deadly caves and manacles from which few return. Creatures that wander the desolation of Carceri often construct prisons in his image. Those who rob others of their freedom offer prayers to him in cellars and other subterranean domains, and many creatures who live in the darkness below worship him and seek his guidance.",
-							{
-								"type": "entries",
-								"name": "Torog's Influence",
-								"entries": [
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Depiction",
-												"entries": [
-													"The Crawling King is rendered as a swollen, malformed worm that slithers through the dark below, with a screaming, hairless human head at the helm and three arms carving through the lightless rock."
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Enemies",
-												"entries": [
-													"{@deity Auroril|Ilúvë|WorldOfLight} and {@deity Corellon|Ilúvë|WorldOfLight} defeated Torog during the Age of Assault by luring their nemesis above ground. Auroril pierced Torog's tenebrous body with ten thousand lances of sunlight, and Corellon imprisoned him beyond the boundaries of Ilúvë. The tears of pain and anger the Crawling King shed burned through Ilúvë, and his faithful fled into these tunnels to escape their enemies' holy light."
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Commandments of Torog",
-										"entries": [
-											{
-												"type": "list",
-												"items": [
-													"Seek and exalt places where no light touches.",
-													"Revel in the pain you inflict on others, and relish the pain you suffer yourself as an offering to Torog.",
-													"Imprison those who cannot resist you, and drag all life into the darkness."
-												]
-											}
-										]
-									}
-								]
-							}
+						{
+							"type": "entries",
+							"name": "Torog's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"The Crawling King is rendered as a swollen, malformed worm that slithers through the dark below, with a screaming, hairless human head at the helm and three arms carving through the lightless rock."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Enemies",
+											"entries": [
+												"{@deity Auroril|Ilúvë|WorldOfLight} and {@deity Corellon|Ilúvë|WorldOfLight} defeated Torog during the Age of Assault by luring their nemesis above ground. Auroril pierced Torog's tenebrous body with ten thousand lances of sunlight, and Corellon imprisoned him beyond the boundaries of Ilúvë. The tears of pain and anger the Crawling King shed burned through Ilúvë, and his faithful fled into these tunnels to escape their enemies' holy light."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Torog",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Seek and exalt places where no light touches.",
+												"Revel in the pain you inflict on others, and relish the pain you suffer yourself as an offering to Torog.",
+												"Imprison those who cannot resist you, and drag all life into the darkness."
+											]
+										}
+									]
+								}
+							]
+						}
 					]
 				}
 			],
 			"source": "WorldOfLight"
 		},
-
 		{
 			"name": "The Strangers",
 			"title": "Deity of Balance, Chaos and Chance",
@@ -1652,11 +1644,11 @@
 			],
 			"symbol": "Coin with a two-faced mask",
 			"symbolImg": {
-    			"type": "image",
-    				"href": {
-        			"type": "external",
-        			"url": "https://i.imgur.com/UTYGgkT.png"
-   				}
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/UTYGgkT.png"
+				}
 			},
 			"entries": [
 				{
@@ -1704,7 +1696,6 @@
 			],
 			"source": "WorldOfLight"
 		},
-
 		{
 			"name": "Akadi",
 			"title": "Primordial of Air",
@@ -2043,7 +2034,6 @@
 				"A brigandine is a form of body armour. It is a garment, generally heavy cloth, canvas or leather, lined with small oblong steel plates riveted to the fabric."
 			]
 		},
-
 		{
 			"name": "Pistol",
 			"source": "WorldOfLight",
@@ -2173,7 +2163,6 @@
 			"ammoType": "flintlock bullet|WorldOfLight",
 			"entries": []
 		},
-
 		{
 			"name": "Flintlock Bullet",
 			"source": "WorldOfLight",
@@ -2220,7 +2209,6 @@
 			"age": "empire",
 			"entries": []
 		},
-
 		{
 			"name": "Aegis of Radiance",
 			"source": "WorldOfLight",
@@ -2303,7 +2291,6 @@
 				"You gain a +3 bonus to attack and damage rolls you make with this magic weapon. This weapon has a cool hex-casting ability, that shoots magic lol"
 			]
 		},
-
 		{
 			"name": "Cenotaph",
 			"source": "WorldOfLight",
@@ -2375,7 +2362,6 @@
 				"Magic Item Table B"
 			]
 		},
-
 		{
 			"name": "Runestone, Necrotic",
 			"rarity": "uncommon",
@@ -2411,7 +2397,6 @@
 				"Alternatively, you can use a bonus action to crush the stone in your palm, causing you to regain {@dice 3d12} hit points. The stone is then destroyed."
 			]
 		},
-
 		{
 			"name": "Lumenstone",
 			"source": "WorldOfLight",
@@ -2435,7 +2420,6 @@
 				"In addition, a Focal Stone can also be used as a spellcasting focus."
 			]
 		},
-
 		{
 			"name": "Pyremaul, The Shaping Hammer",
 			"source": "WorldOfLight",
@@ -2657,7 +2641,6 @@
 			],
 			"fluff": {}
 		},
-
 		{
 			"name": "Plate of the Dawnmartyr",
 			"source": "WorldOfLight",
@@ -2732,7 +2715,6 @@
 			],
 			"fluff": {}
 		},
-
 		{
 			"name": "Razor Bands of The Arch-Mage",
 			"source": "WorldOfLight",
@@ -2794,7 +2776,6 @@
 				}
 			]
 		},
-		
 		{
 			"name": "Brand of The Blood Rage",
 			"source": "WorldOfLight",
@@ -2861,7 +2842,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Cabal's Ruin",
 			"source": "WorldOfLight",
@@ -2922,7 +2902,6 @@
 			],
 			"fluff": {}
 		},
-
 		{
 			"name": "Gemstone Tattoo",
 			"source": "TCE",
@@ -2935,7 +2914,6 @@
 				"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
 			]
 		},
-
 		{
 			"name": "Gardener's Tools",
 			"source": "WorldOfLight",
@@ -3045,99 +3023,98 @@
 		}
 	],
 	"itemProperty": [
-        {
-            "abbreviation": "SC",
-            "source": "WorldOfLight",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Scatter",
-                    "entries": [
-                        "Whenever you make an attack using this weapon, it affects every creature within a 30 ft. cone. You make an attack for each creature within that radius. Any creature within 5 feet of you whenever you do this takes double damage on a hit."
-                    ]
-                }
-            ]
-        },
-        {
-            "abbreviation": "EX",
-            "source": "WorldOfLight",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Explosive",
-                    "entries": [
-                        "Whenever you hit a creature with this weapon, every creature within 5 feet of it must succeed on a Dexterity Saving throw or take half of the weapon's damage. The DC for this feature is 8 + your Dexterity modifier (+ your proficiency bonus if you're proficient using this weapon)."
-                    ]
-                }
-            ]
-        },
-        {
-            "abbreviation": "RL1",
-            "source": "WorldOfLight",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Reload",
-                    "entries": [
-                        "This weapon can be fired once before you have to spend an action to reload it."
-                    ]
-                }
-            ]
-        },
-        {
-            "abbreviation": "RL2",
-            "source": "WorldOfLight",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Reload",
-                    "entries": [
-                        "This weapon can be fired a total of 2 times before you have to spend an action to reload it."
-                    ]
-                }
-            ]
-        },
-        {
-            "abbreviation": "RL4",
-            "source": "WorldOfLight",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Reload",
-                    "entries": [
-                        "This weapon can be fired a total of 4 times before you have to spend an action to reload it."
-                    ]
-                }
-            ]
-        },
-        {
-            "abbreviation": "RL6",
-            "source": "WorldOfLight",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Reload",
-                    "entries": [
-                        "This weapon can be fired a total of 6 times before you have to spend an action to reload it."
-                    ]
-                }
-            ]
-        },
-
-        {
-            "abbreviation": "GodWeapon",
-            "source": "WorldOfLight",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Vestige of The Gods",
-                    "entries": [
-                        "This item is a Vestige of The Gods."
-                    ]
-                }
-            ]
-        }
-    ],
+		{
+			"abbreviation": "SC",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Scatter",
+					"entries": [
+						"Whenever you make an attack using this weapon, it affects every creature within a 30 ft. cone. You make an attack for each creature within that radius. Any creature within 5 feet of you whenever you do this takes double damage on a hit."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "EX",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Explosive",
+					"entries": [
+						"Whenever you hit a creature with this weapon, every creature within 5 feet of it must succeed on a Dexterity Saving throw or take half of the weapon's damage. The DC for this feature is 8 + your Dexterity modifier (+ your proficiency bonus if you're proficient using this weapon)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RL1",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired once before you have to spend an action to reload it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RL2",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired a total of 2 times before you have to spend an action to reload it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RL4",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired a total of 4 times before you have to spend an action to reload it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RL6",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired a total of 6 times before you have to spend an action to reload it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "GodWeapon",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Vestige of The Gods",
+					"entries": [
+						"This item is a Vestige of The Gods."
+					]
+				}
+			]
+		}
+	],
 	"variantrule": [
 		{
 			"name": "Playable Races of The World of Light",
@@ -4006,7 +3983,6 @@
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
-
 		{
 			"name": "Feytouched",
 			"source": "WorldOfLight",
@@ -4063,7 +4039,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "Clay",
 			"source": "WorldOfLight",
@@ -4246,17 +4221,17 @@
 			"source": "WorldOfLight",
 			"entries": [
 				"This spell is used by apprentice chronurgists to hone their time-manipulating powers. You can create one of the following magical effects within range:",
-					{
-						"type": "list",
-						"items": [
-							"You can create a small magical wonder, such as growing a flower in a spot where flowers don't grow, causing small snowflakes to fall to the ground around you, or even make a summer breeze pass under a creatures feet. The extent of these effects are up to you, at the DM's discretion.",
-							"You can spoil or freshen one piece of food no larger than 1 cubic foot you can see within range. This doesn't work on food which has been spoiled for over a week.",
-							"You can suspend one object weighing no more than 10 lbs up to 10 feet into the air. Any pressure or weight put on it will immediately make it fall back down to the ground. While it is suspended in this way, it slightly oscillates and rotates in place, giving off a faint, celestial hum.",
-							"You can immediately learn the precise time of day to the nearest minute, including the current hour, day, month, and year.",
-							"You can accelerate or decelerate time centered on a point within range. Anything within 1 cubic foot of the point you chose is affected by this effect. Examples of this effect include bringing a cauldron of water to a boil in seconds or causing a clock to speed up or down to show to wrong time. The extent of these effects are up to you, at the DM's discretion.",
-							"You can turn back time on a small fire, such as a candle, torch or small campfire, lighting or snuffing it out instantly."
-						]
-					},
+				{
+					"type": "list",
+					"items": [
+						"You can create a small magical wonder, such as growing a flower in a spot where flowers don't grow, causing small snowflakes to fall to the ground around you, or even make a summer breeze pass under a creatures feet. The extent of these effects are up to you, at the DM's discretion.",
+						"You can spoil or freshen one piece of food no larger than 1 cubic foot you can see within range. This doesn't work on food which has been spoiled for over a week.",
+						"You can suspend one object weighing no more than 10 lbs up to 10 feet into the air. Any pressure or weight put on it will immediately make it fall back down to the ground. While it is suspended in this way, it slightly oscillates and rotates in place, giving off a faint, celestial hum.",
+						"You can immediately learn the precise time of day to the nearest minute, including the current hour, day, month, and year.",
+						"You can accelerate or decelerate time centered on a point within range. Anything within 1 cubic foot of the point you chose is affected by this effect. Examples of this effect include bringing a cauldron of water to a boil in seconds or causing a clock to speed up or down to show to wrong time. The extent of these effects are up to you, at the DM's discretion.",
+						"You can turn back time on a small fire, such as a candle, torch or small campfire, lighting or snuffing it out instantly."
+					]
+				},
 				"If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
 			]
 		},
@@ -4552,9 +4527,19 @@
 					{
 						"name": "Druid",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
 					}
 				]
 			},
+			"feats": [
+				{
+					"name": "Adept of the White Robes",
+					"source": "UA2022HeroesOfKrynn"
+				}
+			],
 			"source": "WorldOfLight",
 			"entries": [
 				"You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
@@ -4695,7 +4680,7 @@
 				{
 					"number": 1,
 					"unit": "action"
-				}	
+				}
 			],
 			"range": {
 				"type": "point",
@@ -5169,7 +5154,7 @@
 				{
 					"number": 1,
 					"unit": "action"
-				}	
+				}
 			],
 			"range": {
 				"type": "point",
@@ -5547,7 +5532,6 @@
 			"source": "WorldOfLight",
 			"shortName": "Trickery (Revised)"
 		},
-
 		{
 			"className": "Fighter",
 			"name": "Vanguard",
@@ -5574,7 +5558,6 @@
 			"source": "WorldOfLight",
 			"shortName": "Marauder"
 		},
-
 		{
 			"className": "Monk",
 			"name": "Way of Time",
@@ -5616,7 +5599,6 @@
 			"source": "WorldOfLight",
 			"shortName": "Wild"
 		},
-
 		{
 			"className": "Paladin",
 			"name": "Oath of the Open Sea",
@@ -5655,7 +5637,6 @@
 			"source": "WorldOfLight",
 			"shortName": "Open Sea"
 		},
-
 		{
 			"className": "Warlock",
 			"name": "Deviant",
@@ -5672,7 +5653,7 @@
 			"className": "Warlock",
 			"name": "Hexblade (Variant)",
 			"subclassFeatures": [
-				"The Hexblade|Warlock||Hexblade (Variant)|WorldOfLight|1",			
+				"The Hexblade|Warlock||Hexblade (Variant)|WorldOfLight|1",
 				"Spellsword|Warlock||Hexblade (Variant)|WorldOfLight|6",
 				"Armor of Hexes|Warlock||Hexblade (Variant)|WorldOfLight|10",
 				"Master of Hexes|Warlock||Hexblade (Variant)|WorldOfLight|14"
@@ -5680,7 +5661,6 @@
 			"source": "WorldOfLight",
 			"shortName": "Hexblade (Variant)"
 		},
-
 		{
 			"className": "Wizard",
 			"name": "Chronurgy Magic (Variant)",
@@ -5841,7 +5821,6 @@
 				"At the beginning of a creature's turn that is under a charm effect from one of your spells or magical effects, it takes 3d8 psychic damage. Taking damage from this effect doesn't provoke any additional Wisdom check to try and break the effects of the charm."
 			]
 		},
-
 		{
 			"name": "Time Domain",
 			"source": "WorldOfLight",
@@ -5986,7 +5965,6 @@
 				"Also at 17th level, you no longer suffer the negative effects of the {@spell haste} spell, and the {@spell slow} spell no longer affects you, unless you wish to be affected."
 			]
 		},
-
 		{
 			"name": "Trickery Domain (Revised)",
 			"source": "WorldOfLight",
@@ -6144,9 +6122,6 @@
 				"At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet."
 			]
 		},
-
-
-
 		{
 			"name": "Blessed Protector",
 			"source": "WorldOfLight",
@@ -6262,7 +6237,6 @@
 				"Starting at 18th level, if you are killed instantaneously, roll a death saving throw. On a success, you drop to 1 hit point instead."
 			]
 		},
-
 		{
 			"name": "The Marauder",
 			"source": "WorldOfLight",
@@ -6356,7 +6330,6 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
-
 		{
 			"name": "Way of Time",
 			"source": "WorldOfLight",
@@ -6442,7 +6415,6 @@
 				"Alternatively, as a bonus action on your turn, you can expend two ki points to jump forwards in time, gaining resistance to force damage until the end of your next turn, and 30 feet extra movement."
 			]
 		},
-
 		{
 			"name": "Way of The Moon Soul",
 			"source": "WorldOfLight",
@@ -6551,7 +6523,6 @@
 				"In addition, you no longer provoke opportunity attacks when you move out of an enemy's reach."
 			]
 		},
-
 		{
 			"name": "Way of the Wild",
 			"source": "WorldOfLight",
@@ -6650,9 +6621,6 @@
 				"When you are below half of your total hit points, all allies within 30ft of you gain to-hit and damage bonuses equal to your Wisdom Modifier."
 			]
 		},
-
-
-
 		{
 			"name": "Oath of the Open Sea",
 			"source": "WorldOfLight",
@@ -6870,9 +6838,6 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
-
-
-
 		{
 			"name": "The Deviant",
 			"source": "WorldOfLight",
@@ -7009,7 +6974,6 @@
 				"When an illusionary duplicate mimics a weapon attack it deals {@dice 1d10} + your Charisma modifier in psychic damage."
 			]
 		},
-
 		{
 			"name": "The Hexblade",
 			"source": "WorldOfLight",
@@ -7152,9 +7116,6 @@
 				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition incapacitated}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
 			]
 		},
-
-
-
 		{
 			"name": "Chronurgy Magic",
 			"source": "WorldOfLight",
@@ -7377,7 +7338,7 @@
 				{
 					"_": [
 						{
-						"equipmentType": "navigator's tools|phb"
+							"equipmentType": "navigator's tools|phb"
 						},
 						"traveler's clothes|phb",
 						{
