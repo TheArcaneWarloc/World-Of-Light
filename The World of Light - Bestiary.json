@@ -1,0 +1,1008 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WorldOfLightBeasts",
+				"abbreviation": "WOL:B",
+				"full": "The World of Light: Bestiary",
+				"color": "40B760",
+				"authors": [
+					"Arcane"
+				],
+				"version": "13.03.2023",
+				"url": "-",
+				"targetSchema": "1.2.0"
+			}
+		],
+		"dateAdded": 1
+	},
+	"monster": [
+		{
+			"name": "Khorvuz Im'ric Johannez of Arcanix",
+			"source": "WorldOfLightBeasts",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Half-Elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item Robe of the Archmagi|dmg}"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "15d6+15"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 12,
+			"int": 20,
+			"wis": 18,
+			"cha": 17,
+			"save": {
+				"int": "+10",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10",
+				"perception": "+9"
+			},
+			"passive": 19,
+			"languages": [
+				"Common",
+				"Celestial",
+				"Draconic",
+				"Elvish",
+				"Sylvan",
+				"Undercommon"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Khorvuz has advantage on saving throws made against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Khorvuz wields a {@item staff of the magi} and he wears a {@item robe of the archmagi}. In addition, he wears a {@item ring of spell storing} containing a 5th-level {@spell magic missile} spell."
+					]
+				},
+				{
+					"name": "Split Enchantment",
+					"entries": [
+						"When Khorvuz casts an enchantment spell of 1st level or higher that targets only one creature, he can have it target a second creature."
+					]
+				},
+				{
+					"name": "Alter Memories",
+					"entries": [
+						"When Khorvuz casts an enchantment spell to charm one or more creatures, he can alter one creature's understanding so that it remains unaware of being {@condition charmed}.",
+						"Additionally, once before said spell expires, Khorvuz can use his action to try to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on a DC 20 Intelligence saving throw or lose 4 hours of its memories. Khorvuz can make the creature forget less time, and the amount of time can't exceed the duration of the enchantment spell."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Khorvuz is a 15th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He knows the following wizard spells, and prepared spells are marked with brackets."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell mind sliver|TCE}",
+								"{@spell fire bolt}",
+								"{@spell friends}",
+								"{@spell mage hand}",
+								"{@spell mending}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"[{@spell charm person}]*",
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"[{@spell magic missile}]",
+								"[{@spell shield}]",
+								"{@spell sleep}*"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"[{@spell aganazzar's scorcher|XGE}]",
+								"[{@spell blur}]",
+								"[{@spell hold person}]*",
+								"{@spell invisibility}",
+								"{@spell knock}",
+								"{@spell suggestion}*"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"[{@spell blink}]",
+								"[{@spell counterspell}]",
+								"[{@spell dispel magic}]",
+								"[{@spell fly}]",
+								"[{@spell sending}]",
+								"{@spell tongues}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"[{@spell confusion}]*",
+								"[{@spell dominate beast}]*",
+								"{@spell greater invisibility}",
+								"{@spell stoneskin}",
+								"{@spell transfer enchantment|MightMagic}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell dream}",
+								"[{@spell far step|XGE}]",
+								"{@spell hold monster}*",
+								"[{@spell modify memory}]*",
+								"{@spell scrying}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell alinaar's amazing altering|MightMagic}",
+								"{@spell chain lightning}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"[{@spell delayed blast fireball}]",
+								"{@spell mordenkainen's sword}",
+								"[{@spell plane shift}]",
+								"[{@spell teleport}]"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"[{@spell demiplane}]",
+								"{@spell feeblemind}*"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Enchantment spell of 1st level or higher"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Khorvuz makes two Arcane Burst attacks."
+					]
+				},
+				{
+					"name": "Arcane Burst",
+					"entries": [
+						"{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 3d10 + 4}) force damage."
+					]
+				},
+				{
+					"name": "Hypnotic Gaze",
+					"entries": [
+						"Khorvuz chooses one creature within 5 feet of him that must succeed on a DC 20 Wisdom saving throw or be {@condition charmed} by Khorvuz until the end of his next turn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly dazed.",
+						"On subsequent turns, Khorvuz can use his action to maintain this effect, extending its duration until the end of his next turn. However, the effect ends if he moves more than 5 feet away from the creature, if the creature can neither see nor hear Khorvuz, or if the creature takes any form of damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Instinctive Charm (Recharges after Khorvuz casts an Enchantment Spell of 1st level or higher)",
+					"entries": [
+						"Khorvuz tries to magically divert an attack made against him, provided that the attacker is within 30 feet of him and visible to him. Khorvuz must decide to do so before the attack hits or misses.",
+						"The attacker must make a {@dc 14} Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than Khorvuz or itself. If multiple creatures are closest, the attacker chooses which one to target."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/bwNIMKT.png"
+		},
+		{
+			"name": "Rhoderihck Johannez",
+			"source": "WorldOfLightBeasts",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Half-Elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 222,
+				"formula": "20d6+15"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 20,
+			"int": 10,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"cha": "+11",
+				"con": "+11",
+				"wis": "+10"
+			},
+			"skill": {
+				"insight": "+10",
+				"perception": "+10",
+				"deception": "+11",
+				"intimidation": "+11",
+				"performance": "+11",
+				"persuasion": "+11"
+			},
+			"passive": 20,
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Elvish",
+				"Goblin",
+				"Undercommon"
+			],
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Rhoderihck wields a {@item staff of power} and he wears a {@item cloak of elvenkind}. In addition, he wears (thought isn't attuned to) a {@item ring of spell storing} containing a 5th-level {@spell fireball} spell. He also wears a {@item ring of invisibility}, and carries with him {@item rhoderihck's bag of holding|WorldOfLight}."
+					]
+				},
+				{
+					"name": "Spell Bombardment",
+					"entries": [
+						"Once per turn, when Rhoderihck rolls damage for a spell and rolls the highest number possible on any of the dice, he gets to choose one of the dice and roll it again and add that roll to the damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Rhoderihck has advantage on saving throws made against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Metamagic",
+					"entries": [
+						"Rhoderihck has 20 sorcery points, which he can spend to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. In addition, he can use it to twist his spells to suit his needs. He has the following Metamagic options:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Quickened Spell",
+									"entry": "When Rhoderihck casts a spell that has a casting time of 1 action, he can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+								},
+								{
+									"type": "item",
+									"name": "Seeking Spell",
+									"entry": "If Rhoderihck makes an attack roll for a spell and misses, he can spend 2 sorcery points to reroll the d20, and he must use the new roll. He can use Seeking Spell even if he has already used a different Metamagic option during the casting of the spell."
+								},
+								{
+									"type": "item",
+									"name": "Subtle Spell",
+									"entry": "When Rhoderihck casts a spell, he can spend 1 sorcery point to cast it without any somatic or verbal components."
+								},
+								{
+									"type": "item",
+									"name": "Twinned Spell",
+									"entry": "When Rhoderihck casts a spell that targets only one creature and doesn't have a range of self, he can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"Rhoderihck has advantage on Constitution saving throws made to maintain concentration on his spells."
+					]
+				},
+				{
+					"name": "Wild Magic",
+					"entries": [
+						"Whenever Rhoderihck casts a spell of 1st level or higher, roll a d100. On a 33 or lower, roll on his Wild Magic Surge table. He gets to roll twice and take either number."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Rhoderihck is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He knows the following sorcerer spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell mending}",
+								"{@spell message}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell mage armor}",
+								"{@spell shield}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell scorching ray} (at will)"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell blink}",
+								"{@spell counterspell}",
+								"{@spell fireball}",
+								"{@spell haste}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell blight}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell bigby's hand}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell disintegrate}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell crown of madness}",
+								"{@spell plane shift}",
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell demiplane}"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell wish}"
+							]
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Rhoderihck makes three Arcane Burst attacks."
+					]
+				},
+				{
+					"name": "Arcane Burst",
+					"entries": [
+						"{@atk ms,rs} {@hit 13} to hit, reach 5 ft. or range 120 ft., one target. {@h}24 ({@damage 3d10 + 7}) force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Bend Luck",
+					"entries": [
+						"Whenever another creature Rhoderihck can see makes an attack roll, an ability check or a saving throw, he cas use his reaction to spend 2 sorcery points to roll {@dice 1d4} and apply the number rolled as a bonus or penalty to the creature's roll."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://i.imgur.com/8GpKtCf.png"
+		},
+		{
+			"name": "Spellbinder Azran Shalidor",
+			"source": "WorldOfLightBeasts",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"drow"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 66,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 20,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+9",
+				"wis": "+6"
+			},
+			"skill": {
+				"arcana": "+8",
+				"deception": "+7",
+				"history": "+8",
+				"persuasion": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Halfling",
+				"Undercommon"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Azran's innate spellcasting ability is Charisma (spell save DC 15). Azran can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Azran is a 13th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He knows the following wizard spells, and prepared spells are marked with brackets:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell color spray}*",
+								"{@spell disguise self}*",
+								"[{@spell mage armor}]",
+								"[{@spell magic missile}]",
+								"[{@spell silent image}]*"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell enlarge/reduce}",
+								"{@spell invisibility}*",
+								"[{@spell knock}]",
+								"[{@spell mirror image}]*",
+								"{@spell phantasmal force}*",
+								"{@spell shadow blade|XGE}*"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"[{@spell blink}]",
+								"[{@spell counterspell}]",
+								"{@spell fireball}",
+								"[{@spell fly}]",
+								"[{@spell haste}]",
+								"[{@spell major image}]*",
+								"[{@spell sending}]"
+							]
+						},
+						"4": {
+							"slots": 1,
+							"spells": [
+								"[{@spell phantasmal killer}]*",
+								"[{@spell robin's resonant echo|MightMagic}]*",
+								"[{@spell robin's resourceful rescue|MightMagic}]*"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"[{@spell disintegrate}]",
+								"{@spell programmed illusion}*",
+								"{@spell globe of invulnerability}",
+								"[{@spell true seeing}]"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"[{@spell mirage arcane}]*",
+								"{@spell symbol}",
+								"[{@spell teleport}]"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Illusion spell of 1st level or higher"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Azran carries a {@item Figurine of Wondrous Power, Silver Raven||Figurine of Wondrous Power (Silver Raven)}."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Azran has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Illusory Step (Recharges after the Illusionist Casts an Illusion Spell of 1st Level or Higher).",
+					"entries": [
+						"Azran can create an illusory duplicate of himself as an instant, almost instinctual reaction to danger.",
+						"Whenever a creature makes an attack roll against Azran, he can use his reaction to interpose an illusory duplicate between the attacker and himself. The attack automatically misses, then the illusion dissapates."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"DR",
+				"E",
+				"H"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"frightened",
+				"incapacitated",
+				"invisible",
+				"petrified",
+				"restrained",
+				"stunned",
+				"unconscious"
+			]
+		},
+		{
+			"name": "Living Disintegrate",
+			"source": "WorldOfLightBeasts",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 57,
+				"formula": "6d10 + 24"
+			},
+			"speed": {
+				"walk": 25,
+				"fly": 25
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 18,
+			"int": 3,
+			"wis": 10,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"immune": [
+				"force"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"grappled",
+				"poisoned",
+				"prone"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The living spell can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The living spell has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The living spell makes two Magical Strike attacks."
+					]
+				},
+				{
+					"name": "Magical Strike",
+					"entries": [
+						"{@atk ms} {@hit 7} to hit, reach 10 ft., one target. {@h}21 ({@damage 5d6 + 4}) force damage."
+					]
+				},
+				{
+					"name": "Spell Mimicry {@recharge 5}",
+					"entries": [
+						"The living spell unleashes a ray of magical force in a line 60 feet long and 5 feet wide. Each creature in the line must make a {@dc 15} Dexterity saving throw, taking 75 ({@damage 10d6 + 40}) force damage on a failed save, or half as much damage on a successful one. The target is disintegrated if this damage leaves it with 0 hit points. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a wish spell."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"RCH"
+			]
+		},
+		{
+			"name": "Lucien Landon",
+			"source": "WorldOfLightBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				10,
+				{
+					"ac": 13,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 42,
+				"formula": "12d6+0"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 11,
+			"con": 10,
+			"int": 19,
+			"wis": 17,
+			"cha": 16,
+			"save": {
+				"int": "+8",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+8",
+				"history": "+8"
+			},
+			"passive": 13,
+			"languages": [
+				"common",
+				"elvish",
+				"halfling",
+				"celestial"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Lucien is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). Lucien has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell prestidigitation}",
+								"{@spell mage hand}",
+								"{@spell message}",
+								"{@spell wristpocket|WorldOfLight}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell charm person}*",
+								"{@spell mage armor}",
+								"{@spell silvery barbs|SCC}*",
+								"{@spell shield}",
+								"{@spell identify}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell hold person}*",
+								"{@spell invisibility}",
+								"{@spell suggestion}*",
+								"{@spell tasha's mind whip|TCE}*",
+								"{@spell knock}",
+								"{@spell enlarge/reduce}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell haste}",
+								"{@spell slow}",
+								"{@spell tongues}",
+								"{@spell fly}",
+								"{@spell hallaster's tower|WorldOfLight}",
+								"{@spell magic circle}",
+								"{@spell counterspell}",
+								"{@spell dispel magic}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell transfer enchantment|WorldOfLight}*",
+								"{@spell rhoderihck's speedy courier|WorldOfLight}",
+								"{@spell dimension door}",
+								"{@spell polymorph}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell cloudkill}",
+								"{@spell animate objects}",
+								"{@spell modify memory}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell disintegrate}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Enchantment spell of 1st level or higher"
+					],
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Lucien makes three Arcane Burst attacks."
+					]
+				},
+				{
+					"name": "Arcane Burst",
+					"entries": [
+						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 3d10 + 3}) force damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Instinctive Charm {@recharge 4}",
+					"entries": [
+						"When a visible creature within 30 feet of the enchanter makes an attack roll against it, the enchanter forces the attacker to make a {@dc 14} Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than the enchanter or itself. If multiple eligible creatures are closest, the attacker chooses which one to target."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/enchanter.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"paralyzed"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"tokenUrl": "https://i.imgur.com/yNwyIIn.png"
+		}
+	]
+}
