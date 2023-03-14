@@ -972,7 +972,7 @@
 				{
 					"name": "Instinctive Charm {@recharge 4}",
 					"entries": [
-						"When a visible creature within 30 feet of the enchanter makes an attack roll against it, the enchanter forces the attacker to make a {@dc 14} Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than the enchanter or itself. If multiple eligible creatures are closest, the attacker chooses which one to target."
+						"When a visible creature within 30 feet of Lucien makes an attack roll against it, Lucien forces the attacker to make a {@dc 16} Wisdom saving throw. On a failed save, the attacker redirects the attack roll to the creature closest to it, other than Lucien or itself. If multiple eligible creatures are closest, the attacker chooses which one to target."
 					]
 				}
 			],
