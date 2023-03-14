@@ -870,10 +870,10 @@
 			},
 			"passive": 13,
 			"languages": [
-				"common",
-				"elvish",
-				"halfling",
-				"celestial"
+				"Common",
+				"Elvish",
+				"Halfling",
+				"Celestial"
 			],
 			"cr": "9",
 			"spellcasting": [
