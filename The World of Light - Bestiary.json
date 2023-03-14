@@ -831,7 +831,7 @@
 				"M"
 			],
 			"type": {
-				"type": "humanoid"
+				"type": "humanoid",
 				"tags": [
 					"human"
 				]
