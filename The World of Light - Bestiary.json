@@ -832,9 +832,12 @@
 			],
 			"type": {
 				"type": "humanoid"
+				"tags": [
+					"human"
+				]
 			},
 			"alignment": [
-				"A"
+				"N"
 			],
 			"ac": [
 				10,
