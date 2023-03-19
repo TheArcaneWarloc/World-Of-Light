@@ -2012,7 +2012,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Before you make a ranged spell attack with a cantrip you know, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the spell's damage.",
+						"Before you make a ranged spell attack with a spell you know, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the spell's damage.",
 						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged spell attack rolls.",
 						"If you make a ranged spell attack roll and hit the target, you can disengage as a bonus action."
 					]
