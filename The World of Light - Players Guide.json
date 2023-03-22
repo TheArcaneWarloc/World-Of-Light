@@ -5533,6 +5533,18 @@
 			"shortName": "Trickery (Revised)"
 		},
 		{
+			"className": "Druid",
+			"name": "Circle of The Mushroom",
+			"subclassFeatures": [
+				"Circle of The Mushroom|Druid||Mushroom|WorldOfLight|2",
+				"Parasitic Fungus|Druid||Mushroom|WorldOfLight|6",
+				"Cauterizing Flames|Druid||Mushroom|WorldOfLight|10",
+				"Blazing Revival|Druid||Mushroom|WorldOfLight|14"
+			],
+			"source": "WorldOfLight",
+			"shortName": "Mushroom"
+		},
+		{
 			"className": "Fighter",
 			"name": "Vanguard",
 			"subclassFeatures": [
@@ -5821,6 +5833,7 @@
 				"At the beginning of a creature's turn that is under a charm effect from one of your spells or magical effects, it takes 3d8 psychic damage. Taking damage from this effect doesn't provoke any additional Wisdom check to try and break the effects of the charm."
 			]
 		},
+
 		{
 			"name": "Time Domain",
 			"source": "WorldOfLight",
@@ -5965,6 +5978,7 @@
 				"Also at 17th level, you no longer suffer the negative effects of the {@spell haste} spell, and the {@spell slow} spell no longer affects you, unless you wish to be affected."
 			]
 		},
+
 		{
 			"name": "Trickery Domain (Revised)",
 			"source": "WorldOfLight",
@@ -6122,6 +6136,193 @@
 				"At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet."
 			]
 		},
+
+
+		{
+			"name": "Circle of The Mushroom",
+			"source": "WorldOfLight",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Mushroom",
+			"subclassSource": "WorldOfLight",
+			"level": 2,
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"Some Mushroom friends! Tasty friends."
+					],
+					"by": "{@b {@i Raggrat}}, 4E 1414."
+				},
+				"Druids of the circle of the mushroom are mellow protectors of the fungal jungles. Their order gathers amid clouds of spores, stumbling through the deepest, most toxic clouds, sustained by visions of strange alternate realities, the very essence that ties these druids to a nature both more wondrous and strange than regular mortals can perceive.",
+				"Your link to fungus and your ability to tap into hazy visions and strange toxins grants you access to certain spells. At 2nd level, you learn the infestation cantrip.  At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Mushroom Spells table.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid||Mushroom|WorldOfLight|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fungal Tap|Druid||Mushroom|WorldOfLight|2"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Circle Spells",
+			"entries": [
+				"You learn the {@spell spare the dying} cantrip and the 1st-level spells {@spell cure wounds} and {@spell inflict wounds}. You learn additional spells when you reach certain levels in this class, as shown on the Circle of The Mushroom Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"caption": "Circle of The Mushroom Spells",
+					"colLabels": [
+						"Druid Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell lesser restoration}, {@spell gentle repose}"
+						],
+						[
+							"5th",
+							"{@spell revivify}, {@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell confusion}"
+						],
+						[
+							"9th",
+							"{@spell cloudkill}, {@spell mass cure wounds}"
+						]
+					]
+				}
+			],
+			"source": "WorldOfLight",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Mushroom",
+			"subclassSource": "WorldOfLight",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Fungal Tap",
+			"entries": [
+				"As a bonus action, you can draw on a reservoir of fungus that courses through your entire being to empower yourself for 1 minute, or until you use this feature again. For the duration, you gain one of the following benefits of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Overgrowth",
+							"entry": "When you choose this benefit, and as a bonus action on subsequent turns while the benefit lasts, you can expend and roll one Hit Die. You regain a number of hit points equal to the number rolled plus your spellcasting ability modifier."
+						},
+						{
+							"type": "item",
+							"name": "Withering Strike",
+							"entry": "When you deal damage, you can change the damage type to necrotic, and you ignore resistance to necrotic damage."
+						}
+					]
+				},
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			],
+			"source": "WorldOfLight",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Mushroom",
+			"subclassSource": "WorldOfLight",
+			"level": 2,
+			"header": 1
+		},
+		{
+			"name": "Parasitic Fungus",
+			"source": "WorldOfLight",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Mushroom",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain the ability to release spores that grant you control over the body of others.",
+				"As an action, you can target one creature you can see within 15 feet of you, spraying it with a puff of tiny spores. The creature must succeed on a Wisdom saving throw against your spell save DC. If it fails the saving throw, it is {@condition charmed} by you for one hour or until you or your companions do anything harmful to it. While {@condition charmed}, the creature is friendly to you. Additionally, as an action, you can extend your awareness to control and see through the charmed creature's eyes and hear what it hears, gaining the benefits of any special senses that the creature has. During this time, you are deaf and blind with regard to your own senses. If the creature takes damage of any kind, you must succeed on a concentration check against the damage it took, or have the charm end.",
+				"You can use this feature a number of times equal to your proficiency bonus."
+			]
+		},
+		{
+			"name": "Chlorophyllous Wild Shape",
+			"source": "WorldOfLight",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Mushroom",
+			"subclassSource": "WorldOfLight",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"The rites of your circle grant you the ability to transform into more dangerous forms.",
+				"Starting at 10th level, you can use your Wild Shape to transform into a plant with a challenge rating as high as as your druid level divided by 3, rounded down.",
+				{
+					"type": "table",
+					"caption": "Circle of the Mushroom Plant Shapes",
+					"colLabels": [
+						"Level",
+						"Max. CR",
+						"Limitations"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-2 text-center",
+						"col-8"
+					],
+					"rows": [
+						[
+							"10th",
+							"{@filter 3|bestiary|challenge rating=[&0;&3]|type=plant|miscellaneous=!swarm}",
+							"No swarm"
+						],
+						[
+							"12th",
+							"{@filter 4|bestiary|challenge rating=[&0;&4]|type=plant}",
+							"\u2014"
+						],
+						[
+							"15th",
+							"{@filter 5|bestiary|challenge rating=[&0;&5]|type=plant}",
+							"\u2014"
+						],
+						[
+							"18th",
+							"{@filter 6|bestiary|challenge rating=[&0;&6]|type=plant}",
+							"\u2014"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Fungal Body",
+			"source": "WorldOfLight",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Mushroom",
+			"subclassSource": "WorldOfLight",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, the fungal spores in your body alter you: you can't be {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, and any critical hit against you counts as a normal hit instead, unless you're {@condition incapacitated}."
+			]
+		},
+
+
+
+
 		{
 			"name": "Blessed Protector",
 			"source": "WorldOfLight",
@@ -6237,6 +6438,7 @@
 				"Starting at 18th level, if you are killed instantaneously, roll a death saving throw. On a success, you drop to 1 hit point instead."
 			]
 		},
+
 		{
 			"name": "The Marauder",
 			"source": "WorldOfLight",
@@ -6330,6 +6532,9 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
+
+
+
 		{
 			"name": "Way of Time",
 			"source": "WorldOfLight",
@@ -6415,6 +6620,7 @@
 				"Alternatively, as a bonus action on your turn, you can expend two ki points to jump forwards in time, gaining resistance to force damage until the end of your next turn, and 30 feet extra movement."
 			]
 		},
+
 		{
 			"name": "Way of The Moon Soul",
 			"source": "WorldOfLight",
@@ -6523,6 +6729,7 @@
 				"In addition, you no longer provoke opportunity attacks when you move out of an enemy's reach."
 			]
 		},
+
 		{
 			"name": "Way of the Wild",
 			"source": "WorldOfLight",
@@ -6621,6 +6828,9 @@
 				"When you are below half of your total hit points, all allies within 30ft of you gain to-hit and damage bonuses equal to your Wisdom Modifier."
 			]
 		},
+
+
+
 		{
 			"name": "Oath of the Open Sea",
 			"source": "WorldOfLight",
@@ -6838,6 +7048,9 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
+
+
+
 		{
 			"name": "The Deviant",
 			"source": "WorldOfLight",
@@ -6974,6 +7187,7 @@
 				"When an illusionary duplicate mimics a weapon attack it deals {@dice 1d10} + your Charisma modifier in psychic damage."
 			]
 		},
+
 		{
 			"name": "The Hexblade",
 			"source": "WorldOfLight",
@@ -7116,6 +7330,9 @@
 				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition incapacitated}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
 			]
 		},
+
+
+
 		{
 			"name": "Chronurgy Magic",
 			"source": "WorldOfLight",
@@ -7395,6 +7612,17 @@
 						"You are no casual visitor to the Underdark, but instead have spent considerable time there learning its ways. You are familiar with the various races, civilizations, and settlements of the Underdark, as well as its major routes for travel. If you fail an Intelligence check to recall some piece of Underdark lore, you know a source you can consult for the answer unless the DM rules that the lore is unknown."
 					]
 				}
+			]
+		}
+	],
+	"boon": [
+		{
+			"name": "Boon of the Frost",
+			"source": "DMG",
+			"page": 232,
+			"type": "Boon",
+			"entries": [
+				"You have immunity to cold damage. You can also cast {@spell frost fingers|TCE} (save DC 15) at will, without using a spell slot or any components."
 			]
 		}
 	]
