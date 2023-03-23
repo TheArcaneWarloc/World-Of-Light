@@ -7625,5 +7625,37 @@
 				"You have immunity to cold damage. You can also cast {@spell frost fingers|TCE} (save DC 15) at will, without using a spell slot or any components."
 			]
 		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Misty Nightmare",
+			"source": "WorldOfLight",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can cast the {@spell Major Image} at will, without expending a spell slot or material components."
+			]
+		},
+		{
+			"name": "Devils tongue",
+			"source": "WorldOfLight",
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"When you cast Friends, you can choose whether the creature realizes you used magic to influence its mood or not."
+			]
+		}
 	]
 }
