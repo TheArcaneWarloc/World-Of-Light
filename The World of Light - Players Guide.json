@@ -4377,33 +4377,35 @@
 		},
 		{
 			"name": "Duncan's Rideable Hog",
-			"level": 2,
+			"level": 1,
 			"school": "C",
 			"time": [
 				{
 					"number": 1,
-					"unit": "bonus"
+					"unit": "action"
 				}
 			],
 			"range": {
 				"type": "point",
 				"distance": {
 					"type": "feet",
-					"amount": 60
+					"amount": 30
 				}
 			},
 			"components": {
 				"v": true,
-				"s": true
+				"s": true,
+				"m": {
+					"text": "a small piece of blue gemstone and a small piece of rectangular leather"
+				}
 			},
 			"duration": [
 				{
 					"type": "timed",
 					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
+						"type": "hours",
+						"amount": 8
+					}
 				}
 			],
 			"classes": {
@@ -4415,7 +4417,7 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
-					}
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -4423,14 +4425,22 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
 					}
 				]
 			},
 			"source": "WorldOfLight",
 			"entries": [
-				"Perhaps a misnomer, this spell was created by Duncan Ginning in an attempt to tame Bartholomew.",
-				"Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore {@dice 1d6} hit points to that creature (no action required). The spirit can't heal constructs or undead.",
-				"As a bonus action on your turn, you can move the spirit up to 30 feet to a space you can see."
+				"Perhaps a misnomer, this spell was created by the cleric Duncan Ginning in an attempt to tame his newfound dire boar, Bartholomew.",
+				"You summon a translucent blue saddle, sized for a Small, Medium, or Large mount of your choice, within range. The saddle appears in an unoccupied space adjacent to the mount, and can be donned by you as a bonus action.",
+				"The saddle is made of shimmering, translucent blue energy and provides no physical substance or weight, but functions as a normal saddle in all other ways. The mount gains the benefits of the saddle, including increased stability and comfort while being ridden, and the rider gains advantage on any checks or saves made to maintain control of the mount."
 			],
 			"entriesHigherLevel": [
 				{
