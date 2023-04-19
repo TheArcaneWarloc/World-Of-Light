@@ -4408,6 +4408,9 @@
 					}
 				}
 			],
+			"meta": {
+				"ritual": true
+			},
 			"classes": {
 				"fromClassList": [
 					{
@@ -4452,7 +4455,7 @@
 				}
 			],
 			"miscTags": [
-				"PRM"
+				"SGT"
 			]
 		},
 		{
