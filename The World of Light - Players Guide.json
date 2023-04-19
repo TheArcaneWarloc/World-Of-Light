@@ -4409,7 +4409,19 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+					{
 						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
 						"source": "PHB"
 					}
 				]
