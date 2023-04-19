@@ -5563,8 +5563,8 @@
 			"subclassFeatures": [
 				"Circle of The Mushroom|Druid||Mushroom|WorldOfLight|2",
 				"Parasitic Fungus|Druid||Mushroom|WorldOfLight|6",
-				"Cauterizing Flames|Druid||Mushroom|WorldOfLight|10",
-				"Blazing Revival|Druid||Mushroom|WorldOfLight|14"
+				"Chlorophyllous Wild Shape|Druid||Mushroom|WorldOfLight|10",
+				"Fungal Body|Druid||Mushroom|WorldOfLight|14"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Mushroom"
