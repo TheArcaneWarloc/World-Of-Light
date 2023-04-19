@@ -4403,7 +4403,7 @@
 				{
 					"type": "timed",
 					"duration": {
-						"type": "hours",
+						"type": "hour",
 						"amount": 8
 					}
 				}
