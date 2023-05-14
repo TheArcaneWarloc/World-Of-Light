@@ -1578,7 +1578,7 @@
 			"wondrous": true,
 			"entries": [
 				"Created during the inception of the Red Tower, this red robe (originally called the Robe of The Seventh Moon) was subsequently passed down from leader to leader, eventually coming into the hands of Azzanar Cammeraut. While mostly for display, Azzanar\u2014Being a master Sorcerer capable of incredible feats of Enchantment magic\u2014decided that it needed an upgrade. So, after a couple of years perfecting the enchantment, this Robe is capable of going up against even the Vestiges of The Gods.",
-				"You gain these benefits while attuned to and wearing this robe:"
+				"You gain these benefits while attuned to and wearing this robe:",
 				{
 					"type": "entries",
 					"name": "Sorcerous Power",
@@ -1617,5 +1617,5 @@
 				}
 			]
 	}
-	],
+	]
 }
