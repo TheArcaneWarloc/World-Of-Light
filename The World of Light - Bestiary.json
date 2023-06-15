@@ -1566,6 +1566,100 @@
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Lornling",
+			"source": "WorldOfLightBeasts",
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d4 + 3"
+			},
+			"speed": {
+				"walk": 120
+			},
+			"str": 4,
+			"dex": 23,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"acrobatics": "+8",
+				"perception": "+5",
+				"sleight of hand": "+8",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"languages": [
+				"Common",
+				"Sylvan"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Blurred Movement",
+					"entries": [
+						"Attack rolls against the lornling have disadvantage unless the lornling is {@condition incapacitated} or {@condition restrained}."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the lornling is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The lornling makes three dagger attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 8} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}8 ({@damage 1d4 + 6}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"tokenUrl": "https://i.imgur.com/PZi8zHB.png"
 		}
 	],
 	"item": [
@@ -1616,6 +1710,6 @@
 					]
 				}
 			]
-	}
+		}
 	]
 }
