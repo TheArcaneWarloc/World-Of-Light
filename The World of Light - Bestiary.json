@@ -1660,6 +1660,106 @@
 			],
 			"hasToken": true,
 			"tokenUrl": "https://i.imgur.com/PZi8zHB.png"
+		},
+		{
+			"name": "Bandersnatch",
+			"source": "WorldOfLightBeasts",
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"average": 210,
+				"formula": "22d12 + 64"
+			},
+			"speed": {
+				"walk": 60,
+				"climb": 40
+			},
+			"str": 23,
+			"dex": 20,
+			"con": 18,
+			"int": 7,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 17,
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Frumious Fur Coat",
+					"entries": [
+						"The Bandersnatch is covered in a cruel bristling coat of sword like spines coated with a powerful feyborn venom. When a creature hits the Bandersnatch with a melee attack, it must succeed on a {@dc 19} Dexterity saving throw, or take 8 ({@dice 2d6}) piercing damage. A creature that takes this piercing damage must succeed on a subsequent DC 18 Constitution saving throw or become {@condition poisoned} by the pain from the venom until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Bandersnatch makes four attacks: one with its bite, two with its claws, and one with its barbed tail."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Barbed Tail",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}24 ({@damage 3d10 + 6}) piercing damage. A creature that takes this piercing damage must succeed on a subsequent {@dc 18} Constitution saving throw or be {@condition poisoned} by the pain from the venom coating the Bandersnatch's spines until the end of its next turn."
+					]
+				},
+				{
+					"name": "Roar {@recharge 4}",
+					"entries": [
+						"The Bandersnatch emits a loud roar. Each creature within 300 feet of the Bandersnatch must succeed on a {@dc 18} Wisdom saving throw or take 10 ({@damage 4d4}) thunder damage and be {@condition frightened} until the end of the howler's next turn. While a creature is {@condition frightened} in this way, its speed is halved. A target that successfully saves is immune to the Roar's {@condition frightened} condition for the next 24 hours, though can still take damage from it as normal."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The Bandersnatch makes one bite attack against a Medium or smaller creature. If the attack surpasses the targets AC by 5, the target is also swallowed. While swallowed, the target is {@condition blinded} and {@condition restrained}, and has total cover against attacks and other effects outside of the Bandersnatch. It also takes 21 ({@damage 6d6}) acid damage at the start of each of the Bandersnatch's turns. The Bandersnatch can have only one creature swallowed at a time. If the Bandersnatch takes 30 damage or more on a single turn from a creature, the Bandersnatch must succeed on a {@dc 18} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the Bandersnatch. If the Bandersnatch dies, a swallowed creature is no longer {@condition restrained} by it, and can escape the corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"THW"
+			]
 		}
 	],
 	"item": [
