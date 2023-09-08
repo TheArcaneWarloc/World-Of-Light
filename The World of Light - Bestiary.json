@@ -18,7 +18,7 @@
 	},
 	"monster": [
 		{
-			"name": "Azzanar Cammeraut (Unfinished)",
+			"name": "Azzanar Cammeraut",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "WorldOfLightBeasts",
@@ -38,11 +38,11 @@
 				"M"
 			],
 			"ac": [
-				12,
 				{
-					"ac": 15,
-					"condition": "with {@spell mage armor}",
-					"braces": true
+					"ac": 17,
+					"from": [
+						"{@item Azzanar's Red Robe|WorldOfLightBeasts}"
+					]
 				}
 			],
 			"hp": {
@@ -190,7 +190,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Azzanar wields his {@item staff of the magi} and he wears a {@item robe of the archmagi}. In addition, he wears a {@item ring of spell storing} containing a 5th-level {@spell magic missile} spell."
+						"Azzanar wields his {@item staff of the magi} and he wears his {@item Azzanar's Red Robe}. In addition, he wears a {@item ring of spell storing} containing a 5th-level {@spell magic missile} spell."
 					]
 				},
 				{
@@ -231,234 +231,6 @@
 				"RW",
 				"THW"
 			]
-		},
-		{
-			"name": "Kcartal Ragnarovich Folkus (Unfinished)",
-			"source": "WorldOfLightBeasts",
-			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"Dwarf"
-				]
-			},
-			"alignment": [
-				"L",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item Azzanar's Red Robe|dmg}"
-					]
-				}
-			],
-			"hp": {
-				"average": 67,
-				"formula": "15d6+15"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 9,
-			"dex": 14,
-			"con": 12,
-			"int": 20,
-			"wis": 18,
-			"cha": 17,
-			"save": {
-				"int": "+10",
-				"wis": "+9"
-			},
-			"skill": {
-				"arcana": "+10",
-				"history": "+10",
-				"perception": "+9"
-			},
-			"passive": 19,
-			"languages": [
-				"Common",
-				"Celestial",
-				"Draconic",
-				"Elvish",
-				"Sylvan",
-				"Undercommon"
-			],
-			"cr": "14",
-			"trait": [
-				{
-					"name": "Magic Resistance",
-					"entries": [
-						"Khorvuz has advantage on saving throws made against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Special Equipment",
-					"entries": [
-						"Khorvuz wields a {@item staff of the magi} and he wears a {@item robe of the archmagi}. In addition, he wears a {@item ring of spell storing} containing a 5th-level {@spell magic missile} spell."
-					]
-				},
-				{
-					"name": "Split Enchantment",
-					"entries": [
-						"When Khorvuz casts an enchantment spell of 1st level or higher that targets only one creature, he can have it target a second creature."
-					]
-				},
-				{
-					"name": "Alter Memories",
-					"entries": [
-						"When Khorvuz casts an enchantment spell to charm one or more creatures, he can alter one creature's understanding so that it remains unaware of being {@condition charmed}.",
-						"Additionally, once before said spell expires, Khorvuz can use his action to try to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on a DC 20 Intelligence saving throw or lose 4 hours of its memories. Khorvuz can make the creature forget less time, and the amount of time can't exceed the duration of the enchantment spell."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"Khorvuz is a 15th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He knows the following wizard spells, and prepared spells are marked with brackets."
-					],
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell mind sliver|TCE}",
-								"{@spell fire bolt}",
-								"{@spell friends}",
-								"{@spell mage hand}",
-								"{@spell mending}"
-							]
-						},
-						"1": {
-							"slots": 4,
-							"spells": [
-								"[{@spell charm person}]*",
-								"{@spell detect magic}",
-								"{@spell identify}",
-								"[{@spell magic missile}]",
-								"[{@spell shield}]",
-								"{@spell sleep}*"
-							]
-						},
-						"2": {
-							"slots": 3,
-							"spells": [
-								"[{@spell aganazzar's scorcher|XGE}]",
-								"[{@spell blur}]",
-								"[{@spell hold person}]*",
-								"{@spell invisibility}",
-								"{@spell knock}",
-								"{@spell suggestion}*"
-							]
-						},
-						"3": {
-							"slots": 3,
-							"spells": [
-								"[{@spell blink}]",
-								"[{@spell counterspell}]",
-								"[{@spell dispel magic}]",
-								"[{@spell fly}]",
-								"[{@spell sending}]",
-								"{@spell tongues}"
-							]
-						},
-						"4": {
-							"slots": 3,
-							"spells": [
-								"[{@spell confusion}]*",
-								"[{@spell dominate beast}]*",
-								"{@spell greater invisibility}",
-								"{@spell stoneskin}",
-								"{@spell transfer enchantment|MightMagic}"
-							]
-						},
-						"5": {
-							"slots": 2,
-							"spells": [
-								"{@spell dream}",
-								"[{@spell far step|XGE}]",
-								"{@spell hold monster}*",
-								"[{@spell modify memory}]*",
-								"{@spell scrying}"
-							]
-						},
-						"6": {
-							"slots": 1,
-							"spells": [
-								"{@spell alinaar's amazing altering|MightMagic}",
-								"{@spell chain lightning}"
-							]
-						},
-						"7": {
-							"slots": 1,
-							"spells": [
-								"[{@spell delayed blast fireball}]",
-								"{@spell mordenkainen's sword}",
-								"[{@spell plane shift}]",
-								"[{@spell teleport}]"
-							]
-						},
-						"8": {
-							"slots": 1,
-							"spells": [
-								"[{@spell demiplane}]",
-								"{@spell feeblemind}*"
-							]
-						}
-					},
-					"footerEntries": [
-						"*Enchantment spell of 1st level or higher"
-					],
-					"ability": "int",
-					"type": "spellcasting"
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"Khorvuz makes two Arcane Burst attacks."
-					]
-				},
-				{
-					"name": "Arcane Burst",
-					"entries": [
-						"{@atk ms,rs} {@hit 8} to hit, reach 5 ft. or range 120 ft., one target. {@h}20 ({@damage 3d10 + 4}) force damage."
-					]
-				},
-				{
-					"name": "Hypnotic Gaze",
-					"entries": [
-						"Khorvuz chooses one creature within 5 feet of him that must succeed on a DC 20 Wisdom saving throw or be {@condition charmed} by Khorvuz until the end of his next turn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly dazed.",
-						"On subsequent turns, Khorvuz can use his action to maintain this effect, extending its duration until the end of his next turn. However, the effect ends if he moves more than 5 feet away from the creature, if the creature can neither see nor hear Khorvuz, or if the creature takes any form of damage."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Instinctive Charm (Recharges after Khorvuz casts an Enchantment Spell of 1st level or higher)",
-					"entries": [
-						"Khorvuz tries to magically divert an attack made against him, provided that the attacker is within 30 feet of him and visible to him. Khorvuz must decide to do so before the attack hits or misses.",
-						"The attacker must make a {@dc 14} Wisdom saving throw. On a failed save, the attacker targets the creature closest to it, other than Khorvuz or itself. If multiple creatures are closest, the attacker chooses which one to target."
-					]
-				}
-			],
-			"environment": [
-				"urban"
-			],
-			"languageTags": [
-				"X"
-			],
-			"damageTags": [
-				"B"
-			],
-			"spellcastingTags": [
-				"CW"
-			],
-			"miscTags": [
-				"MW"
-			],
-			"tokenUrl": "https://i.imgur.com/bwNIMKT.png"
 		},
 		{
 			"name": "Khorvuz Im'ric Johannez of Arcanix",
@@ -1771,7 +1543,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"Created during the inception of the Red Tower, this red robe (originally called the Robe of The Seventh Moon) was subsequently passed down from leader to leader, eventually coming into the hands of Azzanar Cammeraut. While mostly for display, Azzanar\u2014Being a master Sorcerer capable of incredible feats of Enchantment magic\u2014decided that it needed an upgrade. So, after a couple of years perfecting the enchantment, this Robe is capable of going up against even the Vestiges of The Gods.",
+				"Created during the inception of the Red Tower, this red robe (originally called the Robe of The Seventh Moon) was subsequently passed down from leader to leader, eventually coming into the hands of Azzanar Cammeraut. While mostly for display, Azzanar\u2014Being a master Wizard capable of incredible feats of Enchantment magic\u2014decided that it needed an upgrade. So, after a couple of years perfecting the enchantment, this Robe is capable of going up against even the Vestiges of The Gods.",
 				"You gain these benefits while attuned to and wearing this robe:",
 				{
 					"type": "entries",
@@ -1806,10 +1578,10 @@
 					"name": "Magic Absorption",
 					"entries": [
 						"You have advantage on saving throws against spell and other magical effects.",
-						"In addition, when you are targeted by an enemy's spell, you can use your reaction to absorb a portion of the spell's energy into the robe. The spell affects you normally, but the robe regains a number of charges equal to the level of the spell, to a maximum of 5. Whenever you hit with an attack afterward, you can expend any number of charges from the robe, with the attack dealing an extra 1d8 force damage per charge expended."
-					]
-				}
-			]
-		}
+						"In addition, when you are targeted by an enemy's spell, you can use your reaction to absorb a portion of the spell's energy into the robe. The spell affects you normally, but the robe regains a number of charges equal to the level of the spell, to a maximum of 5. Whenever you hit with an attack afterward, you can expend any number of charges from the robe, with the attack dealing an extra 1d8 necrotic damage per charge expended."
+				]
+			}
+		]
+	}
 	]
 }

@@ -4395,7 +4395,7 @@
 		{
 			"name": "Duncan's Brand of Weakness",
 			"level": 1,
-			"school": "E",
+			"school": "T",
 			"time": [
 				{
 					"number": 1,
@@ -4406,7 +4406,7 @@
 				"type": "point",
 				"distance": {
 					"type": "feet",
-					"amount": 30
+					"amount": 60
 				}
 			},
 			"components": {
@@ -4420,7 +4420,7 @@
 				{
 					"type": "timed",
 					"duration": {
-						"type": "rounds",
+						"type": "round",
 						"amount": 3
 					}
 				}
@@ -4451,14 +4451,14 @@
 			},
 			"source": "WorldOfLight",
 			"entries": [
-				"Expose the weak points of an enemy. They become vulnerable to Bludgeoning, Piercing or Slashing damage (your choice). This effect lasts 3 turns, or until the target takes damage."
+				"You temporarily expose the weak points of an enemy. The targeted creature becomes vulnerable to Bludgeoning, Piercing or Slashing damage (your choice). If the target is already vulnerable to the chosen damage, this spell has no effect. This effect lasts for 3 turns, or until the target takes damage."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"I guess more turns or something, suck my autistic cock."
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for for every two slot levels above 1st. The creatures must be within 30 feet of each other when you target them, and neither can be outside of the original casting range."
 					]
 				}
 			],
