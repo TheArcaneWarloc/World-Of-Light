@@ -7846,6 +7846,18 @@
 			"entries": [
 				"When you cast Friends, you can choose whether the creature realizes you used magic to influence its mood or not."
 			]
+		},
+		{
+			"name": "Lightweight Combatant",
+			"source": "WorldOfLight",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light."
+			]
 		}
 	],
 	"condition": [
