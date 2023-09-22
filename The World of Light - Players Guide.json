@@ -696,7 +696,8 @@
 			"name": "Bahamut",
 			"title": "God of Honor, Justice and Nobility",
 			"altNames": [
-				"The Platinum Justiciar"
+				"The Platinum Justiciar",
+				"Xymor"
 			],
 			"alignment": [
 				"L",
@@ -707,7 +708,8 @@
 			"category": [
 				"Deities of Radiance",
 				"The Protectors",
-				"The Five Divines"
+				"The Five Divines",
+				"The Evanur"
 			],
 			"domains": [
 				"Tempest",
@@ -730,6 +732,7 @@
 					"type": "section",
 					"entries": [
 						"Called the Platinum Justiciar, Bahamut is the god of justice, protection, nobility, and honor. Lawful good paladins often revere him, and metallic dragons worship him as the first of their kind. Monarchs are crowned in his name. The crest of the Platinum Dragon adorns many halls of high leadership and justice, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves.",
+						"In ancient times, Bahamut was widely worshipped by elves, but by a name now mostly forgotten; Xymor. In fact, the ancient elves had a tendancy to worship gods for aspects they do not directly hold dominion over, and Xymor was no different, having Courtship and Battle under his gleaming wings as well."
 						{
 							"type": "entries",
 							"name": "Bahamut's Influence",
@@ -1699,35 +1702,34 @@
 		},
 
 		{
-			"name": "Aenor",
-			"title": "God of Magic, Music, Art, Time, Wisdom and Warfare",
+			"name": "Selûne",
+			"title": "Goddess of The Moons, Mystery and Shadows",
 			"altNames": [
-				"The Archheart",
-				"Lord of Arvanaith"
+				"Sehanine",
+				"Mistress of the Moonbow"
 			],
 			"alignment": [
-				"C",
-				"G"
+				"N"
 			],
-			"province": "Art, Beauty, Music, Poetry, Spring, Wisdom, Warfare, Magic, Time",
+			"province": "Moons, Mystery, Shadows and Love",
 			"pantheon": "Ilúvë",
 			"category": [
 				"The Evanur"
 			],
 			"domains": [
-				"Arcana",
 				"Knowledge",
 				"Life",
 				"Light",
 				"Nature",
-				"War"
+				"Trickery",
+				"Twilight"
 			],
-			"symbol": "Eclipsed Starburst",
+			"symbol": "Full Moon",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://i.imgur.com/I3Bl28z.png"
+					"url": "-"
 				}
 			},
 			"source": "WorldOfLight",
@@ -1735,59 +1737,338 @@
 				{
 					"type": "section",
 					"entries": [
-						"Guardian of art, spring, beauty, and wisdom, Corellon is the patron of the fey. Cast into the world to fight Tharizdun head-on, he seeded the world with wisdom, while raising the most ancient of forests. It was by the Arch Heart's hand that the first elves wandered from the Feywild, and for this reason they are considered the Mother and Father of all elves. Oft called the \"Third Dragon\", it is a well-establish fact that Corellon took inspiration from Ioun and Angaradd, creating the psionic Gem dragons. Those who seek art in all their work often worship at the altar of Corellon. They loathe the Spider Queen and her priestesses for leading the drow astray.",
-						"Many elf wizards honor Corellon and adorn their spellbooks and towers with the god's symbols.",
+						"An ancient form of Sehanine, worshipped as the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and even Sehanine's afterlife still resides on an infinite sea with a single tower, named the Tower of Selûne.",
+						"During the time of the Hastilude, Selûne plays a pivotal role in the lives of many surface Drow, looking to be absolved of what their ancestors did in ages past.",
+					]
+				}
+			]
+		},
+		{
+			"name": "Narallin",
+			"title": "God of Economics and Wealth",
+			"altNames": [
+				"Khe'stis",
+				"The Aureate Lord",
+				"The Gilded Broker"
+			],
+			"alignment": [
+				"C",
+				"N"
+			],
+			"province": "Economy, Wealth, Laws, Greed and Jewelry",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Knowledge",
+				"Order"
+			],
+			"symbol": "Gold Necklace with large Ashy-Grey Gem",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"In the annals of elven history, one finds traces of Narallin, the enigmatic God of Economics and Wealth. Narallin is a deity of a bygone era, celebrated in ancient elven society as the embodiment of capitalism and the chaotic ebb and flow of wealth. His influence was felt most keenly during an age when the elves pursued not only mastery over nature but also mastery over the intricate dance of coins and commerce.",
+						"Though Narallin's influence waned as elven society evolved and shifted its priorities, his legacy endures in the form of ancient contracts, hidden vaults of forgotten treasures, and the intricate financial systems that underpin elven society. Some contemporary elves view him with reverence, while others see him as a symbol of avarice and excess.",
+					]
+				}
+				{
+					"type": "entries",
+					"name": "Narallin's Influence",
+					"entries": [
 						{
 							"type": "entries",
-							"name": "Corellon's Influence",
+							"name": "Depiction",
 							"entries": [
-								"Corellon watches the business of mortals and gods from within the palace of Crescent Grove, a grove depicted as being surrounded by towering white trees and pillars of marble.",
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Most modern tapestries and tomes depict the Arch Heart as an elven being of impossible grace and beauty, androgynous and alluring, framed by long, wavy, golden hair. They were the inspiration for many early elven art pieces, and elements of their visage or symbol are included in most elven architecture."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"Corellon's holy day is called Elvendawn, or Midsummer. It is celebrated on the twentieth day of the sixth month, and commemorates the elves' first emergence from the Feywild. Though the Empire doesn't promote the worship of the Archheart, many elves within Sylingur quietly celebrate in private by opening small doors to the Feywild and having a little more wine than usual."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Corellon",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Cultivate beauty in all that you do, whether you’re casting a spell, composing a saga, strumming a lute, or practicing the arts of war.",
-												"Seek out lost magic items, forgotten rituals, and ancient works of art. Corellon might have inspired them in the world’s first days.",
-												"Thwart the followers of Lolth at every opportunity."
-											]
-										}
-									]
-								}
+								"Narallin is oft depicted as an elf of regal bearing, draped in red robes adorned with golden threads and precious gemstones. His eyes sparkle with the unmistakable gleam of a shrewd negotiator, and his fingers bear the weight of countless signet rings. In his right hand, he holds a set of unbalanced scales, forever tipping, while his left hand clutches a sack overflowing with coins, usually punctured, leaving wealth wherever he walks."
 							]
-						},
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elanarë",
+			"title": "Goddess of Fire and War",
+			"altNames": [
+				"Palashirr",
+				"The Knight of Wing and Flame"
+			],
+			"alignment": [
+				"C",
+				"N"
+			],
+			"province": "War, Fire, Rebirth and The Sun",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Forge",
+				"Life",
+				"Light",
+				"Nature",
+				"Tempest",
+				"Time",
+				"War"
+			],
+			"symbol": "Phoenix in profile",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"According to elven legend, the ancient Goddess Elenarë birthed the first phoenix, a symbol of rebirth and renewal from the ashes of destruction. It is said that from the flames of her fury, she shaped the first humans, instilling in them the fiery spirit of determination and resilience. Thus, humans are considered the children of Elenarë, born in the crucible of war.",
+						"Elenarë's domain encompasses not only the destructive forces of war but also the transformative power of fire, and the ever-flowing passage of time. She was believed to have guided elven armies with her fiery wisdom, blessing their blades and inspiring valor in the heat of battle. Her temples served as forges, where weapons and artifacts were crafted, and where elven blacksmiths sought her blessing for their finest works.",
+					]
+				}
+				{
+					"type": "entries",
+					"name": "Elenarë's Influence",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "The Blessed of Corellon",
+							"type": "entries",
+							"name": "Depiction",
 							"entries": [
-								"Ever changing, mirthful, and beautiful, the primal elves could assume whatever sex they liked. When they bowed to Lolth's influence and chose to fix their physical forms, elves lost the ability to transform in this way. Yet occasionally elves are born who are so androgynous that they are proclaimed to be among the blessed of Corellon-living symbols of the god's love and of the primal elves' original fluid state of being. Many of Corellon's chief priests bear this blessing.",
-								"The rarest of these blessed elves can change their sex whenever they finish a long rest-a miracle celebrated by elves of all sorts except drow. (The DM decides whether an elf can manifest this miracle.) Dark elves find this ability to be terrifying and characterize it as a curse, for it could destabilize their entire society. If Corellon's blessing manifests in a drow, that elf usually flees to the surface world to seek shelter among those dedicated to Corellon."
+								"Elenarë is oft depicted as a radiant elven warrior, her form bathed in the flickering light of eternal flames. She dons armor crafted from solid gold, with a helm that resembles the majestic crest of a phoenix. Her eyes burn with the intensity of a roaring inferno, and her hair flows like bursts of sunlight."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Alkenstar",
+			"title": "Deity of Torture, Death, Darkness and Disease",
+			"altNames": [
+				"The Abyssal Enigma",
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"province": "Torture, Death, Darkness, Disease and Void",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Blood"
+				"Death",
+				"Grave",
+				"Madness",
+				"Trickery"
+			],
+			"symbol": "Burning black skull or Sickly gray four-pointed Star",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Alkenstar is a deity shrouded in dread, a being of unfathomable darkness and despair. Revered with fearful whispers, Alkenstar represents the unsettling and malevolent aspects of existence: torture, death, darkness, and disease. In the history books of elven lore, Alkenstar is the embodiment of all that the elves once feared and could not comprehend.",
+						"The worship of Alkenstar is not one of devotion, but of fearful reverence. In ancient times, some elves turned to Alkenstar out of desperation, beseeching the deity for mercy or protection from the horrors of existence. Others sought to placate Alkenstar's wrath by offering sacrifices, hoping to avert the malevolent gaze of this enigmatic deity.",
+						"While Alkenstar is no longer widely worshipped among the elves, its legacy endures as a symbol of the deepest, darkest aspects of existence. It serves as a haunting reminder that in the ever-evolving tapestry of the cosmos, there are forces that defy understanding and challenge even the most resolute of faiths."
+					]
+				}
+				{
+					"type": "entries",
+					"name": "Alkenstar's Influence",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Depiction",
+							"entries": [
+								"Alkenstar is often depicted as a vaguely humanoid figure cloaked in impenetrable shadow, with eyes that burn like the void itself. Its form is ever-shifting, a grotesque fusion of torment and decay. It is said that gazing upon Alkenstar's true visage can drive mortals to madness."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Null Rancaria",
+			"title": "Goddess of Fear, Fate, Mindlessness and Eternal Damnation",
+			"altNames": [
+				"The Veil of Eternal Malediction",
+			],
+			"alignment": [
+				"N",
+				"E"
+			],
+			"province": "Fear, Fate, Mindlessness, Eternal Damnation, Secrets and Dark Magic",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Blood"
+				"Death",
+				"Grave",
+				"Madness",
+				"Trickery"
+			],
+			"symbol": "Blood-red Sigil in the vauge shape of an N",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Null Rancaria is a deity of unrelenting terror and despair, a name whispered only in the darkest corners of elven history. She is the embodiment of all that the elves dare not confront: fear, fate, mindlessness, eternal damnation, secrets, and the darkest strains of dark magic. Her worship is considered anathema, for it invites a malevolent presence that few mortals can withstand.",
+						"To utter the name of Null Rancaria is to invoke an omen of desolation and despair. It is a name that brings ill fortune and dread, a harbinger of calamity. The elves, in their wisdom, have stricken her name from their tongues, fearing that mere mention would draw her sinister attention.",
+						"Those who delve into her mysteries risk becoming vessels of unspeakable malevolence, wielding power that can rend the fabric of reality. Her name is synonymous with fear itself. She serves as a haunting reminder to the elves that there are depths of dread that should never be explored. Her legacy endures as a cautionary tale. A deity of the most profound and inescapable terror."
+					]
+				}
+				{
+					"type": "entries",
+					"name": "Null Rancaria's Influence",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Depiction",
+							"entries": [
+								"Null Rancaria exists as a shadowy, formless void; an indistinct presence that defies mortal comprehension. Those who claim to have glimpsed her visage speak of eyes that pierce the soul and a voice that chills the blood. Her form is ever-shifting, a manifestation of fear itself."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Morvael",
+			"title": "God Invention, Science, Evolution, and Ingenuity",
+			"altNames": [
+				"The Arcane Artificer",
+				"The Master of Innovation"
+			],
+			"alignment": [
+				"N",
+				"G"
+			],
+			"province": "Invention, Science, Evolution, and Ingenuity",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Arcana"
+				"Knowledge",
+				"Forge",
+				"Light",
+				"Order",
+				"Time"
+			],
+			"symbol": "An Arcane Orb made of Brass",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Morvael is a deity shrouded in the mysteries of invention and the pursuit of knowledge. According to elven lore, Morvael is revered as the God of Invention, Science, Evolution, and Ingenuity. Yet, few outside the clandestine circles of the Arcanixian wizards are aware of this deity's existence, for the Arcanixians believed themselves above the influence of the gods.",
+						"Morvael encompasses the relentless pursuit of knowledge, the transformative power of science, and the boundless ingenuity of invention. The Arcanixian wizards, in secret reverence, sought Morvael's guidance in their quest to unravel the deepest mysteries of the universe. Morvael is the keeper of secrets, the deity who guards the wisdom of ages past and the possibilities of ages to come. Those who venerated Morvael believed that through the pursuit of knowledge and the application of science, they could transcend the limitations of mortals and shape their own destiny.",
+						"Though the Arcanixians themselves may have believed they were above the gods, they unknowingly paid homage to Morvael with their ceaseless drive to push the boundaries of knowledge and technology."
+					]
+				}
+				{
+					"type": "entries",
+					"name": "Morvael's Influence",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Depiction",
+							"entries": [
+								"Morvael is often depicted as a figure of unparalleled intellect, with eyes that shimmer with boundless curiosity. Dressed in robes of ever-changing colors (though preferring shades of blue), Morvael embodies the spirit of innovation and discovery. The deity's hands are forever busy, crafting intricate devices and unlocking the secrets of the cosmos."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Teluniél",
+			"title": "Goddess of Beasts, Nature, Storms, and Vengeance",
+			"altNames": [
+				"The Huntress"
+			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Beasts, Nature, Storms, and Vengeance",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Life"
+				"Light",
+				"Nature",
+				"Tempest",
+				"Trickery",
+				"Twilight",
+				"War"
+			],
+			"symbol": "A hunting bow with four arrows",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Teluniél is the guardian of all creatures that roam the untamed forests and the vast wilderness. Elves who revere her seek her blessing when embarking on hunts or when seeking to establish harmony with the animal kingdom. Her guidance ensures that the delicate balance between hunter and prey is maintained. As the Avenger of the Natural World, Teluniél is invoked by those who seek retribution against those who defile the wilderness, exploit its resources, or harm its creatures. She is both a protector and a punisher, ensuring that those who harm nature face the consequences of their actions."
+					]
+				}
+				{
+					"type": "entries",
+					"name": "Teluniél's Influence",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Depiction",
+							"entries": [
+								"Teluniél is often depicted as a radiant elven huntress, her hair intertwined with leaves and her eyes reflecting the colors of the stormy sky. She is adorned with the pelts and feathers of wild creatures, and her outstretched arms are capable of conjuring tempests and summoning the fiercest of beasts."
 							]
 						}
 					]
