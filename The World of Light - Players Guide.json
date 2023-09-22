@@ -1697,6 +1697,104 @@
 			],
 			"source": "WorldOfLight"
 		},
+
+		{
+			"name": "Aenor",
+			"title": "God of Magic, Music, Art, Time, Wisdom and Warfare",
+			"altNames": [
+				"The Archheart",
+				"Lord of Arvanaith"
+			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Art, Beauty, Music, Poetry, Spring, Wisdom, Warfare, Magic, Time",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Life",
+				"Light",
+				"Nature",
+				"War"
+			],
+			"symbol": "Eclipsed Starburst",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/I3Bl28z.png"
+				}
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Guardian of art, spring, beauty, and wisdom, Corellon is the patron of the fey. Cast into the world to fight Tharizdun head-on, he seeded the world with wisdom, while raising the most ancient of forests. It was by the Arch Heart's hand that the first elves wandered from the Feywild, and for this reason they are considered the Mother and Father of all elves. Oft called the \"Third Dragon\", it is a well-establish fact that Corellon took inspiration from Ioun and Angaradd, creating the psionic Gem dragons. Those who seek art in all their work often worship at the altar of Corellon. They loathe the Spider Queen and her priestesses for leading the drow astray.",
+						"Many elf wizards honor Corellon and adorn their spellbooks and towers with the god's symbols.",
+						{
+							"type": "entries",
+							"name": "Corellon's Influence",
+							"entries": [
+								"Corellon watches the business of mortals and gods from within the palace of Crescent Grove, a grove depicted as being surrounded by towering white trees and pillars of marble.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Most modern tapestries and tomes depict the Arch Heart as an elven being of impossible grace and beauty, androgynous and alluring, framed by long, wavy, golden hair. They were the inspiration for many early elven art pieces, and elements of their visage or symbol are included in most elven architecture."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"Corellon's holy day is called Elvendawn, or Midsummer. It is celebrated on the twentieth day of the sixth month, and commemorates the elves' first emergence from the Feywild. Though the Empire doesn't promote the worship of the Archheart, many elves within Sylingur quietly celebrate in private by opening small doors to the Feywild and having a little more wine than usual."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Corellon",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Cultivate beauty in all that you do, whether you’re casting a spell, composing a saga, strumming a lute, or practicing the arts of war.",
+												"Seek out lost magic items, forgotten rituals, and ancient works of art. Corellon might have inspired them in the world’s first days.",
+												"Thwart the followers of Lolth at every opportunity."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "The Blessed of Corellon",
+							"entries": [
+								"Ever changing, mirthful, and beautiful, the primal elves could assume whatever sex they liked. When they bowed to Lolth's influence and chose to fix their physical forms, elves lost the ability to transform in this way. Yet occasionally elves are born who are so androgynous that they are proclaimed to be among the blessed of Corellon-living symbols of the god's love and of the primal elves' original fluid state of being. Many of Corellon's chief priests bear this blessing.",
+								"The rarest of these blessed elves can change their sex whenever they finish a long rest-a miracle celebrated by elves of all sorts except drow. (The DM decides whether an elf can manifest this miracle.) Dark elves find this ability to be terrifying and characterize it as a curse, for it could destabilize their entire society. If Corellon's blessing manifests in a drow, that elf usually flees to the surface world to seek shelter among those dedicated to Corellon."
+							]
+						}
+					]
+				}
+			]
+		},
+
 		{
 			"name": "Akadi",
 			"title": "Primordial of Air",
@@ -7845,6 +7943,18 @@
 			],
 			"entries": [
 				"When you cast Friends, you can choose whether the creature realizes you used magic to influence its mood or not."
+			]
+		},
+		{
+			"name": "Lightweight Combatant",
+			"source": "WorldOfLight",
+			"featureType": [
+				"FS:F",
+				"FS:P",
+				"FS:R"
+			],
+			"entries": [
+				"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light."
 			]
 		}
 	],
