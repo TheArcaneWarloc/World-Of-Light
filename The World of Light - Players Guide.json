@@ -6107,7 +6107,7 @@
 			"subclassFeatures": [
 				"Circle of The Mushroom|Druid||Mushroom|WorldOfLight|2",
 				"Parasitic Fungus|Druid||Mushroom|WorldOfLight|6",
-				"Chlorophyllous Wild Shape|Druid||Mushroom|WorldOfLight|10",
+				"Spreading Spores|Druid||Mushroom|WorldOfLight|10",
 				"Fungal Body|Druid||Mushroom|WorldOfLight|14"
 			],
 			"source": "WorldOfLight",
@@ -6826,7 +6826,7 @@
 			]
 		},
 		{
-			"name": "Chlorophyllous Wild Shape",
+			"name": "Spreading Spores",
 			"source": "WorldOfLight",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -6835,44 +6835,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"The rites of your circle grant you the ability to transform into more dangerous forms.",
-				"Starting at 10th level, you can use your Wild Shape to transform into a plant with a challenge rating as high as as your druid level divided by 3, rounded down.",
-				{
-					"type": "table",
-					"caption": "Circle of the Mushroom Plant Shapes",
-					"colLabels": [
-						"Level",
-						"Max. CR",
-						"Limitations"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-2 text-center",
-						"col-8"
-					],
-					"rows": [
-						[
-							"10th",
-							"{@filter 3|bestiary|challenge rating=[&0;&3]|type=plant|miscellaneous=!swarm}",
-							"No swarm"
-						],
-						[
-							"12th",
-							"{@filter 4|bestiary|challenge rating=[&0;&4]|type=plant}",
-							"\u2014"
-						],
-						[
-							"15th",
-							"{@filter 5|bestiary|challenge rating=[&0;&5]|type=plant}",
-							"\u2014"
-						],
-						[
-							"18th",
-							"{@filter 6|bestiary|challenge rating=[&0;&6]|type=plant}",
-							"\u2014"
-						]
-					]
-				}
+				"Beginning at 10th level the spores within you make you deadlier in battle. You can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
 			]
 		},
 		{
