@@ -1857,7 +1857,7 @@
 			"name": "Alkenstar",
 			"title": "Deity of Torture, Death, Darkness and Disease",
 			"altNames": [
-				"The Abyssal Enigma",
+				"The Abyssal Enigma"
 			],
 			"alignment": [
 				"C",
@@ -1869,7 +1869,7 @@
 				"The Evanur"
 			],
 			"domains": [
-				"Blood"
+				"Blood",
 				"Death",
 				"Grave",
 				"Madness",
@@ -1912,7 +1912,7 @@
 			"name": "Null Rancaria",
 			"title": "Goddess of Fear, Fate, Mindlessness and Eternal Damnation",
 			"altNames": [
-				"The Veil of Eternal Malediction",
+				"The Veil of Eternal Malediction"
 			],
 			"alignment": [
 				"N",
@@ -1924,7 +1924,7 @@
 				"The Evanur"
 			],
 			"domains": [
-				"Blood"
+				"Blood",
 				"Death",
 				"Grave",
 				"Madness",
@@ -1945,8 +1945,7 @@
 					"entries": [
 						"Null Rancaria is a deity of unrelenting terror and despair, a name whispered only in the darkest corners of elven history. She is the embodiment of all that the elves dare not confront: fear, fate, mindlessness, eternal damnation, secrets, and the darkest strains of dark magic. Her worship is considered anathema, for it invites a malevolent presence that few mortals can withstand.",
 						"To utter the name of Null Rancaria is to invoke an omen of desolation and despair. It is a name that brings ill fortune and dread, a harbinger of calamity. The elves, in their wisdom, have stricken her name from their tongues, fearing that mere mention would draw her sinister attention.",
-						"Those who delve into her mysteries risk be
-						coming vessels of unspeakable malevolence, wielding power that can rend the fabric of reality. Her name is synonymous with fear itself. She serves as a haunting reminder to the elves that there are depths of dread that should never be explored. Her legacy endures as a cautionary tale. A deity of the most profound and inescapable terror.",
+						"Those who delve into her mysteries risk becoming vessels of unspeakable malevolence, wielding power that can rend the fabric of reality. Her name is synonymous with fear itself. She serves as a haunting reminder to the elves that there are depths of dread that should never be explored. Her legacy endures as a cautionary tale. A deity of the most profound and inescapable terror.",
 						{
 							"type": "entries",
 							"name": "Null Rancaria's Influence",
@@ -1981,7 +1980,7 @@
 				"The Evanur"
 			],
 			"domains": [
-				"Arcana"
+				"Arcana",
 				"Knowledge",
 				"Forge",
 				"Light",
@@ -2037,7 +2036,7 @@
 				"The Evanur"
 			],
 			"domains": [
-				"Life"
+				"Life",
 				"Light",
 				"Nature",
 				"Tempest",
