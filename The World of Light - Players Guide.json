@@ -732,7 +732,7 @@
 					"type": "section",
 					"entries": [
 						"Called the Platinum Justiciar, Bahamut is the god of justice, protection, nobility, and honor. Lawful good paladins often revere him, and metallic dragons worship him as the first of their kind. Monarchs are crowned in his name. The crest of the Platinum Dragon adorns many halls of high leadership and justice, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves.",
-						"In ancient times, Bahamut was widely worshipped by elves, but by a name now mostly forgotten; Xymor. In fact, the ancient elves had a tendancy to worship gods for aspects they do not directly hold dominion over, and Xymor was no different, having Courtship and Battle under his gleaming wings as well."
+						"In ancient times, Bahamut was widely worshipped by elves, but by a name now mostly forgotten; Xymor. In fact, the ancient elves had a tendancy to worship gods for aspects they do not directly hold dominion over, and Xymor was no different, having Courtship and Battle under his gleaming wings as well.",
 						{
 							"type": "entries",
 							"name": "Bahamut's Influence",
@@ -1738,7 +1738,7 @@
 					"type": "section",
 					"entries": [
 						"An ancient form of Sehanine, worshipped as the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and even Sehanine's afterlife still resides on an infinite sea with a single tower, named the Tower of Selûne.",
-						"During the time of the Hastilude, Selûne plays a pivotal role in the lives of many surface Drow, looking to be absolved of what their ancestors did in ages past.",
+						"During the time of the Hastilude, Selûne plays a pivotal role in the lives of many surface Drow, looking to be absolved of what their ancestors did in ages past."
 					]
 				}
 			]
@@ -1779,17 +1779,17 @@
 					"entries": [
 						"In the annals of elven history, one finds traces of Narallin, the enigmatic God of Economics and Wealth. Narallin is a deity of a bygone era, celebrated in ancient elven society as the embodiment of capitalism and the chaotic ebb and flow of wealth. His influence was felt most keenly during an age when the elves pursued not only mastery over nature but also mastery over the intricate dance of coins and commerce.",
 						"Though Narallin's influence waned as elven society evolved and shifted its priorities, his legacy endures in the form of ancient contracts, hidden vaults of forgotten treasures, and the intricate financial systems that underpin elven society. Some contemporary elves view him with reverence, while others see him as a symbol of avarice and excess.",
-					]
-				}
-				{
-					"type": "entries",
-					"name": "Narallin's Influence",
-					"entries": [
 						{
 							"type": "entries",
-							"name": "Depiction",
+							"name": "Narallin's Influence",
 							"entries": [
-								"Narallin is oft depicted as an elf of regal bearing, draped in red robes adorned with golden threads and precious gemstones. His eyes sparkle with the unmistakable gleam of a shrewd negotiator, and his fingers bear the weight of countless signet rings. In his right hand, he holds a set of unbalanced scales, forever tipping, while his left hand clutches a sack overflowing with coins, usually punctured, leaving wealth wherever he walks."
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Narallin is oft depicted as an elf of regal bearing, draped in red robes adorned with golden threads and precious gemstones. His eyes sparkle with the unmistakable gleam of a shrewd negotiator, and his fingers bear the weight of countless signet rings. In his right hand, he holds a set of unbalanced scales, forever tipping, while his left hand clutches a sack overflowing with coins, usually punctured, leaving wealth wherever he walks."
+									]
+								}
 							]
 						}
 					]
@@ -1836,17 +1836,17 @@
 					"entries": [
 						"According to elven legend, the ancient Goddess Elenarë birthed the first phoenix, a symbol of rebirth and renewal from the ashes of destruction. It is said that from the flames of her fury, she shaped the first humans, instilling in them the fiery spirit of determination and resilience. Thus, humans are considered the children of Elenarë, born in the crucible of war.",
 						"Elenarë's domain encompasses not only the destructive forces of war but also the transformative power of fire, and the ever-flowing passage of time. She was believed to have guided elven armies with her fiery wisdom, blessing their blades and inspiring valor in the heat of battle. Her temples served as forges, where weapons and artifacts were crafted, and where elven blacksmiths sought her blessing for their finest works.",
-					]
-				}
-				{
-					"type": "entries",
-					"name": "Elenarë's Influence",
-					"entries": [
 						{
 							"type": "entries",
-							"name": "Depiction",
+							"name": "Elenarë's Influence",
 							"entries": [
-								"Elenarë is oft depicted as a radiant elven warrior, her form bathed in the flickering light of eternal flames. She dons armor crafted from solid gold, with a helm that resembles the majestic crest of a phoenix. Her eyes burn with the intensity of a roaring inferno, and her hair flows like bursts of sunlight."
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Elenarë is oft depicted as a radiant elven warrior, her form bathed in the flickering light of eternal flames. She dons armor crafted from solid gold, with a helm that resembles the majestic crest of a phoenix. Her eyes burn with the intensity of a roaring inferno, and her hair flows like bursts of sunlight."
+									]
+								}
 							]
 						}
 					]
@@ -1890,18 +1890,18 @@
 					"entries": [
 						"Alkenstar is a deity shrouded in dread, a being of unfathomable darkness and despair. Revered with fearful whispers, Alkenstar represents the unsettling and malevolent aspects of existence: torture, death, darkness, and disease. In the history books of elven lore, Alkenstar is the embodiment of all that the elves once feared and could not comprehend.",
 						"The worship of Alkenstar is not one of devotion, but of fearful reverence. In ancient times, some elves turned to Alkenstar out of desperation, beseeching the deity for mercy or protection from the horrors of existence. Others sought to placate Alkenstar's wrath by offering sacrifices, hoping to avert the malevolent gaze of this enigmatic deity.",
-						"While Alkenstar is no longer widely worshipped among the elves, its legacy endures as a symbol of the deepest, darkest aspects of existence. It serves as a haunting reminder that in the ever-evolving tapestry of the cosmos, there are forces that defy understanding and challenge even the most resolute of faiths."
-					]
-				}
-				{
-					"type": "entries",
-					"name": "Alkenstar's Influence",
-					"entries": [
+						"While Alkenstar is no longer widely worshipped among the elves, its legacy endures as a symbol of the deepest, darkest aspects of existence. It serves as a haunting reminder that in the ever-evolving tapestry of the cosmos, there are forces that defy understanding and challenge even the most resolute of faiths.",
 						{
 							"type": "entries",
-							"name": "Depiction",
+							"name": "Alkenstar's Influence",
 							"entries": [
-								"Alkenstar is often depicted as a vaguely humanoid figure cloaked in impenetrable shadow, with eyes that burn like the void itself. Its form is ever-shifting, a grotesque fusion of torment and decay. It is said that gazing upon Alkenstar's true visage can drive mortals to madness."
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Alkenstar is often depicted as a vaguely humanoid figure cloaked in impenetrable shadow, with eyes that burn like the void itself. Its form is ever-shifting, a grotesque fusion of torment and decay. It is said that gazing upon Alkenstar's true visage can drive mortals to madness."
+									]
+								}
 							]
 						}
 					]
@@ -1945,18 +1945,19 @@
 					"entries": [
 						"Null Rancaria is a deity of unrelenting terror and despair, a name whispered only in the darkest corners of elven history. She is the embodiment of all that the elves dare not confront: fear, fate, mindlessness, eternal damnation, secrets, and the darkest strains of dark magic. Her worship is considered anathema, for it invites a malevolent presence that few mortals can withstand.",
 						"To utter the name of Null Rancaria is to invoke an omen of desolation and despair. It is a name that brings ill fortune and dread, a harbinger of calamity. The elves, in their wisdom, have stricken her name from their tongues, fearing that mere mention would draw her sinister attention.",
-						"Those who delve into her mysteries risk becoming vessels of unspeakable malevolence, wielding power that can rend the fabric of reality. Her name is synonymous with fear itself. She serves as a haunting reminder to the elves that there are depths of dread that should never be explored. Her legacy endures as a cautionary tale. A deity of the most profound and inescapable terror."
-					]
-				}
-				{
-					"type": "entries",
-					"name": "Null Rancaria's Influence",
-					"entries": [
+						"Those who delve into her mysteries risk be
+						coming vessels of unspeakable malevolence, wielding power that can rend the fabric of reality. Her name is synonymous with fear itself. She serves as a haunting reminder to the elves that there are depths of dread that should never be explored. Her legacy endures as a cautionary tale. A deity of the most profound and inescapable terror.",
 						{
 							"type": "entries",
-							"name": "Depiction",
+							"name": "Null Rancaria's Influence",
 							"entries": [
-								"Null Rancaria exists as a shadowy, formless void; an indistinct presence that defies mortal comprehension. Those who claim to have glimpsed her visage speak of eyes that pierce the soul and a voice that chills the blood. Her form is ever-shifting, a manifestation of fear itself."
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Null Rancaria exists as a shadowy, formless void; an indistinct presence that defies mortal comprehension. Those who claim to have glimpsed her visage speak of eyes that pierce the soul and a voice that chills the blood. Her form is ever-shifting, a manifestation of fear itself."
+									]
+								}
 							]
 						}
 					]
@@ -2002,18 +2003,18 @@
 					"entries": [
 						"Morvael is a deity shrouded in the mysteries of invention and the pursuit of knowledge. According to elven lore, Morvael is revered as the God of Invention, Science, Evolution, and Ingenuity. Yet, few outside the clandestine circles of the Arcanixian wizards are aware of this deity's existence, for the Arcanixians believed themselves above the influence of the gods.",
 						"Morvael encompasses the relentless pursuit of knowledge, the transformative power of science, and the boundless ingenuity of invention. The Arcanixian wizards, in secret reverence, sought Morvael's guidance in their quest to unravel the deepest mysteries of the universe. Morvael is the keeper of secrets, the deity who guards the wisdom of ages past and the possibilities of ages to come. Those who venerated Morvael believed that through the pursuit of knowledge and the application of science, they could transcend the limitations of mortals and shape their own destiny.",
-						"Though the Arcanixians themselves may have believed they were above the gods, they unknowingly paid homage to Morvael with their ceaseless drive to push the boundaries of knowledge and technology."
-					]
-				}
-				{
-					"type": "entries",
-					"name": "Morvael's Influence",
-					"entries": [
+						"Though the Arcanixians themselves may have believed they were above the gods, they unknowingly paid homage to Morvael with their ceaseless drive to push the boundaries of knowledge and technology.",
 						{
 							"type": "entries",
-							"name": "Depiction",
+							"name": "Morvael's Influence",
 							"entries": [
-								"Morvael is often depicted as a figure of unparalleled intellect, with eyes that shimmer with boundless curiosity. Dressed in robes of ever-changing colors (though preferring shades of blue), Morvael embodies the spirit of innovation and discovery. The deity's hands are forever busy, crafting intricate devices and unlocking the secrets of the cosmos."
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Morvael is often depicted as a figure of unparalleled intellect, with eyes that shimmer with boundless curiosity. Dressed in robes of ever-changing colors (though preferring shades of blue), Morvael embodies the spirit of innovation and discovery. The deity's hands are forever busy, crafting intricate devices and unlocking the secrets of the cosmos."
+									]
+								}
 							]
 						}
 					]
@@ -2057,18 +2058,18 @@
 				{
 					"type": "section",
 					"entries": [
-						"Teluniél is the guardian of all creatures that roam the untamed forests and the vast wilderness. Elves who revere her seek her blessing when embarking on hunts or when seeking to establish harmony with the animal kingdom. Her guidance ensures that the delicate balance between hunter and prey is maintained. As the Avenger of the Natural World, Teluniél is invoked by those who seek retribution against those who defile the wilderness, exploit its resources, or harm its creatures. She is both a protector and a punisher, ensuring that those who harm nature face the consequences of their actions."
-					]
-				}
-				{
-					"type": "entries",
-					"name": "Teluniél's Influence",
-					"entries": [
+						"Teluniél is the guardian of all creatures that roam the untamed forests and the vast wilderness. Elves who revere her seek her blessing when embarking on hunts or when seeking to establish harmony with the animal kingdom. Her guidance ensures that the delicate balance between hunter and prey is maintained. As the Avenger of the Natural World, Teluniél is invoked by those who seek retribution against those who defile the wilderness, exploit its resources, or harm its creatures. She is both a protector and a punisher, ensuring that those who harm nature face the consequences of their actions.",
 						{
 							"type": "entries",
-							"name": "Depiction",
+							"name": "Teluniél's Influence",
 							"entries": [
-								"Teluniél is often depicted as a radiant elven huntress, her hair intertwined with leaves and her eyes reflecting the colors of the stormy sky. She is adorned with the pelts and feathers of wild creatures, and her outstretched arms are capable of conjuring tempests and summoning the fiercest of beasts."
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Teluniél is often depicted as a radiant elven huntress, her hair intertwined with leaves and her eyes reflecting the colors of the stormy sky. She is adorned with the pelts and feathers of wild creatures, and her outstretched arms are capable of conjuring tempests and summoning the fiercest of beasts."
+									]
+								}
 							]
 						}
 					]
