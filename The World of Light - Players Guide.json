@@ -2284,8 +2284,17 @@
 				}
 			],
 			"entries": [
-				"Through intense focus, training, and dedication, you've unlocked what even some of the mages of Arcanix would have dreamed of; you have harnessed the techniques of rapid spellcasting. You are no longer limited to only one non-cantrip spell per turn. However, should you cast two or more spells in a single turn, only one of them can be of 3rd level or higher."
-			]
+				"Through intense focus, training, and dedication, you've unlocked what even some of the mages of Arcanix would have dreamed of; you have harnessed the techniques of rapid spellcasting.",
+				"You are no longer limited to only one non-cantrip spell per turn. However, should you cast two or more spells in a single turn, only one of them can be of 3rd level or higher.",
+				{
+					"type": "inset",
+					"name": "Rules Tip: Casting Multiple Spells",
+					"page": 190,
+					"entries": [
+						"Normally, when you cast a spell as a bonus action, you can't use your action to also cast a spell that turn unless that spell is a cantrip—{@note see {@book PHB p202|PHB|10|Bonus Action}.} The Spelldriver feat removes that restriction, but the focus necessary to channel multiple spells in the same round still limits the overall power of those spells."
+					]
+				}
+			],
 		},
 		{
 			"name": "Nocturnal",
@@ -2406,12 +2415,12 @@
 				{
 					"level": 8,
 					{
-						"other": "All levels in Barbarian, Fighter, Monk or Rogue"
+						"other": "At least 3 levels in the Barbarian, Fighter, Monk or Rogue class"
 					}
 				}
 			],
 			"entries": [
-				"You are considered a paragon of your class, a formidable foe, and an even greater ally. You choose one subclass from your class's list (other than the one you already have), and gain it's level 3 feature(s). You cannot choose any subclasses that give you the spellcasting feature, however (Subclasses like the Rogue's Arcane Trickster)."
+				"You are considered a paragon of your class, a formidable foe, and an even greater ally. You choose one subclass from (one of) your class's list, from among the Barbarian, Fighter, Monk or Rogue, and gain it's level 3 feature(s). If you choose a subclass that grants you the spellcasting feature, you are considered a 3rd-level caster for the purposes of this feat (meaning your spellcasting feature does not improve as you gain levels in the class)."
 			]
 		}
 	],
