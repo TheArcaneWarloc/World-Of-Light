@@ -2294,7 +2294,7 @@
 						"Normally, when you cast a spell as a bonus action, you can't use your action to also cast a spell that turn unless that spell is a cantrip—{@note see {@book PHB p202|PHB|10|Bonus Action}.} The Spelldriver feat removes that restriction, but the focus necessary to channel multiple spells in the same round still limits the overall power of those spells."
 					]
 				}
-			],
+			]
 		},
 		{
 			"name": "Nocturnal",
@@ -2414,9 +2414,9 @@
 			"prerequisite": [
 				{
 					"level": 8,
-					{
-						"other": "At least 3 levels in the Barbarian, Fighter, Monk or Rogue class"
-					}
+					"other": [
+						"At least 3 levels in the Barbarian, Fighter, Monk or Rogue class."
+					]
 				}
 			],
 			"entries": [
