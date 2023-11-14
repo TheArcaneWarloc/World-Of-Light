@@ -3722,21 +3722,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "8th Level",
-			"source": "WorldOfLight",
-			"ruleType": "O",
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						"Flanking, in most D&D games, happens when a creature and at least one of its allies are adjacent to an enemy and on opposite sides or corners of the enemy's space. {@i Flanking+}, as I'd like to call it, expands on this rule, editing its effects.",
-						"The regular {@variantrule flanking} rules still apply, with one major difference. Instead of gaining advantage, the flanking creature instead gains a +2 bonus to hit against flanked creature. This means that flanking can also stack with other effects, such as effects that give advantage: not making it as strong as it is in the base game.",
-						"In addition to this change, creatures that have multiple eyes (such as a beholder), can see from multiple directions or otherwise have a special sense\u2014such as {@sense blindsight} or {@sense truesight}\u2014cannot be flanked."
-					]
-				}
-			]
 		}
 	],
 	"race": [
