@@ -2821,7 +2821,8 @@
 			"entries": [
 				"The first step in creating a magical item is the initial plan for its function. During this step, a mage, while researching the spells, will also need to gather {@i Focal Stones}. These stones are gemstones, most of which are made from {@item Lumenstone|WorldOfLight}.",
 				"A Focal Stone can store up to 9 levels worth of spell slots, which the wielder can imbue into the Focal Stone by holding the stone in one hand and casting a spell. The spell then has no effect, other than to be stored in the Focal Stone. Once the Focal Stone has at least one level worth of spell slots, it can be used as a material component in the {@spell Transfer Enchantment} spell. While a Focal Stone can practically be used indefinitely, the more it is used, the more unstable the casting.",
-				"In addition, a Focal Stone can also be used as a spellcasting focus."
+				"Moreover, the levels inside a Focal Stone can be used to recharge magical items, with one spell level being equal to one charge.",
+				"Finally, a Focal Stone can also be used as a spellcasting focus."
 			]
 		},
 		{
