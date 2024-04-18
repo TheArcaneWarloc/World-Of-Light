@@ -95,7 +95,7 @@
 				{
 					"name": "Spin",
 					"entries": [
-						"Your unique shape allows you to spin. If you move 20 feet or more on your turn while spinning, you can end your movement by slamming into a creature, causing it to take {@damage 1d4} bludgeoning damage. This damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4)."
+						"Your unique shape allows you to spin. If you move 20 feet or more on your turn while spinning, you can end your movement by slamming into a creature, causing it to take {@damage 1d4} bludgeoning damage. This damage increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
 					],
 					"type": "entries"
 				}
