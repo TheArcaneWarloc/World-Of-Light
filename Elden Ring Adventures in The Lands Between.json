@@ -103,6 +103,620 @@
 					"type": "entries"
 				}
 			]
+		},
+		{
+			"name": "Northerner",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Northerners are taller and heavier than the other humanoid norms of other cultures, standing almost universally above 6 feet tall and reaching heights above 7 feet. Your size is Medium."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and {@language Giant}."
+					],
+					"type": "entries",
+					"data": {
+						"overwrite": "Languages"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Natural Athlete",
+					"entries": [
+						"You have proficiency in the {@skill Athletics} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Giant Resilience",
+					"entries": [
+						"You have proficiency in Strength saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mountainborn",
+					"entries": [
+						"You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one, and immune to the effects of {@hazard Extreme Cold|DMG}. This includes elevations above 20,000 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			]
+		},
+		{
+			"name": "Aristocrat",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Aristocrats are a regal race of humanoids found among those who claim noble blood in the Lands Between, though not particularly tall. They range from under 5 to over 6 feet tall and usually have slender builds. Your size is Medium."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and two other languages of your choice, due to your erudite upbringing."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Raya Lucarian Fortitude",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep. In addition, you have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					]
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+					],
+					"type": "entries"
+				}
+			],
+			"ability": [
+				{
+					"int": 2,
+					"wis": 2
+				}
+			]
+		},
+		{
+			"name": "Reedlander",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"A race from the faraway, isolated Land of Reeds, where blood is a familiar sight. They range from just under 5 to over 6 feet tall and usually have tough builds. Your size is Medium."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and {@language Ashiharan|TheLandsBetween}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Senses of the Inaba",
+					"entries": [
+						"You have proficiency in the {@skill Perception} and {@skill Acrobatics} skills."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mask of Reeds",
+					"entries": [
+						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fleet of Foot",
+					"entries": [
+						"Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				}
+			],
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true,
+					"perception": true
+				}
+			]
+		},
+		{
+			"name": "Warrior",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"The most common race among the Tarnished. After all, they were all warriors once. They vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Daunting",
+					"entries": [
+						"You have proficiency in the {@skill Intimidation} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Tough",
+					"entries": [
+						"Your hit point maximum increases by 2, and it increases by 2 every time you gain a level."
+					],
+					"type": "entries"
+				}
+			],
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Truth-Seeker",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"The race of austere pilgrims. There are many roads to truth. They vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Breadth of Knowledge",
+					"entries": [
+						"You gain proficiency in any combination of four skills or with four {@book tools|phb|5|tools} of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Deductive Intuition",
+					"entries": [
+						"When you make an Intelligence ({@skill Investigation}) or a Wisdom ({@skill Insight}) check, you can roll a {@dice d4} and add the number rolled to the ability check."
+					]
+				}
+			],
+			"ability": [
+				{
+					"wis": 2,
+					"int": 1
+				}
+			]
+		},
+		{
+			"name": "Loner",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Race found among a proud and seclusive tribe of folk well-versed in ancient legends and heresies alike. They vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"You know one {@filter cantrip of your choice from any spell list|spells|level=0}. Wisdom is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Oral Historian",
+					"entries": [
+						"You have proficiency in the {@skill Religion}, {@skill Arcana} and {@skill History} skills."
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 2,
+					"wis": 1
+				}
+			]
+		},
+		{
+			"name": "Seafarer",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"The race of one who wanders the seas in search of their home in the Lands Between. They vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Child of the Sea",
+					"entries": [
+						"You have a swimming speed of 30 feet, and you can breathe air and water."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Windwright's Intuition",
+					"entries": [
+						"When you make a Dexterity ({@skill Acrobatics}) check or any ability check involving {@item navigator's tools|PHB}, you can roll a {@dice d4} and add the number rolled to the ability check."
+					]
+				}
+
+			],
+			"ability": [
+				{
+					"con": 2,
+					"wis": 1
+				}
+			]
+		},
+		{
+			"name": "Draconian",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 40,
+			"age": {
+				"mature": 20,
+				"max": 50
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"The stony race of the people of the ancient dragons, among whom life is typically short. They vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and {@language Draconic}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gransax's Essence",
+					"entries": [
+						"You have immunity to lightning damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Dragon's Swiftness",
+					"entries": [
+						"Your base walking speed increases to 40 feet."
+					]
+				}
+
+			],
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			]
+		},
+		{
+			"name": "Nightfolk",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Nox": true
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"The race of those known as Nightfolk. Few in number, they were said to bleed silver long ago. Nightfolk are taller on average than other humans and relatively slender. Your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and {@language Nox|TheLandsBetween}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to the darkness of the Eternal Cities and their faux night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of silver."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Incisive Sense",
+					"entries": [
+						"You have advantage on Intelligence ({@skill Investigation}) and Wisdom ({@skill Insight}) checks."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Nokstellan Ant-tamer",
+					"entries": [
+						"When you make a Wisdom ({@skill Animal Handling}) or Intelligence ({@skill Nature}) check, you can roll a {@dice d4} and add the number rolled to the ability check."
+					]
+				}
+			],
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			]
+		},
+		{
+			"name": "Numen",
+			"source": "TheLandsBetween",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 500
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"darkvision": 120,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"The race of the Numen, supposed descendants of denizens of another world. Long-lived but seldom born. Numen are taller and broader on average than other humans. Your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common} and {@language Empyrean|TheLandsBetween}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to the otherworld of the Numen, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gold."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Otherworldly Resistance",
+					"entries": [
+						"You have resistance to necrotic and radiant damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Light Bearer",
+					"entries": [
+						"You know the {@spell Starlight|TheLandsBetween} cantrip. Charisma is your spellcasting ability for it."
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 3
+				}
+			]
 		}
 	],
 	"spell": [
