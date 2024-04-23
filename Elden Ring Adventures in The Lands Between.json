@@ -717,6 +717,63 @@
 					"cha": 3
 				}
 			]
+		},
+		{
+			"name": "Second-Generation Albinauric",
+			"source": "TheLandsBetween",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 40,
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"First-generation albinaurics have a similar build to humans, and second-generation albinaurics have large heads. Your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Homuncular",
+					"entries": [
+						"Albinaurics are arcane creations at heart. You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Second-Generation Stride",
+					"entries": [
+						"Your base walking speed is 40 feet"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Agile",
+					"entries": [
+						"You have proficiency the {@skill Acrobatics} skill."
+					]
+				}
+			],
+			"ability": [
+				{
+					"dex": 1,
+					"wis": 2
+				}
+			]
 		}
 	],
 	"spell": [
