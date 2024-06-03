@@ -141,7 +141,7 @@
 												"{@reward Erestem's Devotee|WorldOfLight}",
 												"{@reward Erestem's Votary|WorldOfLight}",
 												"{@reward Erestem's Disciple|WorldOfLight}",
-												"{@reward Champion of Compassion|WorldOfLight}"
+												"{@reward Champion of Time|WorldOfLight}"
 											]
 										}
 									]
@@ -5106,6 +5106,87 @@
 			]
 		},
 		{
+			"name": "Fortune's Favor",
+			"source": "WorldOfLight",
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a white pearl worth at least 100 gp",
+					"cost": 10000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You impart latent luck to yourself or one willing creature you can see within range. When the chosen creature makes an attack roll, an ability check, or a saving throw before the spell ends, it can dismiss this spell on itself to roll an additional {@dice d20} and choose which of the {@dice d20}s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this spell on itself to roll a {@dice d20} and choose which of the {@dice d20}s to use, the one it rolled or the one the attacker rolled.",
+				"If the original {@dice d20} roll has advantage or disadvantage, the creature rolls the additional {@dice d20} after advantage or disadvantage has been applied to the original roll."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy Magic",
+							"shortName": "Chronurgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy Magic",
+							"shortName": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		}
+		{
 			"name": "Gallen's Healing Spirit",
 			"level": 2,
 			"school": "C",
@@ -8586,9 +8667,36 @@
 			"type": "Piety Trait",
 			"entries": [
 				"{@i Piety 3+ Erestem trait}",
-				"As a devotee of Erestem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor} once per short rest without using any material components."
+				"As a devotee of Erestem, you have proven yourself a devotee of reality and order. You can now cast {@spell fortune's favor|WorldOfLight} once per short rest without using any material components."
 			]
 		},
+		{
+			"name": "Erestem's Votary",
+			"source": "WorldOfLight",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ Erestem trait}",
+				"You've thrown yourself into books and you've come back with the knowledge to bend reality without breaking order. You can now cast {@spell gravity sinkhole|EGW} once per long rest. Your intelligence is your spellcasting ability when using this feature."
+			]
+		},
+		{
+			"name": "Erestem's Disciple",
+			"source": "WorldOfLight",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ Erestem trait}",
+				"You've learned more about the weave of time and now can better manipulate reality, without breaking the time-space continuum. You can now use your Erestem's Devotee feature a number of times equal to your intelligence modifier (minimum of once) per short rest. Also, when you're under the effects of advantage, it can not be canceled out by any disadvantage."
+			]
+		},
+		{
+			"name": "Champion of Time",
+			"source": "WorldOfLight",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ Erestem trait}",
+				"You've scoured for everything you can learn about the universe. You feel your mind expand. Increase either your wisdom or your intelligence ability score by 2, and its maximum by 2."
+			]
+		}
 	],
 	"optionalfeature": [
 		{
