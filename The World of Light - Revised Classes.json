@@ -1725,7 +1725,7 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 2,
 			"entries": [
-				"When you roll Initiative, you can regain all expended Ki Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.",
+				"Starting at 2nd level, when you roll Initiative, you can regain all expended Ki Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.",
 				"Once you use this feature, you can't use it again until you finish a Long Rest."
 			]
 		},
@@ -2045,7 +2045,7 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 10,
 			"entries": [
-				"Your training has pushed your body and mind to new levels. Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits:",
+				"Your training has pushed your body and mind to new levels. Starting at 10th level, your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits:",
 				{
 					"type": "entries",
 					"entries": [
@@ -2200,7 +2200,7 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 15,
 			"entries": [
-				"When you roll Initiative and have 3 ki points or fewer, you regain expended ki points until you have 4."
+				"At 15th level, when you roll Initiative and have 3 ki points or fewer, you regain expended ki points until you have 4."
 			]
 		},
 		{
@@ -2267,7 +2267,7 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 20,
 			"entries": [
-				"You have honed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4. Your maximum for those scores is now 26."
+				"You have honed your body and mind to new heights. At 20th level, your Dexterity and Wisdom scores increase by 4. Your maximum for those scores is now 26."
 			]
 		}
 	],
