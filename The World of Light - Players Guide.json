@@ -188,6 +188,7 @@
 					"url": "https://i.imgur.com/WxL2kmQ.png"
 				}
 			},
+			"piety": true,
 			"entries": [
 				{
 					"type": "section",
@@ -232,6 +233,58 @@
 												"Meet adversity with stoicism and tenacity.",
 												"Demonstrate loyalty to your family, your clan, your leaders, and your people.",
 												"Strive to make a mark on the world, a lasting legacy. To make something that lasts is the highest good, whether you are a smith working at a forge or a ruler building a dynasty."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Angaradd when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Following the will of your clan and family",
+										"Crafting or doing something traditional.",
+										"Creating something that will last the ages",
+										"Protecting your family and loved ones"
+									]
+								},
+								"Your piety score to Angaradd decreases if you diminish Angaradd's influence in the world, work against freedom or self-expression, or allow tyranny to take hold through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Estranging yourself from family and relations",
+										"Allow traditions to fall to the wayside",
+										"Allow other's actions to influence your ability to endure pain and hardship without complaint"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Angaradd's Devotee|WorldOfLight}",
+												"{@reward Angaradd's Votary|WorldOfLight}",
+												"{@reward Angaradd's Disciple|WorldOfLight}",
+												"{@reward Champion of The Forge|WorldOfLight}"
 											]
 										}
 									]
@@ -324,6 +377,59 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Auroril when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Turning a wild field into fertile cropland",
+										"Offering food to the starving, hope to the broken, succor to the wounded, and mercy to the defeated",
+										"Helping those who have lost themselves to darkness find their way back to the light",
+										"Standing against the forces of darkness"
+									]
+								},
+								"Your piety score to Auroril decreases if you diminish her influence in the world, contradict her ideals, or undermine her radiant influence through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Destroying a settlement's food source, or releasing and scattering domestic animals",
+										"Treating a defeated enemy with cruelty",
+										"Conducting secret business under the cover of night",
+										"Allowing darkness to encroach on civilization or threaten the innocent"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Auroril's Devotee|WorldOfLight}",
+												"{@reward Auroril's Votary|WorldOfLight}",
+												"{@reward Auroril's Disciple|WorldOfLight}",
+												"{@reward Champion of The Radiant Melody|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -405,6 +511,58 @@
 												"Work with others to achieve your goals. Community and order are always stronger than the disjointed efforts of lone individuals.",
 												"Tame the wilderness to make it fit for habitation, and defend the light of civilization against the encroaching darkness.",
 												"Seek out new ideas, new inventions, new lands to inhabit, new wilderness to conquer. Build machines, build cities, build empires."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Erathis when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Bringing a criminal to the attention of the law",
+										"Expand the reach of the civilization",
+										"Defending a city from a major threat",
+										"Creating a masterwork, such as a building or invention"
+									]
+								},
+								"Your piety score to Erathis decreases if you diminish her influence in the world, contradict her ideals, or undermine her civic influence through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Deliberately flouting the law or obstructing justice",
+										"Destroying a civic institution or sowing chaos within a city",
+										"Willfully breaking just laws or abusing authority for your own gain"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Erathis's Devotee|WorldOfLight}",
+												"{@reward Erathis's Votary|WorldOfLight}",
+												"{@reward Erathis's Disciple|WorldOfLight}",
+												"{@reward Champion of Hestavar|WorldOfLight}"
 											]
 										}
 									]
@@ -498,6 +656,59 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Melora when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Healing a sick or injured wild animal",
+										"Pushing civilisation back from nature where it oversteps",
+										"Slaying abberations, fiends, undead and other dark monstrosities that would make a mockery of nature",
+										"Stopping those who hunt for sport or profit"
+									]
+								},
+								"Your piety score to Melora decreases if you diminish Melora's influence in the world, fail to defend nature, or offend her sensibilities through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Killing an animal for any reason other than necessity",
+										"Averting natural disasters or catastrophes rather than weathering them",
+										"Letting nature be twisted against the natural order",
+										"Allowing the destruction of wilderness to make way for artifice or civilisation"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Melora's Devotee|WorldOfLight}",
+												"{@reward Melora's Votary|WorldOfLight}",
+												"{@reward Melora's Disciple|WorldOfLight}",
+												"{@reward Champion of The Wild|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -567,6 +778,59 @@
 												"Seek the perfection of your mind by bringing reason, perception, and emotion into balance with one another.",
 												"Accumulate, preserve, and distribute knowledge in all forms. Pursue education, build libraries, and seek out lost and ancient lore.",
 												"Be watchful at all times for the followers of Vecna, who seek to control knowledge and keep secrets. Oppose their schemes, unmask their secrets, and blind them with the light of truth and reason. "
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Ioun when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Revealing a critical truth or dangerous secret",
+										"Discovering or documenting an unknown people or a poorly understood creature",
+										"Solving a challenging riddle or puzzle",
+										"Helping a community successfully plan for or adapt to a threat"
+									]
+								},
+								"Your piety score to Ioun decreases if you diminish her influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Selfishly refusing to share information",
+										"Hiding or destroying research or other sources of knowledge",
+										"Willingly subverting or impeding a wise course of action",
+										"Failing to plan appropriately for a challenge"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Ioun's Devotee|WorldOfLight}",
+												"{@reward Ioun's Votary|WorldOfLight}",
+												"{@reward Ioun's Disciple|WorldOfLight}",
+												"{@reward Champion of the Infinite Library|WorldOfLight}"
 											]
 										}
 									]
@@ -650,6 +914,57 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Kord when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Achieving a feat of great strength or physical prowess",
+										"Emerging victorious from battle having learned something new about yourself",
+										"Smiting the your foes in Kord's name"
+									]
+								},
+								"Your piety score to Kord decreases if you diminish Kord's influence in the world, contradict his ideals, or make him look weak and cowardly through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Showing cowardice in battle",
+										"Giving in to bloodlust and wanton destruction",
+										"Harming innocents or noncombatants"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Kord's Devotee|WorldOfLight}",
+												"{@reward Kord's Votary|WorldOfLight}",
+												"{@reward Kord's Disciple|WorldOfLight}",
+												"{@reward Champion of The Gilded Storm|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -660,6 +975,8 @@
 			"name": "Sehanine",
 			"title": "Goddess of The Moons",
 			"altNames": [
+				"Selûne",
+				"Mistress of the Moonbow",
 				"The Moonweaver"
 			],
 			"alignment": [
@@ -671,7 +988,8 @@
 			"category": [
 				"Deities of Radiance",
 				"The Guardians Three",
-				"The Natural Three"
+				"The Natural Three",
+				"The Evanur"
 			],
 			"domains": [
 				"Life",
@@ -735,6 +1053,66 @@
 												"Follow your goals and seek your own destiny.",
 												"Keep to the shadows, avoiding the blazing light of zealous good and the utter darkness of evil.",
 												"Seek new horizons and new experiences, and let nothing tie you down."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Selûne by any other name",
+							"entries": [
+								"Sehanine has gone by many names, being herself as mercurial as the lofty race of Elves. When the Elves were but nascent children, the Elves instead worshipped the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and this is directly related to Sehanine's afterlife: an infinite sea with a single tower, called the Tower of Selûne.",
+								"Back in the 3nd Era, Selûne played a pivotal role in the lives of many surfacing Drow, looking to be absolved of what their Lolth-worshipping ancestors did in ages past. Her then-worshipped aspect included the portfolios of Mystery and Shadows."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Sehanine when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Helping love flourish in the face of adversity",
+										"Tempering an extreme course of action with your wisdom",
+										"Employing trickery to combat tyranny",
+										"Aiding the weak or impeding the strong"
+									]
+								},
+								"Your piety score to Sehanine decreases if you diminish Sehanine's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Standing in the way of true love",
+										"Harming others or putting innocents at risk by falling into extremism",
+										"Following unjust laws or upholding an unjust institution"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Sehanine's Devotee|WorldOfLight}",
+												"{@reward Sehanine's Votary|WorldOfLight}",
+												"{@reward Sehanine's Disciple|WorldOfLight}",
+												"{@reward Champion of The Vernal Bow|WorldOfLight}"
 											]
 										}
 									]
@@ -826,6 +1204,59 @@
 												"Uphold the highest ideals of honor and justice.",
 												"Be constantly vigilant against evil and oppose it on all fronts.",
 												"Protect the weak, liberate the oppressed, and defend just order."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Bahamut when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Carrying out punishment on a fugitive from justice",
+										"Overcoming long odds honorably",
+										"Using your assets to aid the commonfolk",
+										"Defending a person or city from attacking monsters"
+									]
+								},
+								"Your piety score to Bahamut decreases if you diminish his influence in the world, contradict his ideals, or make him look ridiculous or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Breaking an explicit promise or oath",
+										"Violating any just law",
+										"Putting others at risk through your own cowardice",
+										"Besting an honorable foe through deceit"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Sehanine's Devotee|WorldOfLight}",
+												"{@reward Sehanine's Votary|WorldOfLight}",
+												"{@reward Sehanine's Disciple|WorldOfLight}",
+												"{@reward Champion of The Vast Plateau|WorldOfLight}"
 											]
 										}
 									]
@@ -923,6 +1354,59 @@
 							]
 						},
 						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Corellon when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Following a fleeting passion or taking action on impulse",
+										"Creating something wondrous, such as a painting or poem",
+										"Discovering a lost piece of magic or art",
+										"Destroying the followers of Lolth"
+									]
+								},
+								"Your piety score to Corellon decreases if you diminish Corellon's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Preventing a person from following their passions",
+										"Selfishly refusing to share art or other things of beauty with the world",
+										"Allowing yourself to become stagnant and unchanging",
+										"Aiding a follower of Lolth"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Corellon's Devotee|WorldOfLight}",
+												"{@reward Corellon's Votary|WorldOfLight}",
+												"{@reward Corellon's Disciple|WorldOfLight}",
+												"{@reward Champion of High Magic|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
 							"type": "inset",
 							"name": "The Blessed of Corellon",
 							"entries": [
@@ -1007,6 +1491,59 @@
 												"Amass wealth, but spend little. The gold—and the power that comes with it—is sufficient reward in itself.",
 												"Do not forgive nor forget an indignity to yourself. Let no affront go unpunished.",
 												"Take what you covet. Those without the strength to defend their dominion are not worthy to have one."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Takhisis when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Aiding the plots of a chromatic dragon or giving one offerings of treasure",
+										"Taking vengeance on someone who as wronged you",
+										"Taking material wealth from the less deserving",
+										"Thwarting the schemes of Bahamut"
+									]
+								},
+								"Your piety score to Takhisis decreases if you diminish Takhisis's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Slaying or hindering a chromatic dragon",
+										"Allowing a slight against you to go unpunished",
+										"Giving up material wealth without personal benefit commensurate with the spent coin, especially for charitable causes",
+										"Aiding a follower of Bahamut"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Takhisis's Devotee|WorldOfLight}",
+												"{@reward Takhisis's Votary|WorldOfLight}",
+												"{@reward Takhisis's Disciple|WorldOfLight}",
+												"{@reward Champion of Azharul|WorldOfLight}"
 											]
 										}
 									]
@@ -1097,6 +1634,59 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Tharizdun when you expand the deity's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Razing a settlement to the ground",
+										"Teaching people about Tharizdun, his nature, and his inevitable return",
+										"Working to free the Chained God",
+										"Fanning the flames of madness and working towards the obliteration of all existence"
+									]
+								},
+								"Your piety score to Tharizdun decreases if you diminish Tharizdun's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Allowing a chance to weaken the Chained God's bindings to pass",
+										"Assisting a creature in undermining or subverting the inevitable march of entropy",
+										"Engaging in an act of restoration or creation",
+										"Imposing order on a chaotic situation"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Tharizdun's Devotee|WorldOfLight}",
+												"{@reward Tharizdun's Votary|WorldOfLight}",
+												"{@reward Tharizdun's Disciple|WorldOfLight}",
+												"{@reward Champion of Oblivion|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -1175,6 +1765,58 @@
 												"Never allow your fear to gain mastery over you, but drive it into the hearts of your foes.",
 												"Punish insubordination and disorder.",
 												"Hone your combat skills to perfection, whether you are a mighty general or a lone mercenary."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Hextor when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Crushing those who would resist your rule",
+										"Demonstrating dominance on the field of battle",
+										"Punishing insubordination and disorder"
+									]
+								},
+								"Your piety score to Tharizdun decreases if you diminish Tharizdun's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Letting fear overcome you",
+										"Allowing those beneath your station to show you disrespect",
+										"Allowing your subordinates to question you",
+										"Publicly displaying weakness, mercy, or compassion"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Hextor's Devotee|WorldOfLight}",
+												"{@reward Hextor's Votary|WorldOfLight}",
+												"{@reward Hextor's Disciple|WorldOfLight}",
+												"{@reward Champion of The Iron Fortress|WorldOfLight}"
 											]
 										}
 									]
@@ -1264,6 +1906,57 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Vecna when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Keeping a secret despite personal cost, harm to society, or its potential to benefit others",
+										"Uncovering and abusing forbidden lore and black magic",
+										"Raising the dead to do your bidding"
+									]
+								},
+								"Your piety score to Vecna decreases if you diminish Vecna's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Revealing a secret that should remain unknown",
+										"Furthering the aims of another god or goddess",
+										"Destroying dark secrets or forbidden knowledge"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Vecna's Devotee|WorldOfLight}",
+												"{@reward Vecna's Votary|WorldOfLight}",
+												"{@reward Vecna's Disciple|WorldOfLight}",
+												"{@reward Champion of The Maimed|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -1342,6 +2035,57 @@
 												"Hide under the cloak of night, that your deeds might be kept in secret.",
 												"Kill in Zehir's name and offer each murder as a sacrifice.",
 												"Delight in poison, and surround yourself with snakes."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Zehir when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Keeping a secret despite personal cost, harm to society, or its potential to benefit others",
+										"Uncovering and abusing forbidden lore and black magic",
+										"Raising the dead to do your bidding"
+									]
+								},
+								"Your piety score to Zehir decreases if you diminish Zehir's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Revealing a secret that should remain unknown",
+										"Furthering the aims of another god or goddess",
+										"Destroying dark secrets or forbidden knowledge"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Zehir's Devotee|WorldOfLight}",
+												"{@reward Zehir's Votary|WorldOfLight}",
+												"{@reward Zehir's Disciple|WorldOfLight}",
+												"{@reward Champion of Samaragd|WorldOfLight}"
 											]
 										}
 									]
@@ -1429,6 +2173,60 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Gruumsh when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Killing elves",
+										"Taking vengeance against a powerful foe",
+										"Burning a city or other settlement to the ground",
+										"Desecrating a temple to Hextor, Corellon, or Lolth as an offering to Gruumsh"
+									]
+								},
+								"Your piety score to Gruumsh decreases if you diminish Gruumsh's influence in the world, contradict his ideals, or make him look weak or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Failing to carry out a sworn vendetta",
+										"Allowing another person to give you orders",
+										"Fleeing from combat",
+										"Aiding a goblinoid or followers of Corellon",
+										"Offering mercy to your foes"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Gruumsh's Devotee|WorldOfLight}",
+												"{@reward Gruumsh's Votary|WorldOfLight}",
+												"{@reward Gruumsh's Disciple|WorldOfLight}",
+												"{@reward Champion of Shargaas|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -1496,6 +2294,59 @@
 												"Misdirection, slander, and shadowed steps have more function than direct conflict.",
 												"It is better to be loved than feared, but you may certainly try to be both.",
 												"Death to the elves who live under the sun, and death to all their allies!"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Lolth when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Subjugating lesser creatures, such as men and surface elves, or sacrificing them to Lolth",
+										"Pulling off a daring robbery or perpetuating a bold lie",
+										"Obstructing champions of other gods",
+										"Desecrating temples to Corellon or Sehanine"
+									]
+								},
+								"Your piety score to Lolth decreases if you diminish Lolth's influence in the world, contradict her ideals, or make her look ridiculous or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Forthrightly assisting lawgivers in their duties",
+										"Swearing and then honoring an oath",
+										"Bringing order in times of chaos, except through domination and subjugation",
+										"Allowing men to hold positions of power"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Lolth's Devotee|WorldOfLight}",
+												"{@reward Lolth's Votary|WorldOfLight}",
+												"{@reward Lolth's Disciple|WorldOfLight}",
+												"{@reward Champion of The Demonweb|WorldOfLight}"
 											]
 										}
 									]
@@ -1589,6 +2440,57 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to The Raven Queen when you expand the goddess's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Overseeing burial rites for those slain during a tragedy",
+										"Ensuring that the deeds and knowledge of someone who has died are preserved",
+										"Slaying undead"
+									]
+								},
+								"Your piety score to The Raven Queen decreases if you diminish The Raven Queen's influence in the world, contradict her ideals, or make her look ridiculous or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Denying a dying person their final rites",
+										"Removing wealth from a corpse or defiling a tomb",
+										"Aiding those who seek to deny fate or escape from the afterlife, or who already have"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Raven Queen's Devotee|WorldOfLight}",
+												"{@reward Raven Queen's Votary|WorldOfLight}",
+												"{@reward Raven Queen's Disciple|WorldOfLight}",
+												"{@reward Champion of Letherna|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -1673,6 +2575,58 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Torog when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Imprisoning a powerful foe",
+										"Learning useful information through torture",
+										"Building or maintaining an underground temple to the King Who Crawls",
+										"Excavating for the purpose of expanding Torog's domain"
+									]
+								},
+								"Your piety score to Torog decreases if you diminish Torog's influence in the world, contradict his ideals, or make him look ridiculous or ineffectual through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Allowing a prisoner to go free",
+										"Soothing the pain of a creature in agony",
+										"Failing to pay homage to the King Who Crawls when traveling underground"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Torog's Devotee|WorldOfLight}",
+												"{@reward Torog's Votary|WorldOfLight}",
+												"{@reward Torog's Disciple|WorldOfLight}",
+												"{@reward Champion of The Darklands|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -1748,6 +2702,58 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to The Strangers when you expand the gods's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Supporting those who would reform or overturn institutions",
+										"Overthrowing a tyrant who threatens freedom",
+										"Taking bold action when others are indecisive",
+										"Creating or maintaining a roadside shrine to The Strangers"
+									]
+								},
+								"Your piety score to The Strangers decreases if you diminish The Strangers's influence in the world, contradict their ideals of gradual change, or attempt to impose artificial order through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Upholding an unjust or tyrannical institution",
+										"Abusing the goodwill of another",
+										"Hesitating in a moment of crisis"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Strangers's Devotee|WorldOfLight}",
+												"{@reward Strangers's Votary|WorldOfLight}",
+												"{@reward Strangers's Disciple|WorldOfLight}",
+												"{@reward Champion of Change and Chaos|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -1756,52 +2762,9 @@
 		},
 
 		{
-			"name": "Selûne",
-			"title": "Goddess of The Moons, Mystery and Shadows",
-			"altNames": [
-				"Sehanine",
-				"Mistress of the Moonbow"
-			],
-			"alignment": [
-				"N"
-			],
-			"province": "Moons, Mystery, Shadows and Love",
-			"pantheon": "Ilúvë",
-			"category": [
-				"The Evanur"
-			],
-			"domains": [
-				"Knowledge",
-				"Life",
-				"Light",
-				"Nature",
-				"Trickery",
-				"Twilight"
-			],
-			"symbol": "Full Moon",
-			"symbolImg": {
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "-"
-				}
-			},
-			"source": "WorldOfLight",
-			"entries": [
-				{
-					"type": "section",
-					"entries": [
-						"An ancient form of Sehanine, worshipped as the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and even Sehanine's afterlife still resides on an infinite sea with a single tower, named the Tower of Selûne.",
-						"During the time of the Hastilude, Selûne plays a pivotal role in the lives of many surface Drow, looking to be absolved of what their ancestors did in ages past."
-					]
-				}
-			]
-		},
-		{
 			"name": "Narallin",
 			"title": "God of Economics and Wealth",
 			"altNames": [
-				"Khe'stis",
 				"The Aureate Lord",
 				"The Gilded Broker"
 			],
@@ -1929,7 +2892,7 @@
 				"Madness",
 				"Trickery"
 			],
-			"symbol": "Burning black skull or Sickly gray four-pointed Star",
+			"symbol": "Burning black skull",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -1942,7 +2905,7 @@
 				{
 					"type": "section",
 					"entries": [
-						"Alkenstar is a deity shrouded in dread, a being of unfathomable darkness and despair. Revered with fearful whispers, Alkenstar represents the unsettling and malevolent aspects of existence: torture, death, darkness, and disease. In the history books of elven lore, Alkenstar is the embodiment of all that the elves once feared and could not comprehend.",
+						"Alkenstar is a deity shrouded in dread; a being of unfathomable darkness and despair. Revered with fearful whispers, Alkenstar represents the unsettling and malevolent aspects of existence: torture, death, darkness, and disease. In the history books of elven lore, Alkenstar is the embodiment of all that the elves once feared and could not comprehend.",
 						"The worship of Alkenstar is not one of devotion, but of fearful reverence. In ancient times, some elves turned to Alkenstar out of desperation, beseeching the deity for mercy or protection from the horrors of existence. Others sought to placate Alkenstar's wrath by offering sacrifices, hoping to avert the malevolent gaze of this enigmatic deity.",
 						"While Alkenstar is no longer widely worshipped among the elves, its legacy endures as a symbol of the deepest, darkest aspects of existence. It serves as a haunting reminder that in the ever-evolving tapestry of the cosmos, there are forces that defy understanding and challenge even the most resolute of faiths.",
 						{
@@ -7355,8 +8318,6 @@
 		},
 
 
-
-
 		{
 			"name": "Blessed Protector",
 			"source": "WorldOfLight",
@@ -7566,7 +8527,6 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
-
 
 
 		{
@@ -8485,10 +9445,9 @@
 			"name": "Arconic",
 			"source": "WorldOfLight",
 			"entries": [
-				"Arconic, a language spoken by the ancient and long-forgotten mages of Arcanix, is a dead tongue. Very few creatures in the world today would recognize it, much less speak it. Arconic used the Draconic alphabet in its written form, while the spoken language had many similarities with Sylvan, due to the Arcanixian mages being almost wholly comprised of Eladrin and High-Elves. A character who speaks Sylvan can understand what a creature speaking Arconic is saying, and vice versa. A character who has the {@background Cloistered Scholar|PHB} or {@background Sage|PHB} background, or a {@class warlock} who knows the {@optfeature Eyes of the Rune Keeper} invocation, can translate written Arconic without an ability check."
+				"Arconic (sometimes called Arcanixian), a language spoken by the ancient and long-forgotten mages of Arcanix, is a dead tongue. Very few creatures in the world today would recognize it, much less speak it. Arconic used the Draconic alphabet in its written form, while the spoken language had many similarities with Sylvan, due to the Arcanixian mages being almost wholly comprised of Eladrin and High-Elves. A character who speaks Sylvan can understand what a creature speaking Arconic is saying, and vice versa. A character who has the {@background Cloistered Scholar|PHB} or {@background Sage|PHB} background, or a {@class warlock} who knows the {@optfeature Eyes of the Rune Keeper} invocation, can translate written Arconic without an ability check."
 			],
-			"script": "Draconic",
-			"page": 0
+			"script": "Draconic"
 		}
 	],
 	"background": [

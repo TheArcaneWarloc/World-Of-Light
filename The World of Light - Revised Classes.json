@@ -674,6 +674,502 @@
 					"source": "WorldOfLightClasses"
 				}
 			]
+		},
+		{
+			"name": "Monk",
+			"source": "WorldOfLightClasses",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"weapons": [
+					"simple",
+					"{@item shortsword|phb|shortswords}"
+				],
+				"tools": [
+					"any one type of {@item artisan's tools|PHB} or any one {@item musical instrument|PHB} of your choice"
+				],
+				"toolProficiencies": [
+					{
+						"anyArtisansTool": 1
+					},
+					{
+						"anyMusicalInstrument": 1
+					}
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"acrobatics",
+								"athletics",
+								"history",
+								"insight",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
+					"10 {@item dart|phb|darts}"
+				],
+				"goldAlternative": "{@dice 5d4|5d4|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"shortsword|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponSimple"
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					},
+					{
+						"_": [
+							{
+								"item": "dart|phb",
+								"quantity": 10
+							}
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"weapons": [
+						"simple",
+						"{@item shortsword|phb|shortswords}"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Martial Arts",
+						"Ki Points",
+						"Unarmored Movement"
+					],
+					"rows": [
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							0,
+							{
+								"type": "bonusSpeed",
+								"value": 0
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							2,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							3,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 6
+									}
+								],
+								"rollable": true
+							},
+							4,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							5,
+							{
+								"type": "bonusSpeed",
+								"value": 10
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							6,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							7,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							8,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							9,
+							{
+								"type": "bonusSpeed",
+								"value": 15
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 8
+									}
+								],
+								"rollable": true
+							},
+							10,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							11,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							12,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							13,
+							{
+								"type": "bonusSpeed",
+								"value": 20
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							14,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							15,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 10
+									}
+								],
+								"rollable": true
+							},
+							16,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							17,
+							{
+								"type": "bonusSpeed",
+								"value": 25
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							18,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							19,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						],
+						[
+							{
+								"type": "dice",
+								"toRoll": [
+									{
+										"number": 1,
+										"faces": 12
+									}
+								],
+								"rollable": true
+							},
+							20,
+							{
+								"type": "bonusSpeed",
+								"value": 30
+							}
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Unarmored Defense|Monk|WorldOfLightClasses|1",
+				"Martial Arts|Monk|WorldOfLightClasses|1",
+				"Ki|Monk|WorldOfLightClasses|2",
+				"Dedicated Weapon|Monk|WorldOfLightClasses|2|TCE",
+				"Unarmored Movement|Monk|WorldOfLightClasses|2",
+				"Uncanny Discipline|Monk|WorldOfLightClasses|2",
+				"Deflect Attacks|Monk|WorldOfLightClasses|3",
+				{
+					"classFeature": "Monastic Tradition|Monk|WorldOfLightClasses|3",
+					"gainSubclassFeature": true
+				},
+				"Ki-Fueled Attack|Monk|WorldOfLightClasses|3|TCE",
+				"Ability Score Improvement|Monk|WorldOfLightClasses|4",
+				"Slow Fall|Monk|WorldOfLightClasses|4",
+				"Quickened Healing|Monk|WorldOfLightClasses|4|TCE",
+				"Extra Attack|Monk|WorldOfLightClasses|5",
+				"Stunning Strike|Monk|WorldOfLightClasses|5",
+				"Focused Aim|Monk|WorldOfLightClasses|5|TCE",
+				"Ki-Empowered Strikes|Monk|WorldOfLightClasses|6",
+				{
+					"classFeature": "Monastic Tradition feature|Monk|WorldOfLightClasses|6",
+					"gainSubclassFeature": true
+				},
+				"Evasion|Monk|WorldOfLightClasses|7",
+				"Stillness of Mind|Monk|WorldOfLightClasses|7",
+				"Ability Score Improvement|Monk|WorldOfLightClasses|8",
+				"Unarmored Movement improvement|Monk|WorldOfLightClasses|9",
+				"Purity of Body|Monk|WorldOfLightClasses|10",
+				"Heightened Discipline|Monk|WorldOfLightClasses|10",
+				{
+					"classFeature": "Monastic Tradition feature|Monk|WorldOfLightClasses|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Monk|WorldOfLightClasses|12",
+				"Tongue of the Sun and Moon|Monk|WorldOfLightClasses|13",
+				"Deflect Energy|Monk|WorldOfLightClasses|13",
+				"Diamond Soul|Monk|WorldOfLightClasses|14",
+				"Timeless Body|Monk|WorldOfLightClasses|15",
+				"Perfect Spirit|Monk|WorldOfLightClasses|15",
+				"Ability Score Improvement|Monk|WorldOfLightClasses|16",
+				{
+					"classFeature": "Monastic Tradition feature|Monk|WorldOfLightClasses|17",
+					"gainSubclassFeature": true
+				},
+				"Empty Body|Monk|WorldOfLightClasses|18",
+				"Ability Score Improvement|Monk|WorldOfLightClasses|19",
+				"Perfect Self|Monk|WorldOfLightClasses|20"
+			],
+			"subclassTitle": "Monastic Tradition",
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	],
 	"classFeature": [
@@ -1166,8 +1662,6 @@
 			]
 		},
 
-
-
 		{
 			"name": "Martial Arts",
 			"source": "WorldOfLightClasses",
@@ -1177,39 +1671,17 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 1,
 			"entries": [
-				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
-				"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
+				"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are {@item shortsword|phb|shortswords} and any {@filter simple melee weapons that don't have the two-handed or heavy property|items|source=phb|category=basic|type=simple weapon;melee weapon=sand|property=!heavy;!two-handed}.",
+				"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a {@item shield|phb}.",
 				{
 					"type": "list",
 					"items": [
-						"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
-						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
-						"When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+						"{@b Dextrous Attacks}. You can use Dexterity instead of Strength for the attack and damage rolls of your Unarmed Strikes and Monk Weapons. In addition, when you choose the Grapple or Shove option, you can use your Dexterity modifier instead of Strength to determine the saving throw DC.",
+						"{@b Martial Arts Die}. You can roll a d6 in place of the normal damage of your Unarmed Strike or Monk Weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk table.",
+						"{@b Swift Punch}. You can make one unarmed strike as a bonus action."
 					]
 				},
 				"Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama)."
-			]
-		},
-		{
-			"name": "Monk Weapons",
-			"source": "WorldOfLightClasses",
-			"page": 6,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 1,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 1st-level monk feature (enhances Martial Arts)}",
-				"You can use this feature to define your monk weapons, rather than using the definition in Martial Arts.",
-				"You practice your martial arts with specially chosen weapons, which become monk weapons for you. You can choose a number of weapons to be your monk weapons equal to 5 + your Wisdom modifier (minimum of five weapons). The chosen weapons must each meet the following criteria:",
-				{
-					"type": "list",
-					"items": [
-						"The weapon must be a simple or martial weapon.",
-						"You must be proficient with the weapon.",
-						"The weapon must lack these properties: heavy, special, or two-handed."
-					]
-				}
 			]
 		},
 		{
@@ -1226,7 +1698,7 @@
 		},
 		{
 			"name": "Dedicated Weapon",
-			"source": "WorldOfLightClasses",
+			"source": "TCE",
 			"page": 48,
 			"className": "Monk",
 			"classSource": "WorldOfLightClasses",
@@ -1239,11 +1711,22 @@
 				{
 					"type": "list",
 					"items": [
-						"The weapon must be a simple or martial weapon.",
+						"The weapon must be a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon|property=!heavy;!special}.",
 						"You must be proficient with it.",
 						"It must lack the heavy and special properties."
 					]
 				}
+			]
+		},
+		{
+			"name": "Uncanny Discipline",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"level": 2,
+			"entries": [
+				"When you roll Initiative, you can regain all expended Ki Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.",
+				"Once you use this feature, you can't use it again until you finish a Long Rest."
 			]
 		},
 		{
@@ -1259,7 +1742,7 @@
 				"name": "Ki"
 			},
 			"entries": [
-				"Immediately after you take the {@action Attack} action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+				"You can spend 1 ki point to make two unarmed strikes as a bonus action."
 			]
 		},
 		{
@@ -1302,46 +1785,6 @@
 			]
 		},
 		{
-			"name": "Ki Features",
-			"source": "WorldOfLightClasses",
-			"page": 6,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 2,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 2nd-level monk feature (enhances Ki)}",
-				"When you gain the Ki feature at 2nd level, you get access to the following features.",
-				{
-					"type": "entries",
-					"name": "Distant Eye",
-					"entries": [
-						"When you make a ranged weapon attack, you can spend 1 ki point to prevent attacking at long range from imposing disadvantage on your attack rolls until the end of the current turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Quickened Healing",
-					"entries": [
-						"As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled."
-					]
-				}
-			]
-		},
-		{
-			"name": "Ki-Fueled Strike",
-			"source": "WorldOfLightClasses",
-			"page": 6,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 2,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 2nd-level monk feature (enhances Ki)}",
-				"If you spend 1 ki or more as part of your action on your turn, you can then immediately make one unarmed strike as a bonus action."
-			]
-		},
-		{
 			"name": "Patient Defense",
 			"source": "WorldOfLightClasses",
 			"page": 76,
@@ -1354,7 +1797,7 @@
 				"name": "Ki"
 			},
 			"entries": [
-				"You can spend 1 ki point to take the {@action Dodge} action as a bonus action on your turn."
+				"You can take the {@action Disengage} action as a bonus action. Alternatively, you can spend 1 ki point to take both the {@action Disengage} and the {@action Dodge} actions as a bonus action."
 			]
 		},
 		{
@@ -1370,7 +1813,7 @@
 				"name": "Ki"
 			},
 			"entries": [
-				"You can spend 1 ki point to take the {@action Disengage} or {@action Dash} action as a bonus action on your turn, and your jump distance is doubled for the turn."
+				"You can take the {@action Dash} action as a bonus action. Alternatively, you can spend 1 ki point to take both the {@action Disengage} and {@action Dash} actions as a bonus action, and your jump distance is doubled for the turn."
 			]
 		},
 		{
@@ -1387,7 +1830,7 @@
 			]
 		},
 		{
-			"name": "Deflect Missiles",
+			"name": "Deflect Attacks",
 			"source": "WorldOfLightClasses",
 			"page": 76,
 			"srd": true,
@@ -1395,13 +1838,13 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 3,
 			"entries": [
-				"Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your monk level.",
-				"If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack."
+				"Starting at 3rd level, you can use your reaction to deflect deflect melee and ranged attacks against you that deal Bludgeoning, Piercing, or Slashing damage. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your monk level.",
+				"If you reduce the damage to 0, you can spend 1 ki point to redirect some of the attack's force. If you do so, choose a creature within 5 feet of you if the attack was a melee attack or 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack."
 			]
 		},
 		{
 			"name": "Ki-Fueled Attack",
-			"source": "WorldOfLightClasses",
+			"source": "TCE",
 			"page": 48,
 			"className": "Monk",
 			"classSource": "WorldOfLightClasses",
@@ -1438,27 +1881,17 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "WorldOfLightClasses",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 4,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 4th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
 			"name": "Quickened Healing",
-			"source": "WorldOfLightClasses",
+			"source": "TCE",
 			"page": 48,
 			"className": "Monk",
 			"classSource": "WorldOfLightClasses",
 			"level": 4,
 			"isClassFeatureVariant": true,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
 			"entries": [
 				"{@i 4th-level monk {@variantrule optional class features|tce|optional feature}}",
 				"As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus."
@@ -1490,7 +1923,7 @@
 		},
 		{
 			"name": "Focused Aim",
-			"source": "WorldOfLightClasses",
+			"source": "TCE",
 			"page": 48,
 			"className": "Monk",
 			"classSource": "WorldOfLightClasses",
@@ -1509,8 +1942,12 @@
 			"className": "Monk",
 			"classSource": "WorldOfLightClasses",
 			"level": 5,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
 			"entries": [
-				"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be {@condition stunned} until the end of your next turn."
+				"Starting at 5th level, once per turn when you hit a creature with a Monk Weapon or an Unarmed Strike, you can spend 1 ki point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the {@condition Stunned} condition until the start of your next turn. On a successful save, the target takes Force damage equal to a roll of your Martial Arts die plus your Wisdom modifier."
 			]
 		},
 		{
@@ -1522,7 +1959,8 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 6,
 			"entries": [
-				"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+				"Starting at 6th level, your Unarmed Strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+				"In addition, Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type."
 			]
 		},
 		{
@@ -1546,7 +1984,7 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 7,
 			"entries": [
-				"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a {@spell fireball} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+				"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a {@spell fireball} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. You don't benefit from this feature if you have the {@condition Incapacitated} condition."
 			]
 		},
 		{
@@ -1575,20 +2013,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "WorldOfLightClasses",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 8,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 8th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
 			"name": "Unarmored Movement improvement",
 			"source": "WorldOfLightClasses",
 			"page": 76,
@@ -1610,6 +2034,83 @@
 			"level": 10,
 			"entries": [
 				"At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison."
+			]
+		},
+		{
+			"name": "Heightened Discipline",
+			"source": "WorldOfLightClasses",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"level": 10,
+			"entries": [
+				"Your training has pushed your body and mind to new levels. Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Swift Flurry of Blows|Monk|WorldOfLightClasses|10"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Fortified Patient Defense|Monk|WorldOfLightClasses|10"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Abetting Step of the Wind|Monk|WorldOfLightClasses|10"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Swift Flurry of Blows",
+			"source": "WorldOfLightClasses",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"level": 10,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"You can spend 1 ki point to use Flurry of Blows and make three Unarmed Strikes with it instead of two."
+			]
+		},
+		{
+			"name": "Fortified Patient Defense",
+			"source": "WorldOfLightClasses",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"level": 10,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"When you spend a ki point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die."
+			]
+		},
+		{
+			"name": "Abetting Step of the Wind",
+			"source": "WorldOfLightClasses",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"level": 10,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"When you spend a ki point to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks."
 			]
 		},
 		{
@@ -1638,20 +2139,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "WorldOfLightClasses",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 12,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 12th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
 			"name": "Tongue of the Sun and Moon",
 			"source": "WorldOfLightClasses",
 			"page": 76,
@@ -1664,6 +2151,18 @@
 			]
 		},
 		{
+			"name": "Deflect Energy",
+			"source": "WorldOfLightClasses",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, you can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing."
+			]
+		},
+		{
 			"name": "Diamond Soul",
 			"source": "WorldOfLightClasses",
 			"page": 76,
@@ -1671,6 +2170,10 @@
 			"className": "Monk",
 			"classSource": "WorldOfLightClasses",
 			"level": 14,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
 			"entries": [
 				"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.",
 				"Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
@@ -1689,6 +2192,18 @@
 			]
 		},
 		{
+			"name": "Perfect Spirit",
+			"source": "WorldOfLightClasses",
+			"page": 76,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"level": 15,
+			"entries": [
+				"When you roll Initiative and have 3 ki points or fewer, you regain expended ki points until you have 4."
+			]
+		},
+		{
 			"name": "Ability Score Improvement",
 			"source": "WorldOfLightClasses",
 			"page": 76,
@@ -1699,20 +2214,6 @@
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Proficiency Versatility",
-			"source": "WorldOfLightClasses",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 16,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 16th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
 			]
 		},
 		{
@@ -1735,8 +2236,12 @@
 			"className": "Monk",
 			"classSource": "WorldOfLightClasses",
 			"level": 18,
+			"consumes": {
+				"name": "Ki",
+				"amount": 4
+			},
 			"entries": [
-				"Beginning at 18th level, you can use your action to spend 4 ki points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
+				"Beginning at 18th level, you can use your action to spend 4 ki points to become {@condition invisible} for 1 minute. During that time, you have resistance to all damage except Force damage.",
 				"Additionally, you can spend 8 ki points to cast the {@spell astral projection} spell, without needing material components. When you do so, you can't take any other creatures with you."
 			]
 		},
@@ -1754,20 +2259,6 @@
 			]
 		},
 		{
-			"name": "Proficiency Versatility",
-			"source": "WorldOfLightClasses",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "WorldOfLightClasses",
-			"level": 19,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 19th-level feature (enhances Ability Score Improvement)}",
-				"When you gain the Ability Score Improvement feature from your class, you can also replace one of your skill proficiencies with a skill proficiency offered by your class at 1st level (the proficiency you replace needn't be from the class).",
-				"This change represents one of your skills atrophying as you focus on a different skill."
-			]
-		},
-		{
 			"name": "Perfect Self",
 			"source": "WorldOfLightClasses",
 			"page": 76,
@@ -1776,7 +2267,7 @@
 			"classSource": "WorldOfLightClasses",
 			"level": 20,
 			"entries": [
-				"At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points."
+				"You have honed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4. Your maximum for those scores is now 26."
 			]
 		}
 	],
@@ -1949,6 +2440,269 @@
 				"Mighty Swarm|Ranger|WorldOfLightClasses|Swarmkeeper|WorldOfLightClasses|11",
 				"Swarming Dispersal|Ranger|WorldOfLightClasses|Swarmkeeper|WorldOfLightClasses|15"
 			]
+		},
+
+		{
+			"name": "Way of Shadow",
+			"shortName": "Shadow",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"minor illusion#c"
+						]
+					},
+					"innate": {
+						"3": {
+							"resource": {
+								"2": [
+									"darkness",
+									"darkvision",
+									"pass without trace",
+									"silence"
+								]
+							}
+						}
+					},
+					"resourceName": "Ki",
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"Way of Shadow|Monk|WorldOfLightClasses|Shadow||3",
+				"Shadow Step|Monk|WorldOfLightClasses|Shadow||6",
+				"Cloak of Shadows|Monk|WorldOfLightClasses|Shadow||11",
+				"Opportunist|Monk|WorldOfLightClasses|Shadow||17"
+			]
+		},
+		{
+			"name": "Way of the Four Elements",
+			"shortName": "Four Elements",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"spellcastingAbility": "wis",
+			"optionalfeatureProgression": [
+				{
+					"name": "Elemental Disciplines",
+					"featureType": [
+						"ED"
+					],
+					"progression": {
+						"3": 2,
+						"6": 3,
+						"11": 4,
+						"17": 5
+					},
+					"required": {
+						"3": [
+							"Elemental Attunement|PHB"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Four Elements|Monk|WorldOfLightClasses|Four Elements|PHB|3",
+				"Extra Elemental Discipline|Monk|WorldOfLightClasses|Four Elements|PHB|6",
+				"Extra Elemental Discipline|Monk|WorldOfLightClasses|Four Elements|PHB|11",
+				"Extra Elemental Discipline|Monk|WorldOfLightClasses|Four Elements|PHB|17"
+			]
+		},
+		{
+			"name": "Way of the Open Hand",
+			"shortName": "Open Hand",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"additionalSpells": [
+				{
+					"innate": {
+						"11": {
+							"daily": {
+								"1": [
+									"sanctuary"
+								]
+							}
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Open Hand|Monk|WorldOfLightClasses|Open Hand|WorldOfLightClasses|3",
+				"Wholeness of Body|Monk|WorldOfLightClasses|Open Hand|WorldOfLightClasses|6",
+				"Fleet Step|Monk|WorldOfLightClasses|Open Hand|WorldOfLightClasses|11",
+				"Quivering Palm|Monk|WorldOfLightClasses|Open Hand|WorldOfLightClasses|17"
+			]
+		},
+		{
+			"name": "Way of the Long Death",
+			"shortName": "Long Death",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"page": 130,
+			"subclassFeatures": [
+				"Way of the Long Death|Monk|WorldOfLightClasses|Long Death|SCAG|3",
+				"Hour of Reaping|Monk|WorldOfLightClasses|Long Death|SCAG|6",
+				"Mastery of Death|Monk|WorldOfLightClasses|Long Death|SCAG|11",
+				"Touch of the Long Death|Monk|WorldOfLightClasses|Long Death|SCAG|17"
+			]
+		},
+		{
+			"name": "Way of the Drunken Master",
+			"shortName": "Drunken Master",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"page": 33,
+			"subclassFeatures": [
+				"Way of the Drunken Master|Monk|WorldOfLightClasses|Drunken Master|XGE|3",
+				"Tipsy Sway|Monk|WorldOfLightClasses|Drunken Master|XGE|6",
+				"Drunkard's Luck|Monk|WorldOfLightClasses|Drunken Master|XGE|11",
+				"Intoxicated Frenzy|Monk|WorldOfLightClasses|Drunken Master|XGE|17"
+			]
+		},
+		{
+			"name": "Way of the Kensei",
+			"shortName": "Kensei",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"page": 34,
+			"subclassFeatures": [
+				"Way of the Kensei|Monk|WorldOfLightClasses|Kensei|XGE|3",
+				"One with the Blade|Monk|WorldOfLightClasses|Kensei|XGE|6",
+				"Sharpen the Blade|Monk|WorldOfLightClasses|Kensei|XGE|11",
+				"Unerring Accuracy|Monk|WorldOfLightClasses|Kensei|XGE|17"
+			]
+		},
+		{
+			"name": "Way of the Sun Soul",
+			"shortName": "Sun Soul",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"page": 35,
+			"otherSources": [
+				{
+					"source": "SCAG",
+					"page": 131
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"6": {
+							"resource": {
+								"2": [
+									"burning hands"
+								]
+							}
+						}
+					},
+					"resourceName": "Ki",
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"Way of the Sun Soul|Monk|WorldOfLightClasses|Sun Soul|XGE|3",
+				"Searing Arc Strike|Monk|WorldOfLightClasses|Sun Soul|XGE|6",
+				"Searing Sunburst|Monk|WorldOfLightClasses|Sun Soul|XGE|11",
+				"Sun Shield|Monk|WorldOfLightClasses|Sun Soul|XGE|17"
+			]
+		},
+		{
+			"name": "Way of Mercy",
+			"shortName": "Mercy",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"page": 49,
+			"subclassFeatures": [
+				"Way of Mercy|Monk|WorldOfLightClasses|Mercy|TCE|3",
+				"Physician's Touch|Monk|WorldOfLightClasses|Mercy|TCE|6",
+				"Flurry of Healing and Harm|Monk|WorldOfLightClasses|Mercy|TCE|11",
+				"Hand of Ultimate Mercy|Monk|WorldOfLightClasses|Mercy|TCE|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Way of the Astral Self",
+			"shortName": "Astral Self",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"page": 50,
+			"subclassFeatures": [
+				"Way of the Astral Self|Monk|WorldOfLightClasses|Astral Self|TCE|3",
+				"Visage of the Astral Self|Monk|WorldOfLightClasses|Astral Self|TCE|6",
+				"Body of the Astral Self|Monk|WorldOfLightClasses|Astral Self|TCE|11",
+				"Awakened Astral Self|Monk|WorldOfLightClasses|Astral Self|TCE|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Way of the Ascendant Dragon",
+			"shortName": "Ascendant Dragon",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"page": 13,
+			"subclassFeatures": [
+				"Way of the Ascendant Dragon|Monk|WorldOfLightClasses|Ascendant Dragon|FTD|3",
+				"Wings Unfurled|Monk|WorldOfLightClasses|Ascendant Dragon|FTD|6",
+				"Aspect of the Wyrm|Monk|WorldOfLightClasses|Ascendant Dragon|FTD|11",
+				"Ascendant Aspect|Monk|WorldOfLightClasses|Ascendant Dragon|FTD|17"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"name": "Way of Time",
+			"subclassFeatures": [
+				"Way of Time|Monk|WorldOfLightClasses|Time|WorldOfLightClasses|3",
+				"Speech of Importance|Monk|WorldOfLightClasses|Time|WorldOfLightClasses|6",
+				"Deliberated Clairvoyance|Monk|WorldOfLightClasses|Time|WorldOfLightClasses|11",
+				"Channeled Dilation|Monk|WorldOfLightClasses|Time|WorldOfLightClasses|17"
+			],
+			"source": "WorldOfLightClasses",
+			"shortName": "Time"
+		},
+		{
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"name": "Way of the Moon Soul",
+			"subclassFeatures": [
+				"Way of The Moon Soul|Monk|WorldOfLightClasses|Moon Soul|WorldOfLightClasses|3",
+				"Channeling The Night|Monk|WorldOfLightClasses|Moon Soul|WorldOfLightClasses|6",
+				"Starforger|Monk|WorldOfLightClasses|Moon Soul|WorldOfLightClasses|11",
+				"Lunar Eclipse|Monk|WorldOfLightClasses|Moon Soul|WorldOfLightClasses|17"
+			],
+			"subclassSpells": [
+				"Faerie Fire",
+				"Light",
+				"Moonbeam"
+			],
+			"source": "WorldOfLightClasses",
+			"shortName": "Moon Soul"
+		},
+		{
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"name": "Way of the Wild",
+			"subclassFeatures": [
+				"Way of the Wild|Monk|WorldOfLightClasses|Wild|WorldOfLightClasses|3",
+				"Touch of Thorns|Monk|WorldOfLightClasses|Wild|WorldOfLightClasses|6",
+				"Ancient Oak's Acumen|Monk|WorldOfLightClasses|Wild|WorldOfLightClasses|11",
+				"Wild Spirits|Monk|WorldOfLightClasses|Wild|WorldOfLightClasses|17"
+			],
+			"source": "WorldOfLightClasses",
+			"shortName": "Wild"
 		}
 	],
 	"subclassFeature": [
@@ -3482,6 +4236,1686 @@
 						}
 					]
 				}
+			]
+		},
+
+
+		{
+			"name": "Way of the Ascendant Dragon",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"entries": [
+				"The dragon god Bahamut is known to travel the Material Plane in the guise of a young monk, and legend says that he founded the first monastery of the Way of the Ascendant Dragon in this guise. The fundamental teaching of this tradition holds that by emulating dragons, a monk becomes a more integrated part of the world and its magic. By altering their spirit to resonate with draconic might, monks who follow this tradition augment their prowess in battle, bolster their allies, and can even soar through the air on draconic wings. But all this power is in service of a greater goal: achieving a spiritual unity with the essence of the Material Plane.",
+				"As a follower of the Way of the Ascendant Dragon, you decide how you unlocked the power of dragons within yourself. The Ascendant Dragon Origin table offers a number of possibilities.",
+				{
+					"type": "table",
+					"caption": "Ascendant Dragon Origin",
+					"colLabels": [
+						"d6",
+						"Origin"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"You honed your abilities by aligning your spirit with a dragon's world-altering power."
+						],
+						[
+							"2",
+							"A dragon personally took an active role in shaping your inner energy."
+						],
+						[
+							"3",
+							"You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction, or one that is devoted to a dragon god."
+						],
+						[
+							"4",
+							"You spent long stretches meditating in the region around an ancient dragon's lair, absorbing that lair's ambient magic."
+						],
+						[
+							"5",
+							"You found a scroll written in Draconic that contained inspiring new techniques."
+						],
+						[
+							"6",
+							"After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons."
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Disciple|Monk|WorldOfLightClasses|Ascendant Dragon|FTD|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Breath of the Dragon|Monk|WorldOfLightClasses|Ascendant Dragon|FTD|3"
+				}
+			]
+		},
+		{
+			"name": "Breath of the Dragon",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of the Ascendant Dragon feature}",
+				"You can channel destructive waves of energy, like those created by the dragons you emulate. When you take the {@action Attack} action on your turn, you can replace one of the attacks with an exhalation of draconic energy in either a 20-foot cone or a 30-foot line that is 5 feet wide (your choice). Choose a damage type: acid, cold, fire, lightning, or poison. Each creature in that area must make a Dexterity saving throw against your ki save DC, taking damage of the chosen type equal to two rolls of your Martial Arts die on a failed save, or half as much damage on a successful one.",
+				"At 11th level, the damage of this feature increases to three rolls of your Martial Arts die.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend 2 ki points to use this feature again."
+			]
+		},
+		{
+			"name": "Draconic Disciple",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of the Ascendant Dragon feature}",
+				"You can channel draconic power to magnify your presence and imbue your unarmed strikes with the essence of a dragon's breath. You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Draconic Presence",
+							"entry": "If you fail a Charisma ({@skill Intimidation}) or Charisma ({@skill Persuasion}) check, you can use your reaction to reroll the check, as you tap into the mighty presence of dragons. Once this feature turns a failure into a success, you can't use it again until you finish a long rest."
+						},
+						{
+							"type": "item",
+							"name": "Draconic Strike",
+							"entry": "When you damage a target with an unarmed strike, you can change the damage type to acid, cold, fire, lightning, or poison."
+						},
+						{
+							"type": "item",
+							"name": "Tongue of Dragons",
+							"entry": "You learn to speak, read, and write {@language Draconic} or one other language of your choice."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Wings Unfurled",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of the Ascendant Dragon feature}",
+				"When you use your Step of the Wind, you can unfurl spectral draconic wings from your back that vanish at the end of your turn. While the wings exist, you have a flying speed equal to your walking speed.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Aspect of the Wyrm",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of the Ascendant Dragon feature}",
+				"The power of your draconic spirit now radiates from you, warding your allies or inspiring fear in your enemies. As a bonus action, you can create an aura of draconic power that radiates 10 feet from you for 1 minute. For the duration, you gain one of the following effects of your choice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Frightful Presence",
+							"entry": "When you create this aura, and as a bonus action on subsequent turns, you can choose a creature within the aura. The target must succeed on a Wisdom saving throw against your ki save DC or become {@condition frightened} of you for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save."
+						},
+						{
+							"type": "item",
+							"name": "Resistance",
+							"entry": "Choose a damage type when you activate this aura: acid, cold, fire, lightning, or poison. You and your allies within the aura have resistance to that damage."
+						}
+					]
+				},
+				"Once you create this aura, you can't create it again until you finish a long rest, unless you expend 3 ki points to create it again."
+			]
+		},
+		{
+			"name": "Ascendant Aspect",
+			"source": "FTD",
+			"page": 13,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Ascendant Dragon",
+			"subclassSource": "FTD",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Way of the Ascendant Dragon feature}",
+				"Your draconic spirit reaches its peak. You gain the following benefits:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Augment Breath",
+							"entry": "When you use your Breath of the Dragon, you can spend 1 ki point to augment its shape and power. The exhalation of draconic energy becomes either a 60-foot cone or a 90-foot line that is 5 feet wide (your choice), and each creature in that area takes damage equal to four rolls of your Martial Arts die on a failed save, or half as much damage on a successful one."
+						},
+						{
+							"type": "item",
+							"name": "Blindsight",
+							"entry": "You gain {@sense blindsight} out to 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness. Moreover, you can see an {@condition invisible} creature within that range, unless the creature successfully hides from you."
+						},
+						{
+							"type": "item",
+							"name": "Explosive Fury",
+							"entry": "When you activate your Aspect of the Wyrm, draconic fury explodes from you. Choose any number of creatures you can see in your aura. Each of those creatures must succeed on a Dexterity saving throw against your ki save DC or take {@damage 3d10} acid, cold, fire, lightning, or poison damage (your choice)."
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"name": "Way of the Four Elements",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.",
+				"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Disciple of the Elements|Monk|WorldOfLightClasses|Four Elements||3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Elemental Disciplines|Monk|WorldOfLightClasses|Four Elements||3"
+				}
+			]
+		},
+		{
+			"name": "Disciple of the Elements",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
+				"You know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
+				"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
+				{
+					"type": "entries",
+					"name": "Casting Elemental Spells",
+					"entries": [
+						"Some elemental disciplines allow you to cast spells. See {@book chapter 10|PHB|10} of the Player's Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.",
+						"Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as {@spell burning hands} does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast {@spell burning hands}, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).",
+						"The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table. At 5th level, you may spend up to 3 ki points; this increases to 4 ki points at 9th level, 5 at 13th level, and 6 at 17th level.",
+						{
+							"type": "table",
+							"caption": "Spells and Ki Points",
+							"colLabels": [
+								"Monk Levels",
+								"Maximum Ki Points for a Spell"
+							],
+							"colStyles": [
+								"col-5 text-center",
+								"col-7 text-center"
+							],
+							"rows": [
+								[
+									"5th-8th",
+									3
+								],
+								[
+									"9th-12th",
+									4
+								],
+								[
+									"13th-16th",
+									5
+								],
+								[
+									"17th-20th",
+									6
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Disciplines",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The elemental disciplines are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline.",
+				{
+					"type": "options",
+					"count": 2,
+					"entries": [
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Breath of Winter",
+							"name": "Breath of Winter (17th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Clench of the North Wind",
+							"name": "Clench of the North Wind (6th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Elemental Attunement",
+							"data": {
+								"isRequiredOption": true
+							}
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Eternal Mountain Defense",
+							"name": "Eternal Mountain Defense (17th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Fangs of the Fire Snake"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Fist of Four Thunders"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Unbroken Air"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Flames of the Phoenix",
+							"name": "Flames of the Phoenix (11th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Gong of the Summit",
+							"name": "Gong of the Summit (6th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Mist Stance",
+							"name": "Mist Stance (11th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Ride the Wind",
+							"name": "Ride the Wind (11th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "River of Hungry Flame",
+							"name": "River of Hungry Flame (17th Level Required)"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Rush of the Gale Spirits"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Shape the Flowing River"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Sweeping Cinder Strike"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Water Whip"
+						},
+						{
+							"type": "refOptionalfeature",
+							"optionalfeature": "Wave of Rolling Earth",
+							"name": "Wave of Rolling Earth (17th Level Required)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Extra Elemental Discipline",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You learn one additional elemental discipline of your choice. You should know 2 elemental disciplines, as well as Elemental Attunement.",
+				"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+			]
+		},
+		{
+			"name": "Extra Elemental Discipline",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You learn one additional elemental discipline of your choice. You should know 3 elemental disciplines, as well as Elemental Attunement.",
+				"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+			]
+		},
+		{
+			"name": "Extra Elemental Discipline",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Four Elements",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.",
+				"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+			]
+		},
+
+		{
+			"name": "Way of the Open Hand",
+			"source": "WorldOfLightClasses",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Open Hand Technique|Monk|WorldOfLightClasses|Open Hand|WorldOfLightClasses|3"
+				}
+			]
+		},
+		{
+			"name": "Open Hand Technique",
+			"source": "WorldOfLightClasses",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Addle}. The target can't make Opportunity Attacks until the start of its next turn.",
+						"{@b Push}. The target must succeed on a Strength saving throw, or you push it up to 15 feet away from yourself.",
+						"{@b Topple}. The target must succeed on a Dexterity saving throw, or it has the {@condition Prone} condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wholeness of Body",
+			"source": "WorldOfLightClasses",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain the ability to heal yourself. As a bonus action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+			]
+		},
+		{
+			"name": "Fleet Step",
+			"source": "WorldOfLightClasses",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"You can easily stride out of harm's way. When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind as part of that Bonus Action."
+			]
+		},
+		{
+			"name": "Quivering Palm",
+			"source": "WorldOfLightClasses",
+			"page": 79,
+			"srd": true,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Open Hand",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 4
+			},
+			"entries": [
+				"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can spend 4 ki points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you use your action to end them. Alternatively, when you take the Attack action on your turn, you can replace one of the attacks with this action. To use this action, you and the target must be on the same plane of existence. When you use this action, the target must make a Constitution saving throw, taking {@damage 10d12} Force damage on a failed save or half as much damage on a successful one.",
+				"You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly without using an action."
+			]
+		},
+
+		{
+			"name": "Way of Shadow",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadowdancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadow Arts|Monk|WorldOfLightClasses|Shadow||3"
+				}
+			]
+		},
+		{
+			"name": "Shadow Arts",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast {@spell darkness}, {@spell darkvision}, {@spell pass without trace}, or {@spell silence}, without providing material components. Additionally, you gain the {@spell minor illusion} cantrip if you don't already know it."
+			]
+		},
+		{
+			"name": "Shadow Step",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+			]
+		},
+		{
+			"name": "Cloak of Shadows",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become {@condition invisible}. You remain {@condition invisible} until you make an attack, cast a spell, or are in an area of bright light."
+			]
+		},
+		{
+			"name": "Opportunist",
+			"source": "PHB",
+			"page": 80,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Shadow",
+			"subclassSource": "PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
+			]
+		},
+
+		{
+			"name": "Way of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Touch of Death|Monk|WorldOfLightClasses|Long Death|SCAG|3"
+				}
+			]
+		},
+		{
+			"name": "Touch of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this tradition at 3rd level, your study of death allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point)."
+			]
+		},
+		{
+			"name": "Hour of Reaping",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn."
+			]
+		},
+		{
+			"name": "Mastery of Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Beginning at 11th level, you use your familiarity with death to escape its grasp. When you are reduced to 0 hit points, you can expend 1 ki point (no action required) to have 1 hit point instead."
+			]
+		},
+		{
+			"name": "Touch of the Long Death",
+			"source": "SCAG",
+			"page": 130,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Long Death",
+			"subclassSource": "SCAG",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"Starting at 17th level, your touch can channel the energy of death into a creature. As an action, you touch one creature within 5 feet of you, and you expend 1 to 10 ki points. The target must make a Constitution saving throw, and it takes {@damage 2d10} necrotic damage per ki point spent on a failed save, or half as much damage on a successful one."
+			]
+		},
+
+		{
+			"name": "Way of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 3,
+			"entries": [
+				"A monk who follows the Way of the Astral Self believes their body is an illusion. They see their ki as a representation of their true form, an astral self. This astral self has the capacity to be a force of order or disorder, with some monasteries training students to use their power to protect the weak and other instructing aspirants in how to manifest their true selves in service to the mighty.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Forms of Your Astral Self|Monk|WorldOfLightClasses|Astral Self|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arms of the Astral Self|Monk|WorldOfLightClasses|Astral Self|TCE|3"
+				}
+			]
+		},
+		{
+			"name": "Arms of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3rd-level Way of the Astral Self feature}",
+				"Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.",
+				"For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms' appearance, and they vanish early if you are {@condition incapacitated} or die.",
+				"While the spectral arms are present, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.",
+						"You can use the spectral arms to make unarmed strikes.",
+						"When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.",
+						"The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force."
+					]
+				}
+			]
+		},
+		{
+			"name": "Forms of Your Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"type": "inset",
+			"entries": [
+				"The astral self is a translucent embodiment of the monk's soul. As a result, an astral self can reflect aspects of a monk's background, ideals, flaws, and bonds, and an astral self doesn't necessarily look anything like the monk. For example, the astral self of a lanky human might be reminiscent of a minotaur-the strength of which the monk feels within. Similarly, an orc monk might manifest gossamer arms and a delicate visage, representing the gentle beauty of the orc's soul. Each astral self is unique, and some of the monks of this monastic tradition are known more for the appearance of their astral self than for their physical appearance.",
+				"When choosing this path, consider the quirks that define your monk. Are you obsessed with something? Are you driven by justice or a selfish desire? Any of these motivations could manifest in the form of your astral self."
+			]
+		},
+		{
+			"name": "Visage of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 6th-level Way of the Astral Self feature}",
+				"You can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are {@condition incapacitated} or die.",
+				"The spectral visage covers your face like a helmet or mask. You determine its appearance.",
+				"While the spectral visage is present, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Astral Sight",
+					"entries": [
+						"You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wisdom of the Spirit",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Insight}) and Charisma ({@skill Intimidation}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Word of the Spirit",
+					"entries": [
+						"When you speak, you can direct your words to a creature of your choice that you can see within 60 feet of you, making it so only that creature can hear you. Alternatively, you can amplify your voice so that all creatures within 600 feet can hear you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Body of the Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of the Astral Self feature}",
+				"When you have both your astral arms and visage summoned, you can cause the body of your astral self to appear (no action required). This spectral body covers your physical form like a suit of armor, connecting with the arms and visage. You determine its appearance.",
+				"While the spectral body is present, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Deflect Energy",
+					"entries": [
+						"When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by {@dice 1d10} + your Wisdom modifier (minimum reduction of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empowered Arms",
+					"entries": [
+						"Once on each of your turns when you hit a target with the Arms of the Astral Self, you can deal extra damage to the target equal to your Martial Arts die."
+					]
+				}
+			]
+		},
+		{
+			"name": "Awakened Astral Self",
+			"source": "TCE",
+			"page": 50,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Astral Self",
+			"subclassSource": "TCE",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 5
+			},
+			"entries": [
+				"{@i 17th-level Way of the Astral Self feature}",
+				"Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are {@condition incapacitated} or die.",
+				"While your astral self is awakened, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Armor of the Spirit",
+					"entries": [
+						"You gain a +2 bonus to Armor Class."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Barrage",
+					"entries": [
+						"Whenever you use the Extra Attack feature to attack twice, you can instead attack three times if all the attacks are made with your astral arms."
+					]
+				}
+			]
+		},
+
+		{
+			"name": "Way of Mercy",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help, they bring a swift end as an act of mercy.",
+				"Those who follow the Way of Mercy might be members of a religious order, administering to the needy and making grim choices rooted in reality rather than idealism. Some might be gentle-voiced healers, beloved by their communities, while others might be masked bringers of macabre mercies.",
+				"The walkers of this way usually don robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Implements of Mercy|Monk|WorldOfLightClasses|Mercy|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hand of Healing|Monk|WorldOfLightClasses|Mercy|TCE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hand of Harm|Monk|WorldOfLightClasses|Mercy|TCE|3"
+				}
+			]
+		},
+		{
+			"name": "Hand of Harm",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3rd-level Way of Mercy feature}",
+				"You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this feature only once per turn."
+			]
+		},
+		{
+			"name": "Hand of Healing",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"{@i 3rd-level Way of Mercy feature}",
+				"Your mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier.",
+				"When you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending a ki point for the healing."
+			]
+		},
+		{
+			"name": "Implements of Mercy",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of Mercy feature}",
+				"You gain proficiency in the {@skill Insight} and {@skill Medicine} skills, and you gain proficiency with the {@item herbalism kit|PHB}.",
+				"You also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.",
+				{
+					"type": "table",
+					"caption": "Merciful Mask",
+					"colLabels": [
+						"d6",
+						"Mask Appearance"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Raven"
+						],
+						[
+							"2",
+							"Blank and white"
+						],
+						[
+							"3",
+							"Crying visage"
+						],
+						[
+							"4",
+							"Laughing visage"
+						],
+						[
+							"5",
+							"Skull"
+						],
+						[
+							"6",
+							"Butterfly"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Physician's Touch",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of Mercy feature}",
+				"You can administer even greater cures with a touch, and if you feel it's necessary, you can use your knowledge to cause harm.",
+				"When you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition poisoned}, or {@condition stunned}.",
+				"When you use Hand of Harm on a creature, you can subject that creature to the {@condition poisoned} condition until the end of your next turn."
+			]
+		},
+		{
+			"name": "Flurry of Healing and Harm",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of Mercy feature}",
+				"You can now mete out a flurry of comfort and hurt. When you use Flurry of Blows, you can now replace each of the unarmed strikes with a use of your Hand of Healing, without spending ki points for the healing.",
+				"In addition, when you make an unarmed strike with Flurry of Blows, you can use Hand of Harm with that strike without spending the ki point for Hand of Harm. You can still use Hand of Harm only once per turn."
+			]
+		},
+		{
+			"name": "Hand of Ultimate Mercy",
+			"source": "TCE",
+			"page": 49,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Mercy",
+			"subclassSource": "TCE",
+			"level": 17,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 5
+			},
+			"entries": [
+				"{@i 17th-level Way of Mercy feature}",
+				"Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to {@dice 4d10} + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition poisoned}, and {@condition stunned}.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+
+		{
+			"name": "Way of the Drunken Master",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"The Way of the Drunken Master teaches its students to move with the jerky, unpredictable movements of a drunkard. A drunken master sways, tottering on unsteady feet, to present what seems like an incompetent combatant who proves frustrating to engage. The drunken master's erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats.",
+				"A drunken master often enjoys playing the fool to bring gladness to the despondent or to demonstrate humility to the arrogant, but when battle is joined, the drunken master can be a maddening, masterful foe.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Monk|WorldOfLightClasses|Drunken Master|XGE|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drunken Technique|Monk|WorldOfLightClasses|Drunken Master|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this tradition at 3rd level, you gain proficiency in the {@skill Performance} skill if you don't already have it. Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency with {@item brewer's supplies|phb} if you don't already have it."
+			]
+		},
+		{
+			"name": "Drunken Technique",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the {@action Disengage} action, and your walking speed increases by 10 feet until the end of the current turn."
+			]
+		},
+		{
+			"name": "Tipsy Sway",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can move in sudden, swaying ways. You gain the following benefits.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Leap to Your Feet|Monk|WorldOfLightClasses|Drunken Master|XGE|6"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Redirect Attack|Monk|WorldOfLightClasses|Drunken Master|XGE|6"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drunkard's Luck",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"Starting at 11th level, you always seem to get a lucky bounce at the right moment. When you make an ability check, an attack roll, or a saving throw and have disadvantage on the roll, you can spend 2 ki points to cancel the disadvantage for that roll."
+			]
+		},
+		{
+			"name": "Intoxicated Frenzy",
+			"source": "XGE",
+			"page": 33,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you gain the ability to make an overwhelming number of attacks against a group of enemies. When you use your Flurry of Blows, you can make up to three additional attacks with it (up to a total of five Flurry of Blows attacks), provided that each Flurry of Blows attack targets a different creature this turn."
+			]
+		},
+
+		{
+			"name": "Way of the Kensei",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. Founded on a mastery of sword fighting, the tradition has expanded to include many different weapons.",
+				"A kensei sees a weapon in much the same way a calligrapher or painter regards a pen or brush. Whatever the weapon, the kensei views it as a tool used to express the beauty and precision of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Path of the Kensei|Monk|WorldOfLightClasses|Kensei|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Path of the Kensei",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this tradition at 3rd level, your special martial arts training leads you to master the use of certain weapons. This path also includes instruction in the deft strokes of calligraphy or painting. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Kensei Weapons",
+					"entries": [
+						"Choose two types of weapons to be your kensei weapons: one melee weapon and one ranged weapon. Each of these weapons can be any {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} that lacks the heavy and special properties. The longbow is also a valid choice. You gain proficiency with these weapons if you don't already have it. Weapons of the chosen types are monk weapons for you. Many of this tradition's features work only with your kensei weapons. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon\u2014either melee or ranged\u2014to be a kensei weapon for you, following the criteria above."
+					]
+				},
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Agile Parry|Monk|XGE|Kensei|XGE|3"
+						},
+						{
+							"type": "refSubclassFeature",
+							"subclassFeature": "Kensei's Shot|Monk|XGE|Kensei|XGE|3"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Way of the Brush",
+					"entries": [
+						"You gain proficiency with your choice of {@item calligrapher's supplies|phb} or {@item painter's supplies|phb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "One with the Blade",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you extend your ki into your kensei weapons, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Magic Kensei Weapons",
+					"entries": [
+						"Your attacks with your kensei weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deft Strike",
+					"entries": [
+						"When you hit a target with a kensei weapon, you can spend 1 ki point to cause the weapon to deal extra damage to the target equal to your Martial Arts die. You can use this feature only once on each of your turns."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sharpen the Blade",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"At 11th level, you gain the ability to augment your weapons further with your ki. As a bonus action, you can expend up to 3 ki points to grant one kensei weapon you touch a bonus to attack and damage rolls when you attack with it. The bonus equals the number of ki points you spent. This bonus lasts for 1 minute or until you use this feature again. This feature has no effect on a magic weapon that already has a bonus to attack and damage rolls."
+			]
+		},
+		{
+			"name": "Unerring Accuracy",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your mastery of weapons grants you extraordinary accuracy. If you miss with an attack roll using a monk weapon on your turn, you can reroll it. You can use this feature only once on each of your turns."
+			]
+		},
+
+		{
+			"name": "Way of the Sun Soul",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Sun Soul learn to channel their life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Sun Bolt|Monk|WorldOfLightClasses|Sun Soul|XGE|3"
+				}
+			]
+		},
+		{
+			"name": "Radiant Sun Bolt",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.",
+				"You gain a new attack option that you can use with the {@action Attack} action. The special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a {@dice d4}. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
+				"When you take the {@action Attack} action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action. When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the {@action Attack} action."
+			]
+		},
+		{
+			"name": "Searing Arc Strike",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 2
+			},
+			"entries": [
+				"At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the {@action Attack} action on your turn, you can spend 2 ki points to cast the {@spell burning hands} spell as a bonus action.",
+				"You can spend additional ki points to cast {@spell burning hands} as a higher-level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level."
+			]
+		},
+		{
+			"name": "Searing Sunburst",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.",
+				"Each creature in that 20-foot-radius sphere must succeed on a Constitution saving throw or take {@damage 2d6} radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.",
+				"You can increase the sphere's damage by spending ki points. Each point you spend, to a maximum of 3, increases the damage by {@dice 2d6}."
+			]
+		},
+		{
+			"name": "Sun Shield",
+			"source": "XGE",
+			"page": 35,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "XGE",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you become wreathed in a luminous, magical aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.",
+				"If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Leap to Your Feet",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 6,
+			"entries": [
+				"When you're {@condition prone}, you can stand up by spending 5 feet of movement, rather than half your speed."
+			]
+		},
+		{
+			"name": "Redirect Attack",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Drunken Master",
+			"subclassSource": "XGE",
+			"level": 6,
+			"consumes": {
+				"name": "Ki"
+			},
+			"entries": [
+				"When a creature misses you with a melee attack roll, you can spend 1 ki point as a reaction to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of you."
+			]
+		},
+		{
+			"name": "Agile Parry",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"If you make an unarmed strike as part of the {@action Attack} action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Kensei's Shot",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 3,
+			"entries": [
+				"You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra {@damage 1d4} damage of the weapon's type. You retain this benefit until the end of the current turn."
+			]
+		},
+
+		{
+			"name": "Way of Time",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Time",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The Chroniclers is among the oldest groups of Ilúvë, dedicated to recovering ancient accounts, as well as recording current events, which they call the 'Old Ways' or 'Elder Way'. Originally established as a group of inquisitive scribes and scholars, the Chroniclers have since been branded as conspirators and have gone into hiding. It is said they make their home on the Isle of Mystar, a strange magical island near the Gnomish Archipelago of The Isles.",
+				"Even though the Chronicles are thus extremely reclusive, members of the Order can usually be recognized by their distinctive clothing, from which they get the nickname 'grey cloaks' (though apparently, their garments are now of a pale yellow color). The Chroniclers are governed by a body known as the Council of Artaeum. The Council is led by a single scholar who can hold various titles, including Ritemaster and Loremaster.",
+				"It is widely know that The Red Tower, and, by proxy, The Unsorcerors, were created as a catalyst of the Chroniclers' disappearance, and had begun to develop in 2E 230, started by the right hand of the then-Loremaster, Archivist Dendur Bran.",
+				"The Chroniclers, to most unknown, also created a small off-shoot of their order, the \"Hand of Eon's Minute\". This order has, since the Chroniclers have gone into hiding, reinstated itself in Thalor Ancalen, near the Cloakwood Forest. The monks of this monastic order teach a modified \"Elder Way\", wherein they believe and teach that Ki energy is the vital way to unlocking the secrets of time.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mystic Timestopper|Monk|WorldOfLightClasses|Time|WorldOfLightClasses|3"
+				}
+			]
+		},
+		{
+			"name": "Mystic Timestopper",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Time",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of Time feature}",
+				"Beginning at 3rd level when choosing this tradition, immidiately after you use your unarmed strike, you can choose to move up to 10 feet away without expending any movement, as you momentarily stop time. This movement does not provoke an attack of opportunity.",
+				"You can use this ability twice, and you regain any expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Speech of Importance",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Time",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of Time feature}",
+				"Starting at 6th level, you gain the ability to discreetly talk to others, by stopping time for a brief moment.",
+				"As an action, you can communicate with any number of creatures you can see within 30 feet of you. When you do so, time stops for everyone except for you and the creature you are talking to. You and the creature must be able to understand eachother, and the creature must be able to speak at least one language.",
+				"To speak in this way, it requires concentration, as if concentrating on a spell. Whenever you do this, you and the creature cannot move, make attack rolls, cast spells or take any other actions beside talking. If the creature you want to talk to is unwilling to talk to you or is actively fighting you, this ability fails for them.",
+				"When you reach 13th level, and you can speak to them regardless of whether you share a language.",
+				"You can use this ability a number of times equal to your wisdom modifier. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Deliberated Clairvoyance",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Time",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of Time feature}",
+				"Starting at 11th level, the insight you have gained from the Order grants you vision of the spiritual world.",
+				"You can see into the ethereal plane out of a range of 30 feet, and can cast the {@spell detect magic} and {@spell identify} spells once per long rest each.",
+				"In addition, you gain darkvision out to a range of 30 feet, or increase it by 30 if you already have darkvision."
+			]
+		},
+		{
+			"name": "Channeled Dilation",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Time",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Way of Time feature}",
+				"Starting at 17th level, you gain the ability to step backwards or forwards in time, gaining special benefits for each.",
+				"As a bonus action on your turn, you can expend two ki points and jump backwards in time, regaining hit points equal to 1d6 + your wisdom modifier, and appearing 30 feet in any direction you can see.",
+				"Alternatively, as a bonus action on your turn, you can expend two ki points to jump forwards in time, gaining resistance to force damage until the end of your next turn, and 30 feet extra movement."
+			]
+		},
+
+		{
+			"name": "Way of The Moon Soul",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Moon Soul",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of The Moon Soul are strong, capable warriors, who use their style of fighting to unleash powerful attacks. Their stoic nature keeps them in a calm state of constant meditation, allowing them to be unflappable in the face of danger.",
+				"Unlike the Way of The Sun Soul, they are more defensive and fight in the front lines, focussing all their efforts to take down one enemy at a time. They will also attempt to avoid conflict if possible, but aren't afraid to get their hands dirty.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fist of The New Moon|Monk|WorldOfLightClasses|Moon Soul|WorldOfLightClasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Path of Illumination|Monk|WorldOfLightClasses|Moon Soul|WorldOfLightClasses|3"
+				}
+			]
+		},
+		{
+			"name": "Fist of The New Moon",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Moon Soul",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of The Moon Soul feature}",
+				"Starting when you choose this tradition at 3rd level, you can catch enemies off guard with a powerful opening strike.",
+				"You have advantage on initiative rolls, and you have advantage on attack rolls against creatures that haven't taken a turn in combat yet.",
+				"In addition, the first creature you hit during combat with one of your unarmed strikes takes an extra {@dice 1d10} radiant damage. Once you've used this ability, you can't do so again until you've rolled initiative, had a short rest or a long rest. This damage increases as you gain monk levels\u2014to {@dice 2d10} at 5th level, {@dice 3d10} at 11th level, and {@dice 4d10} at 17th level."
+			]
+		},
+		{
+			"name": "Path of Illumination",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Moon Soul",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of The Moon Soul feature}",
+				"Also at 3rd level when you choose this tradition, you can cast the {@spell light} cantrip at will, requiring no components. The light is a special light however; it sheds moonlight instead of normal light.",
+				"In addition, you either gain darkvision out to a range of 30 feet (if you don't have any), or increase it by 30 feet."
+			]
+		},
+		{
+			"name": "Channeling The Night",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Moon Soul",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of The Moon Soul feature}",
+				"Starting at 6th level, your innate connection to the power of the night sky deepens, allowing you to draw upon this connection to unleash a devastating surge of celestial energy.",
+				"You gain the ability to cast the {@spell Moonbeam}, {@spell Faerie Fire} and {@spell Guiding Bolt} spells once per short or long rest each.",
+				"Your spellcasting ability for these spells is Wisdom."
+			]
+		},
+		{
+			"name": "Starforger",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Moon Soul",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of The Moon Soul feature}",
+				"At 11th level, you gain the ability to summon small celestial comets from the heavens. As an action you can magically summon small comets in a 20-foot-radius sphere at a point within 60 feet of you. Every creature hostile to you in that 20-foot-radius sphere must succeed on a Dexterity saving throw or take {@dice 4d12} radiant damage. Any allies (which you designate when you use this ability) within that same radius instead heal the same amount rolled. A creature doesn't need to make the save if it has total {@quickref cover|PHB|3|1} from above.",
+				"You can use this feature a number of times equal to your proficiency bonus per long rest.",
+				"In addition, you no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as meditating, reading or keeping watch."
+			]
+		},
+		{
+			"name": "Lunar Eclipse",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Moon Soul",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Way of The Moon Soul feature}",
+				"At 17th level, you can call upon the might of both moons. As a bonus action, you can expend 4 ki points to enter into a lunar trance, for 1 minute. While in a lunar trance, your eye color changes to the colors of the two moons, and you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+						"You become immune to radiant damage.",
+						"Each of your melee weapon attacks deals an additional {@dice 2d6} radiant damage."
+					]
+				},
+				"After using this feature, you must finish a short or long rest before you can do so again.",
+				"In addition, you no longer provoke opportunity attacks when you move out of an enemy's reach."
+			]
+		},
+
+		{
+			"name": "Way of the Wild",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Wild",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Wild are rare, and almost all of them have a different background and way of fighting.",
+				"Unlike most Monks, these monks have more in common with Druids or Rangers, and most Rangers might dip into this subclass for close-quarters combat.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tranquil as the Forest|Monk|WorldOfLightClasses|Wild|WorldOfLightClasses|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reclusive Mind|Monk|WorldOfLightClasses|Wild|WorldOfLightClasses|3"
+				}
+			]
+		},
+		{
+			"name": "Tranquil as the Forest",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Wild",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of The Wild feature}",
+				"Due to your connection with nature and the forces that bind it, your Mystical touch can heal wounds. Starting at 3rd level, you have a pool of magical healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your monk level × 10.",
+				"As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in the pool.",
+				"Instead of healing the creature, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Healing Hands, expending hit points separately for each one.",
+				"When you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature.",
+				"This feature has no effect on undead and constructs."
+			]
+		},
+		{
+			"name": "Reclusive Mind",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Wild",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Way of The Wild feature}",
+				"Whether by will of a larger order or by your own personal training, you hone your disciplines by spending extended periods of time in the wild. Choose one bonus Proficiency from: {@skill Animal Handling}, {@skill Nature} or {@skill Survival}."
+			]
+		},
+		{
+			"name": "Touch of Thorns",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Wild",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Way of The Wild feature}",
+				"Starting 6th Level, you gain the ability to manipulate plants into deadly thorns.",
+				"You gain the ability to cast the {@spell Thorn Whip} Cantrip. In addition, you can also spend 3 ki points to cast the {@spell Spike Growth} spell.",
+				"Wisdom is your Spellcasting ability for these spells."
+			]
+		},
+		{
+			"name": "Ancient Oak's Acumen",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Wild",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"{@i 11th-level Way of The Wild feature}",
+				"Starting at 11th level your attunement with nature has expanded your senses. Your meditations in the forest have taught you to recognize the flow of ki through all creatures, regardless of origin. You can direct your attacks towards an enemy's ki which are invisible to other beings and most other monks: You can use Wisdom instead of Dexterity for the Attack and Damage Rolls for your unarmed strikes, with which you then deal psychic damage."
+			]
+		},
+		{
+			"name": "Wild Spirits",
+			"source": "WorldOfLightClasses",
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Wild",
+			"subclassSource": "WorldOfLightClasses",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Way of The Wild feature}",
+				"At 17th Level, you uncover the ability to enhance your allies using the power of the Spirits of Nature.",
+				"When you are below half of your total hit points, all allies within 30ft of you gain to-hit and damage bonuses equal to your Wisdom Modifier."
 			]
 		}
 	]
