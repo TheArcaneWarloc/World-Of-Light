@@ -2269,6 +2269,20 @@
 			"entries": [
 				"You have honed your body and mind to new heights. At 20th level, your Dexterity and Wisdom scores increase by 4. Your maximum for those scores is now 26."
 			]
+		},
+
+		{
+			"name": "Master of Magic",
+			"source": "WorldOfLightClasses",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"isClassFeatureVariant": true,
+			"level": 20,
+			"entries": [
+				"{@i 20th-level Wizard {@variantrule optional class features|tce|optional feature}}}",
+				"At 20th level, your knowledge of magic allows you to duplicate almost any spell. As a bonus action, you can call to mind the ability to cast one spell of your choice from any class’s spell list. The spell must be of a level for which you have spell slots, you mustn’t have it prepared, and you follow the normal rules for casting it, including expending a spell slot. If the spell isn’t a wizard spell, it counts as a wizard spell when you cast it. The ability to cast the spell vanishes from your mind when you cast it or when the current turn ends.",
+				"You can’t use this feature again until you finish a long rest."
+			]
 		}
 	],
 	"subclass": [
