@@ -7356,6 +7356,124 @@
 			]
 		},
 		{
+			"name": "Galerum's Gavel",
+			"source": "TheLandsBetween",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a cerulean stone, an amethyst or a blue meteorite shard"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You conjure a massive magical gavel and slam it down upon a creature within 5 feet of you. Make a melee spell attack against the target. On a hit, the target takes {@damage 4d12} force damage.",
+				"Whether the attack hits or misses, every creature other than you within 10 feet of the target (including the target) must make a Dexterity saving throw as a magical shockwave emerges from the hammer's point of impact. A target takes {@damage 4d6} force damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by {@scaledice 4d12|3-9|1d12} and the damage of the shockwave increases by {@scaledice 4d6|3-9|1d6} for each slot level above 3rd."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/eldenring/images/7/7d/ER_Icon_Spell_Gavel_of_Haima.png"
+						}
+					}
+				],
+				"entries": [
+					"Magic developed by Galerum, the sentient hat."
+				]
+			},
+			"hasFluffImages": true,
+			"hasFluff": true,
+			"miscTags": [
+				"SCL"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Transfer Enchantment",
 			"level": 4,
 			"school": "E",
