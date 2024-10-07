@@ -7357,7 +7357,7 @@
 		},
 		{
 			"name": "Galerum's Gavel",
-			"source": "TheLandsBetween",
+			"source": "WorldOfLight",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -7385,7 +7385,7 @@
 			],
 			"entries": [
 				"You conjure a massive magical gavel and slam it down upon a creature within 5 feet of you. Make a melee spell attack against the target. On a hit, the target takes {@damage 4d12} force damage.",
-				"Whether the attack hits or misses, every creature other than you within 10 feet of the target (including the target) must make a Dexterity saving throw as a magical shockwave emerges from the hammer's point of impact. A target takes {@damage 4d6} force damage on a failed save, or half as much damage on a successful one."
+				"Whether the attack hits or misses, every creature (other than you) within 10 feet of the target (including the target) must make a Dexterity saving throw as a magical shockwave emerges from the hammer's point of impact. A target takes {@damage 4d6} force damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
