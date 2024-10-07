@@ -5,7 +5,7 @@
 				"json": "WorldOfLight",
 				"abbreviation": "WOL",
 				"full": "The World of Light: Player's Guide",
-				"color": "219855",
+				"color": "709963",
 				"authors": [
 					"Arcane"
 				],
@@ -9852,7 +9852,7 @@
 				}
 			],
 			"entries": [
-				"You can cast the {@spell Major Image} at will, without expending a spell slot or material components."
+				"You can cast the {@spell Major Image} spell at will, without expending a spell slot or material components."
 			]
 		},
 		{
@@ -9862,7 +9862,7 @@
 				"EI"
 			],
 			"entries": [
-				"When you cast Friends, you can choose whether the creature realizes you used magic to influence its mood or not."
+				"When you cast the {@spell Friends} spell, you can choose whether the creature realizes you used magic to influence its mood or not."
 			]
 		},
 		{
@@ -9874,7 +9874,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light."
+				"You can use {@action Two-Weapon Fighting|XPHB} even when the one-handed melee weapons you are wielding aren't light."
 			]
 		}
 	],
@@ -9883,7 +9883,7 @@
 			"name": "Dying",
 			"source": "WorldOfLight",
 			"entries": [
-				"Whenever you are reduced to 0 hit points, you fall {@condition prone} and gain this condition. At the start of your turn, you have to make a Death Saving Throw (this functions like normal). On your turn, you can only use your action, bonus action or move action. Once you use one of these actions, your turn ends.",
+				"Whenever you are reduced to 0 hit points, you fall {@condition prone} and gain this condition. At the start of your turn, you have to make a Death Saving Throw (this functions like normal). On your turn, you can only use your {@variantrule Action|XPHB}, {@variantrule Bonus Action|XPHB} or move action. Once you use one of these actions, your turn ends.",
 				"If you use your action on your turn, you take a cumulative -3 penalty to all your d20 rolls. If you use your bonus action on your turn, you take a cumulative -1 penalty to all your d20 rolls. If you use your reaction while you are {@condition dying}, you take a cumulative -1 penalty to all your d20 rolls. While you have this condition, you cannot use any of your actions to stand up from being {@condition prone}.",
 				"If you take {@variantrule Massive Damage} (or, in the case your DM doesn't use {@variantrule Massive Damage}, if you take half or more of your hit points in damage that results in reducing you to zero), you do not gain this condition and instead become {@condition unconscious} like normal."
 			]
