@@ -9631,36 +9631,85 @@
 		{
 			"name": "Gardener",
 			"source": "WorldOfLight",
+			"edition": "one",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"str",
+								"wis"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"con",
+								"str",
+								"wis"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"feats": [
+				{
+					"skilled|xphb": true
+				}
+			],
 			"skillProficiencies": [
 				{
-					"nature": true,
-					"arcana": true
+					"arcana": true,
+					"nature": true
 				}
 			],
 			"toolProficiencies": [
 				{
-					"herbalism kit": true,
-					"gardener's tools|WorldOfLight": true
+					"gardener's tools": true
 				}
 			],
 			"startingEquipment": [
 				{
-					"_": [
+					"a": [
 						{
-							"equipmentType": "Gardener's Tools|WorldOfLight"
+							"item": "dagger|xphb"
 						},
 						{
-							"special": "small {@item pouch|phb|pouches} with a random assortment of common garden seeds",
+							"item": "shovel|xphb"
+						},
+						{
+							"item": "gardener's tools|WorldOfLight"
+						},
+						{
+							"item": "book|xphb"
+						},
+						{
+							"item": "pouch|xphb",
 							"quantity": 3
 						},
-						"shovel|phb",
 						{
-							"special": "book about herbology"
+							"item": "traveler's clothes|xphb"
 						},
-						"common clothes|phb",
 						{
-							"item": "pouch|phb",
-							"containsValue": 1000
+							"value": 700
+						}
+					],
+					"b": [
+						{
+							"value": 5000
 						}
 					]
 				}
@@ -9672,30 +9721,30 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Skill Proficiencies:",
-							"entry": "{@skill Nature}, {@skill Arcana}"
+							"name": "Ability Scores:",
+							"entry": "Constitution, Strength, Wisdom"
 						},
 						{
 							"type": "item",
-							"name": "Tool Proficiencies:",
-							"entry": "{@item Herbalism kit|phb} and {@item Gardener's Tools|WorldOfLight}"
+							"name": "Feat:",
+							"entry": "{@feat Skilled|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "{@skill Arcana|XPHB}, {@skill Nature|XPHB}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "{@item Gardener's Tools|WorldOfLight}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "One set of {@item Gardener's Tools|WorldOfLight}, 3 small {@item pouch|phb|pouches} with a random assortment of common garden seeds, a {@item shovel|phb}, a book about herbology, a set of {@item common clothes|phb} and a belt {@item pouch|phb} containing 10 gp"
+							"entry": "Choose A or B: (A) {@item Dagger|XPHB}, {@item Shovel|XPHB}, {@item Gardener's Tools|WorldOfLight}, {@item Book|XPHB} (nature), 3 {@item Pouch|XPHB|Pouches} containing various seeds, {@item Traveler's Clothes|XPHB}, 7 GP; or (B) 50 GP"
 						}
 					]
-				},
-				{
-					"name": "Feature: Green Thumb",
-					"type": "entries",
-					"entries": [
-						"Your weather beaten skin and dirt stained, callused hands mark you as someone who understands what it is to labour in the soil in all weathers. You can talk confidently with the common folk of the world about plants, the seasons and soil. Wherever things are cultivated and grown be it a farm, vineyard or herbgarden your knowledge and appearance ensure that you are greeted without suspicion and offered basic aid if needed."
-					],
-					"data": {
-						"isFeature": true
-					}
 				}
 			]
 		},
