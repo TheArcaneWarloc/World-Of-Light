@@ -5682,15 +5682,14 @@
 				"type": "point",
 				"distance": {
 					"type": "feet",
-					"amount": 30
+					"amount": 60
 				}
 			},
 			"components": {
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "A small pile of ash, a diamond worth at least 200 gp and a broken horn",
-					"cost": 200
+					"text": "A small pile of ash and a broken horn"
 				}
 			},
 			"duration": [
@@ -5721,9 +5720,10 @@
 			},
 			"source": "WorldOfLight",
 			"entries": [
-				"This spell transforms you or a creature you touch into a new form. The transformation lasts for the duration, or until you drop to 0 hit points or die. The new form can be any beast, dragon, elemental, giant, monstrosity, ooze, or plant whose challenge rating is equal to or less than your current level. Your game statistics, including mental ability scores, are replaced by the statistics of the chosen creature. You retain your alignment and personality.",
-				"You assume the hit points of your new form. When you revert to your normal form, you return to the number of hit points you had before you transformed. If you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious. You are limited in the actions you can perform by nature of your new form, and you can't speak, cast spells, or take any other action that requires hands or speech unless your new form is naturally capable of doing so.",
-				"If the new form doesn't wield equipment then your gear melds into the new form. You can't activate, use wield, or otherwise benefit from any of your equipment. If the new form is one that normally wields equipment then your gear transforms into the new form's standard equipment, as determined by the DM."
+				"You attempt to transform a you or a creature that you can see within range into a new form. The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any {@filter Beast|bestiary|type=beast|miscellaneous=!swarm}, {@filter Dragon|bestiary|type=dragon|miscellaneous=!swarm}, {@filter Elemental|bestiary|type=elemental|miscellaneous=!swarm}, {@filter Giant|bestiary|type=giant|miscellaneous=!swarm}, {@filter Monstrosity|bestiary|type=monstrosity|miscellaneous=!swarm}, {@filter Ooze|bestiary|type=ooze|miscellaneous=!swarm}, or {@filter Plant|bestiary|type=plant|miscellaneous=!swarm} you choose that has a {@variantrule Challenge Rating|XPHB} equal to or less than the target's (or the target's level if it doesn't have a {@variantrule Challenge Rating|XPHB}). The target's game statistics, including mental ability scores, are replaced by the stat block of the chosen creature. The target retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}.",
+				"The target gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. The spell ends early on the target if it has no {@variantrule Temporary Hit Points|XPHB} left.",
+				"The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.",
+				"The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment."
 			]
 		},
 		{
