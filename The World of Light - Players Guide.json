@@ -3278,6 +3278,17 @@
 					"spellcasting": true
 				}
 			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"int",
+							"cha"
+						]
+					}
+				}
+			],
 			"entries": [
 				"Through your repeated exposure of the natural flow of arcane magic throughout Ilúvë, you've adapted to attune with additional enchantments, though the process can by physically taxing. You gain the following benefits:",
 				{
@@ -10039,6 +10050,43 @@
 				"{@i Piety 50+ Erestem trait}",
 				"You've scoured for everything you can learn about the universe. You feel your mind expand. Increase either your wisdom or your intelligence ability score by 2, and its maximum by 2."
 			]
+		},
+
+		{
+			"name": "Strangers's Devotee",
+			"source": "WorldOfLight",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 3+ The Strangers trait}",
+				"As a devotee of The Strangers, you have proven yourself an agent of chaos and change. You can call on their blessing and cast the {@spell disguise self} spell with this trait. While the spell is active, your shadow still resembles your original form. You can cast the spell in this way a number of times equal to your Charisma, Intelligence or Wisdom modifier (your choice, minimum of once). You regain all expended uses when you finish a long rest. You can choose from Charisma, Intelligence and Wisdom for your spellcasting ability for this spell."
+			]
+		},
+		{
+			"name": "Strangers's Votary",
+			"source": "WorldOfLight",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 10+ The Strangers trait}",
+				"Your mind is as mutable as the flip of a coin. You can cast the {@spell bless} and {@spell bane} spells with this trait, requiring no components. Once you cast either spell in this way, you can’t do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Strangers's Disciple",
+			"source": "WorldOfLight",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 25+ The Strangers trait}",
+				"Your connection to The Strangers gives you momentary bouts of insight into the randomness of the universe. When you roll a 1 on the {@dice d20} of a {@variantrule D20 Test|XPHB}, you can reroll the die, and you must use the new roll."
+			]
+		},
+		{
+			"name": "Champion of Change and Chaos",
+			"source": "WorldOfLight",
+			"type": "Piety Trait",
+			"entries": [
+				"{@i Piety 50+ The Strangers trait}",
+				"You can increase your Strength, Dexterity, Constitution, Intelligence, Wisdom or Charisma score by 2 and also increase your maximum for that score by 2."
+			]
 		}
 	],
 	"optionalfeature": [
@@ -10081,7 +10129,7 @@
 				"FS:R"
 			],
 			"entries": [
-				"You can use {@action Two-Weapon Fighting|XPHB} even when the one-handed melee weapons you are wielding aren't light."
+				"You can use {@action Two-Weapon Fighting|XPHB} even when the one-handed melee weapons you are wielding don't have the light property."
 			]
 		}
 	],
