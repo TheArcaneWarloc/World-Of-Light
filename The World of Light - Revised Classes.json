@@ -16,666 +16,6 @@
 	},
 	"class": [
 		{
-			"name": "Ranger",
-			"source": "WorldOfLightClasses",
-			"hd": {
-				"number": 1,
-				"faces": 10
-			},
-			"proficiency": [
-				"str",
-				"dex"
-			],
-			"spellcastingAbility": "wis",
-			"casterProgression": "1/2",
-			"spellsKnownProgression": [
-				0,
-				2,
-				3,
-				3,
-				4,
-				4,
-				5,
-				5,
-				6,
-				6,
-				7,
-				7,
-				8,
-				8,
-				9,
-				9,
-				10,
-				10,
-				11,
-				11
-			],
-			"startingProficiencies": {
-				"armor": [
-					"light",
-					"medium",
-					"shields"
-				],
-				"weapons": [
-					"simple",
-					"martial"
-				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"Animal Handling",
-								"Athletics",
-								"Insight",
-								"Investigation",
-								"Nature",
-								"Perception",
-								"Stealth",
-								"Survival"
-							],
-							"count": 3
-						}
-					}
-				]
-			},
-			"multiclassing": {
-				"requirements": {
-					"dex": 13,
-					"wis": 13
-				},
-				"proficienciesGained": {
-					"armor": [
-						"light",
-						"medium",
-						"{@item shield|PHB|shields}"
-					],
-					"skills": [
-						{
-							"choose": {
-								"from": [
-									"animal handling",
-									"athletics",
-									"insight",
-									"investigation",
-									"nature",
-									"perception",
-									"stealth",
-									"survival"
-								],
-								"count": 1
-							}
-						}
-					],
-					"weapons": [
-						"simple",
-						"martial"
-					]
-				}
-			},
-			"classTableGroups": [
-				{
-					"colLabels": [
-						"{@filter Spells Known|spells|class=ranger}"
-					],
-					"rows": [
-						[
-							0
-						],
-						[
-							2
-						],
-						[
-							3
-						],
-						[
-							3
-						],
-						[
-							4
-						],
-						[
-							4
-						],
-						[
-							5
-						],
-						[
-							5
-						],
-						[
-							6
-						],
-						[
-							6
-						],
-						[
-							7
-						],
-						[
-							7
-						],
-						[
-							8
-						],
-						[
-							8
-						],
-						[
-							9
-						],
-						[
-							9
-						],
-						[
-							10
-						],
-						[
-							10
-						],
-						[
-							11
-						],
-						[
-							11
-						]
-					]
-				},
-				{
-					"title": "Spell Slots per Spell Level",
-					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Ranger}",
-						"{@filter 2nd|spells|level=2|class=Ranger}",
-						"{@filter 3rd|spells|level=3|class=Ranger}",
-						"{@filter 4th|spells|level=4|class=Ranger}",
-						"{@filter 5th|spells|level=5|class=Ranger}"
-					],
-					"rows": [
-						[
-							0,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							2,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							3,
-							0,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							2,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							0,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							2,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							0,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							1,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							2,
-							0
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							1
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2
-						],
-						[
-							4,
-							3,
-							3,
-							3,
-							2
-						]
-					]
-				}
-			],
-			"startingEquipment": {
-				"additionalFromBackground": true,
-				"default": [
-					"(a) {@item scale mail|PHB} or (b) {@item leather armor|PHB}",
-					"(a) two {@item shortsword|PHB|shortswords} or (b) two {@filter simple melee weapons|items|source=PHB|category=basic|type=simple weapon;melee weapon=&}",
-					"(a) a {@item dungeoneer's pack|PHB} or (b) an {@item explorer's pack|PHB}",
-					"A {@item longbow|PHB} and a {@item quiver|PHB} of {@item arrows (20)|PHB|20 arrows}"
-				],
-				"goldAlternative": "{@dice 5d4×10|5d4 × 10|Starting Gold}"
-			},
-			"classFeatures": [
-				"Favored Enemy|Ranger|WorldOfLightClasses|1",
-				"Favored Foe|Ranger|WorldOfLightClasses|1",
-				"Natural Explorer|Ranger|WorldOfLightClasses|1",
-				"Deft Explorer|Ranger|WorldOfLightClasses|1",
-				"Fighting Style|Ranger|WorldOfLightClasses|2",
-				"Spellcasting|Ranger|WorldOfLightClasses|2",
-				"Spellcasting Focus|Ranger|WorldOfLightClasses|2",
-				{
-					"classFeature": "Ranger Conclave|Ranger|WorldOfLightClasses|3",
-					"gainSubclassFeature": true
-				},
-				"Primeval Awareness|Ranger|WorldOfLightClasses|3",
-				"Primal Awareness|Ranger|WorldOfLightClasses|3",
-				"Ability Score Improvement|Ranger|WorldOfLightClasses|4",
-				"Martial Versatility|Ranger|WorldOfLightClasses|4",
-				{
-					"classFeature": "Ranger Conclave feature|Ranger|WorldOfLightClasses|5",
-					"gainSubclassFeature": true
-				},
-				"Greater Favored Enemy|Ranger|WorldOfLightClasses|6",
-				"Deft Explorer Improvement|Ranger|WorldOfLightClasses|6",
-				{
-					"classFeature": "Ranger Conclave feature|Ranger|WorldOfLightClasses|7",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Ranger|WorldOfLightClasses|8",
-				"Evasion|Ranger|WorldOfLightClasses|8",
-				"Nature's Veil|Ranger|WorldOfLightClasses|10",
-				"Deft Explorer Improvement|Ranger|WorldOfLightClasses|10",
-				{
-					"classFeature": "Ranger Conclave feature|Ranger|WorldOfLightClasses|11",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Ranger|WorldOfLightClasses|12",
-				"Vanish|Ranger|WorldOfLightClasses|14",
-				{
-					"classFeature": "Ranger Conclave feature|Ranger|WorldOfLightClasses|15",
-					"gainSubclassFeature": true
-				},
-				"Ability Score Improvement|Ranger|WorldOfLightClasses|16",
-				"Feral Senses|Ranger|WorldOfLightClasses|18",
-				"Ability Score Improvement|Ranger|WorldOfLightClasses|19",
-				"Foe Slayer|Ranger|WorldOfLightClasses|20"
-			],
-			"subclassTitle": "Ranger Conclave",
-			"fluff": [
-				{
-					"entries": [
-						"Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.",
-						"After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon's thick scales.",
-						"Holding his hand high, a half-elf whistles to the hawk that circles high above him, calling the bird back to his side. Whispering instructions in Elvish, he points to the owlbear he's been tracking and sends the hawk to distract the creature while he readies his bow.",
-						"Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.",
-						{
-							"type": "entries",
-							"name": "Deadly Hunters",
-							"entries": [
-								"Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization\u2014humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.",
-								"Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature's power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger's talents and abilities are honed with deadly focus on the grim task of protecting the borderlands."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Independent Adventurers",
-							"entries": [
-								"Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger's true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. In some places, rangers gather in secretive orders or join forces with druidic circles. Many rangers, though, are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first\u2014and possibly the last\u2014line of defense.",
-								"This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization's foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Creating a Ranger",
-							"entries": [
-								"As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger's ways? Did you leave your apprenticeship, or was your mentor slain\u2014perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
-								"What's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?",
-								{
-									"type": "entries",
-									"name": "Quick Build",
-									"entries": [
-										"You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the {@background outlander} background."
-									]
-								}
-							]
-						}
-					],
-					"source": "WorldOfLightClasses"
-				},
-				{
-					"entries": [
-						{
-							"type": "quote",
-							"entries": [
-								"I spend a lot of my life away from civilization, keeping to its fringes to protect it. Don't assume that because I don't bend the knee to your Emperor that I haven't done more to protect him than all his knights put together."
-							],
-							"by": "Gallen Greensleeve"
-						},
-						"Rangers are free-minded wanderers and seekers who patrol the edges of civilized territory, turning back the denizens of the wild lands beyond. It is a thankless job, since their efforts are rarely understood and almost never rewarded. Yet rangers persist in their duties, never doubting that their work makes the world a safer place.",
-						"A relationship with civilization informs every ranger's personality and history. Some rangers see themselves as enforcers of the law and bringers of justice on civilization's frontier, answering to no sovereign power. Others are survivalists who eschew civilization altogether. They vanquish monsters to keep themselves safe while they live in and travel through the perilous wild areas of the world. If their efforts also benefit the kingdoms and other civilized realms that they avoid, so be it.",
-						"If you're creating or playing a ranger character, the following sections offer ideas for embellishing the character and enhancing your roleplaying experience.",
-						{
-							"type": "entries",
-							"name": "View of the World",
-							"entries": [
-								"A ranger's view of the world begins (and sometimes ends) with that character's outlook toward civilized folk and the places they occupy. Some rangers have an attitude toward civilization that's deeply rooted in disdain, while others pity the people they have sworn to protect\u2014though on the battlefield, it's impossible to tell the difference between one ranger and another. Indeed, to those who have seen them operate and been the beneficiaries of their prowess, it scarcely matters why rangers do what they do. That said, no two rangers are likely to express their opinions on any matter in the same way.",
-								"If you haven't yet thought about the details of your character's worldview, consider putting a finer point on things by summarizing that viewpoint in a short statement (such as the entries on the following table). How might that feeling affect the way you conduct yourself?",
-								{
-									"type": "table",
-									"caption": "View of the World",
-									"colLabels": [
-										"{@dice d6}",
-										"View"
-									],
-									"colStyles": [
-										"col-1 text-align-center",
-										"col-11"
-									],
-									"rows": [
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 1
-												}
-											},
-											"Towns and cities are the best places for those who can't survive on their own."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 2
-												}
-											},
-											"The advancement of civilization is the best way to thwart chaos, but its reach must be monitored."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 3
-												}
-											},
-											"Towns and cities are a necessary evil, but once the wilderness is purged of supernatural threats, we will need them no more."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 4
-												}
-											},
-											"Walls are for cowards, who huddle behind them while others do the work of making the world safe."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 5
-												}
-											},
-											"Visiting a town is not unpleasant, but after a few days I feel the irresistible call to return to the wild."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 6
-												}
-											},
-											"Cities breed weakness by isolating folk from the harsh lessons of the wild."
-										]
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Homelands",
-							"entries": [
-								"All rangers, regardless of how they came to take up the profession, have a strong connection to the natural world and its various terrains. For some rangers, the wilderness is where they grew up, either as a result of being born there or moving there at a young age. For other rangers, civilization was originally home, but the wilderness became a second homeland.",
-								"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your favored enemies are?",
-								{
-									"type": "table",
-									"caption": "Homelands",
-									"colLabels": [
-										"{@dice d6}",
-										"Homeland"
-									],
-									"colStyles": [
-										"col-1 text-align-center",
-										"col-11"
-									],
-									"rows": [
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 1
-												}
-											},
-											"You patrolled an ancient forest, darkened and corrupted by several crossings to the Shadowfell."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 2
-												}
-											},
-											"As part of a group of nomads, you acquired the skills for surviving in the desert."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 3
-												}
-											},
-											"Your early life in the Underdark prepared you for the challenges of combating its denizens."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 4
-												}
-											},
-											"You dwelled on the edge of a swamp, in an area imperiled by land creatures as well as aquatic ones."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 5
-												}
-											},
-											"Because you grew up among the peaks, finding the best path through the mountains is second nature to you."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 6
-												}
-											},
-											"You wandered the far north, learning how to protect yourself and prosper in a realm overrun by ice."
-										]
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Sworn Enemy",
-							"entries": [
-								"Every ranger begins with a favored enemy (or two). The determination of a favored enemy might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
-								"What spurred your character to select a particular enemy? Was the choice made because of tradition or curiosity, or do you have a grudge to settle?",
-								{
-									"type": "table",
-									"caption": "Sworn Enemies",
-									"colLabels": [
-										"{@dice d6}",
-										"Enemy"
-									],
-									"colStyles": [
-										"col-1 text-align-center",
-										"col-11"
-									],
-									"rows": [
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 1
-												}
-											},
-											"You seek revenge on nature's behalf for the great transgressions your foe has committed."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 2
-												}
-											},
-											"Your forebears or predecessors fought these creatures, and so shall you."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 3
-												}
-											},
-											"You bear no enmity toward your foe. You stalk such creatures as a hunter tracks down a wild animal."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 4
-												}
-											},
-											"You find your foe fascinating, and you collect books of tales and history concerning it."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 5
-												}
-											},
-											"You collect tokens of your fallen enemies to remind you of each kill."
-										],
-										[
-											{
-												"type": "cell",
-												"roll": {
-													"exact": 6
-												}
-											},
-											"You respect your chosen enemy, and you see your battles as a test of respective skills."
-										]
-									]
-								}
-							]
-						}
-					],
-					"source": "WorldOfLightClasses"
-				}
-			]
-		},
-		{
 			"name": "Monk",
 			"source": "WorldOfLightClasses",
 			"hd": {
@@ -1170,498 +510,514 @@
 			"subclassTitle": "Monastic Tradition",
 			"hasFluff": true,
 			"hasFluffImages": true
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Favored Enemy",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 1,
-			"entries": [
-				"Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.",
-				"Choose a type of favored enemy: {@filter beasts|bestiary|type=beast}, {@filter fey|bestiary|type=fey}, {@filter humanoids|bestiary|type=humanoid}, {@filter monstrosities|bestiary|type=monstrosity}, or {@filter undead|bestiary|type=undead}. You gain a +2 bonus to damage rolls with weapon attacks against creatures of the chosen type. Additionally, you have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
-				"When you gain this feature, you also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn."
-			]
 		},
+
 		{
-			"name": "Favored Foe",
+			"name": "Ranger",
 			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"isClassFeatureVariant": true,
-			"level": 1,
-			"entries": [
-				"{@i 1st-level ranger {@variantrule optional class features|tce|optional feature}}, which works with the Foe Slayer feature}",
-				"When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).",
-				"The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by {@dice 1d4}.",
-				"You can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-				"This feature's extra damage increases when you reach certain levels in this class: to {@dice 1d6} at 6th level and to {@dice 1d8} at 14th level."
-			]
-		},
-		{
-			"name": "Natural Explorer",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 1,
-			"entries": [
-				"You are a master of navigating the natural world, and you react with swift and decisive action when attacked. This grants you the following benefits:",
+			"edition": "one",
+			"primaryAbility": [
 				{
-					"type": "list",
-					"items": [
-						"You ignore difficult terrain.",
-						"You have advantage on initiative rolls.",
-						"On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted."
-					]
-				},
-				"In addition, you are skilled at navigating the wilderness. You gain the following benefits when traveling for an hour or more:",
-				{
-					"type": "list",
-					"items": [
-						"Difficult terrain doesn't slow your group's travel.",
-						"Your group can't become lost except by magical means.",
-						"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
-						"If you are traveling alone, you can move stealthily at a normal pace.",
-						"When you forage, you find twice as much food as you normally would.",
-						"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
-					]
+					"dex": true,
+					"wis": true
 				}
-			]
-		},
-		{
-			"name": "Deft Explorer",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 1,
-			"isClassFeatureVariant": true,
-			"entries": [
-				"{@i 1st-level ranger {@variantrule optional class features|tce|optional feature}}",
-				"You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.",
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"spellcastingAbility": "wis",
+			"casterProgression": "artificer",
+			"preparedSpellsProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				6,
+				7,
+				7,
+				9,
+				9,
+				10,
+				10,
+				11,
+				11,
+				12,
+				12,
+				14,
+				14,
+				15,
+				15
+			],
+			"preparedSpellsChange": "restLong",
+			"additionalSpells": [
 				{
-					"name": "Canny",
-					"type": "entries",
-					"entries": [
-						"Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.",
-						"You can also speak, read, and write two additional languages of your choice."
-					]
+					"prepared": {
+						"1": [
+							"hunter's mark|xphb"
+						]
+					}
 				}
-			]
-		},
-		{
-			"name": "Fighting Style",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 2,
-			"entries": [
-				"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+			],
+			"featProgression": [
 				{
-					"type": "options",
-					"entries": [
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Archery"
-						},
-						{
-							"type": "entries",
-							"name": "Blind Fighting",
-							"entries": [
-								"You have {@sense blindsight} with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness. Moreover, you can see an {@condition invisible} creature within that range, unless the creature successfully hides from you."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Close Quarters Shooter",
-							"entries": [
-								"When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks."
-							]
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Defense"
-						},
-						{
-							"type": "entries",
-							"name": "Druidic Warrior",
-							"entries": [
-								"You learn two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list."
-							]
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Dueling"
-						},
-						{
-							"type": "entries",
-							"name": "Mariner",
-							"entries": [
-								"As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Tunnel Fighter",
-							"entries": [
-								"As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Thrown Weapon Fighting",
-							"entries": [
-								"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-								"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
-							]
-						},
-						{
-							"type": "refOptionalfeature",
-							"optionalfeature": "Two-Weapon Fighting"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Spellcasting",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 2,
-			"entries": [
-				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See {@book chapter 10|WorldOfLightClasses|10} for the general rules of spellcasting and chapter 11 for the {@filter ranger spell list|spells|class=ranger}.",
-				{
-					"type": "entries",
-					"name": "Spell Slots",
-					"entries": [
-						"The Ranger table shows how many spell slots you have to cast your {@filter ranger spells|spells|class=ranger} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"For example, if you know the 1st-level spell {@spell animal friendship} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell animal friendship} using either slot."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spells Known of 1st Level and Higher",
-					"entries": [
-						"You know two 1st-level spells of your choice from the ranger spell list.",
-						"The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
-						"Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting Ability",
-					"entries": [
-						"Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.",
-						{
-							"type": "abilityDc",
-							"name": "Spell",
-							"attributes": [
-								"wis"
-							]
-						},
-						{
-							"type": "abilityAttackMod",
-							"name": "Spell",
-							"attributes": [
-								"wis"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Spellcasting Focus",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"isClassFeatureVariant": true,
-			"level": 2,
-			"entries": [
-				"{@i 2nd-level ranger {@variantrule optional class features|tce|optional feature}}",
-				"You can use a {@item druidic focus|PHB} as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals."
-			]
-		},
-		{
-			"name": "Primeval Awareness",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 3,
-			"entries": [
-				"Beginning at 3rd level, your mastery of ranger lore allows you to establish a powerful link to beasts and to the land around you.",
-				"You have an innate ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast as an action, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs (such as food or safety), and actions you can take (if any) to persuade it to not attack.",
-				"You cannot use this ability against a creature that you have attacked within the past 10 minutes.",
-				"Additionally, you can attune your senses to determine if any of your favored enemies lurk nearby. By spending 1 uninterrupted minute in concentration (as if you were concentrating on a spell), you can sense whether any of your favored enemies are present within 5 miles of you. This feature reveals which of your favored enemies are present, their numbers, and the creatures' general direction and distance (in miles) from you.",
-				"If there are multiple groups of your favored enemies within range, you learn this information for each group."
-			]
-		},
-		{
-			"name": "Primal Awareness",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"isClassFeatureVariant": true,
-			"level": 3,
-			"entries": [
-				"{@i 3rd-level ranger {@variantrule optional class features|tce|optional feature}}",
-				"You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.",
-				{
-					"type": "table",
-					"caption": "Primal Awareness Spells",
-					"colLabels": [
-						"Ranger Level",
-						"Spell"
+					"name": "Fighting Style",
+					"category": [
+						"FS",
+						"FS:R"
 					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
+					"progression": {
+						"2": 1
+					}
+				},
+				{
+					"name": "Epic Boon",
+					"category": [
+						"EB"
+					],
+					"progression": {
+						"19": 1
+					}
+				}
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shield"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"animal handling",
+								"athletics",
+								"insight",
+								"investigation",
+								"nature",
+								"perception",
+								"stealth",
+								"survival"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"defaultData": [
+					{
+						"A": [
+							{
+								"item": "studded leather armor|xphb"
+							},
+							{
+								"item": "scimitar|xphb"
+							},
+							{
+								"item": "shortsword|xphb"
+							},
+							{
+								"item": "longbow|xphb"
+							},
+							{
+								"item": "arrows (20)|xphb"
+							},
+							{
+								"item": "quiver|xphb"
+							},
+							{
+								"item": "sprig of mistletoe|xphb"
+							},
+							{
+								"item": "explorer's pack|xphb"
+							},
+							{
+								"value": 700
+							}
+						],
+						"B": [
+							{
+								"value": 15000
+							}
+						]
+					}
+				],
+				"entries": [
+					"{@i Choose A or B:} (A) {@item Studded Leather Armor|XPHB}, {@item Scimitar|XPHB}, {@item Shortsword|XPHB}, {@item Longbow|XPHB}, {@item Arrows (20)|XPHB|20 Arrows}, {@item Quiver|XPHB}, {@item Druidic Focus|XPHB} ({@item sprig of mistletoe|XPHB}), {@item Explorer's Pack|XPHB}, and 7 GP; or (B) 150 GP"
+				]
+			},
+			"multiclassing": {
+				"proficienciesGained": {
+					"weapons": [
+						"martial"
+					],
+					"armor": [
+						"light",
+						"medium",
+						"shield"
+					],
+					"skills": [
+						{
+							"choose": {
+								"from": [
+									"animal handling",
+									"athletics",
+									"insight",
+									"investigation",
+									"nature",
+									"perception",
+									"stealth",
+									"survival"
+								],
+								"count": 1
+							}
+						}
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Hunter's Resolve"
 					],
 					"rows": [
 						[
-							"3rd",
-							"{@spell speak with animals}"
+							2
 						],
 						[
-							"5th",
-							"{@spell beast sense}"
+							2
 						],
 						[
-							"9th",
-							"{@spell speak with plants}"
+							2
 						],
 						[
-							"13th",
-							"{@spell locate creature}"
+							2
 						],
 						[
-							"17th",
-							"{@spell commune with nature}"
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
 						]
 					]
 				},
-				"You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest."
-			]
-		},
-		{
-			"name": "Ranger Conclave",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 3,
-			"entries": [
-				"At 3rd level, you choose to emulate the ideals and training of a ranger conclave from the list of available conclaves. Your choice grants you features at 3rd level and again at 5th, 7th, 11th, and 15th level."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 4,
-			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Martial Versatility",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"isClassFeatureVariant": true,
-			"level": 4,
-			"entries": [
-				"{@i 4th-level ranger {@variantrule optional class features|tce|optional feature}}",
-				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice."
-			]
-		},
-		{
-			"name": "Ranger Conclave feature",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 5,
-			"entries": [
-				"At 5th level, you gain a feature granted to you by your Ranger Conclave."
-			]
-		},
-		{
-			"name": "Greater Favored Enemy",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 6,
-			"entries": [
-				"At 6th level, you are ready to hunt even deadlier game. Choose a type of greater favored enemy: {@filter aberrations|bestiary|type=aberration}, {@filter celestials|bestiary|type=celestial}, {@filter constructs|bestiary|type=construct}, {@filter dragons|bestiary|type=dragon}, {@filter elementals|bestiary|type=elemental}, {@filter fiends|bestiary|type=fiend}, or {@filter giants|bestiary|type=giant}. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language. Your bonus to damage rolls against all your favored enemies increases to +4.",
-				"Additionally, you have advantage on saving throws against the spells and abilities used by a greater favored enemy."
-			]
-		},
-		{
-			"name": "Deft Explorer Improvement",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"isClassFeatureVariant": true,
-			"level": 6,
-			"entries": [
-				"You gain an additional benefit when you reach 6th level in this class.",
 				{
-					"type": "entries",
-					"name": "Roving",
-					"entries": [
-						"Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed."
+					"colLabels": [
+						"Prepared Spells"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							9
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							12
+						],
+						[
+							14
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							15
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=ranger}",
+						"{@filter 2nd|spells|level=2|class=ranger}",
+						"{@filter 3rd|spells|level=3|class=ranger}",
+						"{@filter 4th|spells|level=4|class=ranger}",
+						"{@filter 5th|spells|level=5|class=ranger}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
 					]
 				}
-			]
-		},
-		{
-			"name": "Ranger Conclave feature",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 7,
-			"entries": [
-				"At 7th level, you gain a feature granted to you by your Ranger Conclave."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 8,
-			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Evasion",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 8,
-			"entries": [
-				"Beginning at 8th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
-			]
-		},
-		{
-			"name": "Nature's Veil",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 10,
-			"entries": [
-				"You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become {@condition invisible}, along with any equipment you are wearing or carrying, until the start of your next turn.",
-				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-			]
-		},
-		{
-			"name": "Deft Explorer Improvement",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"isClassFeatureVariant": true,
-			"level": 10,
-			"entries": [
-				"You gain an additional benefit when you reach 10th level in this class.",
+			],
+			"classFeatures": [
+				"Spellcasting|Ranger|WorldOfLightClasses|1",
+				"Favored Enemy|Ranger|WorldOfLightClasses|1",
+				"Natural Explorer|Ranger|WorldOfLightClasses|1",
+				"Weapon Mastery|Ranger|WorldOfLightClasses|1",
+				"Deft Explorer|Ranger|WorldOfLightClasses|2",
+				"Fighting Style|Ranger|WorldOfLightClasses|2",
 				{
-					"type": "entries",
-					"name": "Tireless",
-					"entries": [
-						"As an action, you can give yourself a number of temporary hit points equal to {@dice 1d8} + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-						"In addition, whenever you finish a short rest, your {@condition exhaustion} level, if any, is decreased by 1."
-					]
-				}
-			]
-		},
-		{
-			"name": "Ranger Conclave feature",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 11,
-			"entries": [
-				"At 11th level, you gain a feature granted to you by your Ranger Conclave."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 12,
-			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Vanish",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 14,
-			"entries": [
-				"Starting at 14th level, you can use the {@action Hide} action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
-			]
-		},
-		{
-			"name": "Ranger Conclave feature",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 15,
-			"entries": [
-				"At 15th level, you gain a feature granted to you by your Ranger Conclave."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 16,
-			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Feral Senses",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 18,
-			"entries": [
-				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any {@condition invisible} creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't {@condition blinded} or {@condition deafened}."
-			]
-		},
-		{
-			"name": "Ability Score Improvement",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 19,
-			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
-			]
-		},
-		{
-			"name": "Foe Slayer",
-			"source": "WorldOfLightClasses",
-			"className": "Ranger",
-			"classSource": "WorldOfLightClasses",
-			"level": 20,
-			"entries": [
-				"At 20th level, you become an unparalleled hunter. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
-			]
-		},
-
+					"classFeature": "Ranger Subclass|Ranger|WorldOfLightClasses|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WorldOfLightClasses|4",
+				"Extra Attack|Ranger|WorldOfLightClasses|5",
+				"Roving|Ranger|WorldOfLightClasses|6",
+				{
+					"classFeature": "Subclass Feature|Ranger|WorldOfLightClasses|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WorldOfLightClasses|8",
+				"Expertise|Ranger|WorldOfLightClasses|9",
+				"Tireless|Ranger|WorldOfLightClasses|10",
+				{
+					"classFeature": "Subclass Feature|Ranger|WorldOfLightClasses|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WorldOfLightClasses|12",
+				"Relentless Hunter|Ranger|WorldOfLightClasses|13",
+				"Nature's Veil|Ranger|WorldOfLightClasses|14",
+				{
+					"classFeature": "Subclass Feature|Ranger|WorldOfLightClasses|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Ranger|WorldOfLightClasses|16",
+				"Precise Hunter|Ranger|WorldOfLightClasses|17",
+				"Feral Senses|Ranger|WorldOfLightClasses|18",
+				"Epic Boon|Ranger|WorldOfLightClasses|19",
+				"Foe Slayer|Ranger|WorldOfLightClasses|20"
+			],
+			"subclassTitle": "Ranger Subclass",
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	],
+	"classFeature": [
 		{
 			"name": "Martial Arts",
 			"source": "WorldOfLightClasses",
@@ -2281,7 +1637,367 @@
 			"entries": [
 				"{@i 20th-level Wizard {@variantrule optional class features|tce|optional feature}}}",
 				"At 20th level, your knowledge of magic allows you to duplicate almost any spell. As a bonus action, you can call to mind the ability to cast one spell of your choice from any class’s spell list. The spell must be of a level for which you have spell slots, you mustn’t have it prepared, and you follow the normal rules for casting it, including expending a spell slot. If the spell isn’t a wizard spell, it counts as a wizard spell when you cast it. The ability to cast the spell vanishes from your mind when you cast it or when the current turn ends.",
-				"You can’t use this feature again until you finish a long rest."
+				"Once you use this feature, you can’t use this feature again until you finish a long rest."
+			]
+		},
+
+		{
+			"name": "Favored Enemy",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, you have significant experience studying, tracking, hunting, and even talking to creatures found within the natural world. You gain the following benefits:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Hunter's Resolve",
+							"entries": [
+								"You always have the {@spell Hunter's Mark|XPHB} spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a {@variantrule Long Rest|XPHB}.",
+								"The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Hunter's Resolve column of the Ranger Features table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Favored Enemy",
+							"entries": [
+								"Choose a type of favored enemy: {@filter beasts|bestiary|type=beast}, {@filter fey|bestiary|type=fey}, {@filter humanoids|bestiary|type=humanoid}, {@filter monstrosities|bestiary|type=monstrosity}, or {@filter undead|bestiary|type=undead}. You gain a +2 bonus to damage rolls with weapon attacks against creatures of the chosen type. Additionally, you have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them. Whenever you finish a Long Rest, you can change the favored enemy you chose.",
+								"When you gain this feature, you also learn one language of your choice, typically one spoken by your most researched favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 1,
+			"entries": [
+				"You have learned to channel the magical essence of nature to cast spells. See {@book chapter 7|XPHB|7} for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the {@filter Ranger spell list|spells|class=Ranger} later in the class's description.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Prepared Spells of Level 1+",
+							"entries": [
+								"You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Ranger spells|spells|class=Ranger|level=1}. {@spell Cure Wounds|XPHB} and {@spell Ensnaring Strike|XPHB} are recommended.",
+								"The number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.",
+								"If another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Changing Your Prepared Spells",
+							"entries": [
+								"Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one spell on your list with another Ranger spell for which you have spell slots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Wisdom is your spellcasting ability for your Ranger spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcasting Focus",
+							"entries": [
+								"You can use a {@item Druidic Focus|XPHB} as a {@variantrule Spellcasting Focus|XPHB} for your Ranger spells."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Weapon Mastery",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 1,
+			"entries": [
+				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Longbow|XPHB|Longbows} and {@item Shortsword|XPHB|Shortswords}.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Scimitar|XPHB|Scimitars} and {@item Longsword|XPHB|Longswords}."
+			]
+		},
+		{
+			"name": "Natural Explorer",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 2,
+			"entries": [
+				"You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Deft Explorer",
+							"entries": [
+								"You are a master of navigating the natural world, and you react with swift and decisive action when attacked. This grants you the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You ignore difficult terrain.",
+										"You have advantage on initiative rolls.",
+										"On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted."
+									]
+								},
+								"In addition, you are skilled at navigating the wilderness. You gain the following benefits when traveling for an hour or more:",
+								{
+									"type": "list",
+									"items": [
+										"Difficult terrain doesn't slow your group's travel.",
+										"Your group can't become lost except by magical means.",
+										"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+										"If you are traveling alone, you can move stealthily at a normal pace.",
+										"When you forage, you find twice as much food as you normally would.",
+										"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Canny",
+							"entries": [
+								"Choose one of your skill proficiencies with which you lack {@variantrule Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} in that skill.",
+								"In addition, you know two languages of your choice from the language tables in {@book chapter 2|XPHB|2|Choose Languages}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 2,
+			"entries": [
+				"You gain a {@filter Fighting Style feat|feats|category=FS} of your choice. Instead of choosing one of those feats, you can choose the option below.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refFeat",
+							"feat": "Druidic Warrior|XPHB"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ranger Subclass",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 3,
+			"entries": [
+				"You gain a Ranger subclass of your choice. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 4,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 5,
+			"entries": [
+				"You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
+			]
+		},
+		{
+			"name": "Roving",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 6,
+			"entries": [
+				"Your {@variantrule Speed|XPHB} increases by 10 feet while you aren't wearing Heavy armor. You also have a {@variantrule Climb Speed|XPHB} and a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 7,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 8,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 9,
+			"entries": [
+				"Choose two of your skill proficiencies with which you lack {@variantrule Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} in those skills."
+			]
+		},
+		{
+			"name": "Tireless",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 10,
+			"entries": [
+				"Primal forces now help fuel you on your journeys, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Temporary Hit Points",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you can give yourself a number of {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d8} plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Decrease Exhaustion",
+					"entries": [
+						"Whenever you finish a {@variantrule Short Rest|XPHB}, your {@condition Exhaustion|XPHB} level, if any, decreases by 1."
+					]
+				}
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 11,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 12,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Relentless Hunter",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 13,
+			"entries": [
+				"Taking damage can't break your {@status Concentration|XPHB} on Hunter's Mark."
+			]
+		},
+		{
+			"name": "Nature's Veil",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 14,
+			"entries": [
+				"You invoke spirits of nature to magically hide yourself. As a {@variantrule Bonus Action|XPHB}, you can give yourself the {@condition Invisible|XPHB} condition until the end of your next turn.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Subclass Feature",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 15,
+			"entries": [
+				"You gain a feature from your Ranger Subclass."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 16,
+			"entries": [
+				"You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+			]
+		},
+		{
+			"name": "Precise Hunter",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 17,
+			"entries": [
+				"You have {@variantrule Advantage|XPHB} on attack rolls against the creature currently marked by your Hunter's Mark."
+			]
+		},
+		{
+			"name": "Feral Senses",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 18,
+			"entries": [
+				"Your connection to the forces of nature grants you {@sense Blindsight|XPHB} with a range of 30 feet."
+			]
+		},
+		{
+			"name": "Epic Boon",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 19,
+			"entries": [
+				"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Dimensional Travel|XPHB} is recommended."
+			]
+		},
+		{
+			"name": "Foe Slayer",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "WorldOfLightClasses",
+			"level": 20,
+			"entries": [
+				"Your connection with the natural world has exalted you to greater heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.",
+				"In addition, the damage die of your Hunter's Mark is a {@dice d10} rather than a {@dice d6}."
 			]
 		}
 	],
