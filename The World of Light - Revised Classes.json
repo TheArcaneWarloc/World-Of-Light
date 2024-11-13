@@ -977,9 +977,8 @@
 			"classFeatures": [
 				"Spellcasting|Ranger|WorldOfLightClasses|1",
 				"Favored Enemy|Ranger|WorldOfLightClasses|1",
-				"Natural Explorer|Ranger|WorldOfLightClasses|1",
 				"Weapon Mastery|Ranger|WorldOfLightClasses|1",
-				"Deft Explorer|Ranger|WorldOfLightClasses|2",
+				"Natural Explorer|Ranger|WorldOfLightClasses|2",
 				"Fighting Style|Ranger|WorldOfLightClasses|2",
 				{
 					"classFeature": "Ranger Subclass|Ranger|WorldOfLightClasses|3",
