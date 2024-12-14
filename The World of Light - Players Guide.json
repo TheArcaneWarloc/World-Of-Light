@@ -22,8 +22,7 @@
 			"title": "God of Light, Life, Compassion and Order",
 			"altNames": [
 				"The Lightbringer",
-				"Arem",
-				"Asgorath"
+				"Arem"
 			],
 			"alignment": [
 				"N"
@@ -987,7 +986,6 @@
 			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
-				"The Guardians Three",
 				"The Natural Three",
 				"The Evanur"
 			],
@@ -1129,7 +1127,7 @@
 			"title": "God of Honor, Justice and Nobility",
 			"altNames": [
 				"The Platinum Justiciar",
-				"Xymor"
+				"{@deity Xymor|Ilúvë|WorldOfLight}"
 			],
 			"alignment": [
 				"L",
@@ -1139,9 +1137,9 @@
 			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
+				"The Guardians Three",
 				"The Protectors",
-				"The Five Divines",
-				"The Evanur"
+				"The Five Divines"
 			],
 			"domains": [
 				"Tempest",
@@ -1164,7 +1162,6 @@
 					"type": "section",
 					"entries": [
 						"Called the Platinum Justiciar, Bahamut is the god of justice, protection, nobility, and honor. Lawful good paladins often revere him, and metallic dragons worship him as the first of their kind. Monarchs are crowned in his name. The crest of the Platinum Dragon adorns many halls of high leadership and justice, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves.",
-						"In ancient times, Bahamut was widely worshipped by elves, but by a name now mostly forgotten; Xymor. In fact, the ancient elves had a tendancy to worship gods for aspects they do not directly hold dominion over, and Xymor was no different, having Courtship and Battle under his gleaming wings as well.",
 						{
 							"type": "entries",
 							"name": "Bahamut's Influence",
@@ -1253,9 +1250,9 @@
 											"type": "list",
 											"columns": 2,
 											"items": [
-												"{@reward Sehanine's Devotee|WorldOfLight}",
-												"{@reward Sehanine's Votary|WorldOfLight}",
-												"{@reward Sehanine's Disciple|WorldOfLight}",
+												"{@reward Bahamut's Devotee|WorldOfLight}",
+												"{@reward Bahamut's Votary|WorldOfLight}",
+												"{@reward Bahamut's Disciple|WorldOfLight}",
 												"{@reward Champion of The Vast Plateau|WorldOfLight}"
 											]
 										}
@@ -1558,7 +1555,9 @@
 			"name": "Tharizdun",
 			"title": "Deity of Decay and Madness",
 			"altNames": [
-				"The Unending Darkness"
+				"Ilbrant",
+				"The Unending Darkness",
+				"Maw of The Void"
 			],
 			"alignment": [
 				"C",
@@ -3092,7 +3091,150 @@
 				}
 			]
 		},
+		{
+			"name": "Syberis",
+			"title": "Draconic God of Night, Wisdom and Gems",
+			"altNames": [
+				"The Archheart",
+				"{@deity Corellon|Ilúvë|WorldOfLight}"
+			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Night, Wisdom, Gems and Gem Dragons",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Life",
+				"Light",
+				"Nature"
+			],
+			"symbol": "A ruby-red dragon's head, in profile",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Erestem|Ilúvë|WorldOfLight} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Erestem|Ilúvë|WorldOfLight}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris.",
+						"",
+						{
+							"type": "entries",
+							"name": "Corellon's Influence",
+							"entries": [
+								"Corellon watches the business of mortals and gods from within the palace of Crescent Grove, a grove depicted as being surrounded by towering white trees and pillars of marble.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Depiction",
+											"entries": [
+												"Most modern tapestries and tomes depict the Arch Heart as an elven being of impossible grace and beauty, androgynous and alluring, framed by long, wavy, golden hair. They were the inspiration for many early elven art pieces, and elements of their visage or symbol are included in most elven architecture."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Holy Day",
+											"entries": [
+												"Corellon's holy day is called Elvendawn, or Midsummer. It is celebrated on the twentieth day of the sixth month, and commemorates the elves' first emergence from the Feywild. Though the Empire doesn't promote the worship of the Archheart, many elves within Sylingur quietly celebrate in private by opening small doors to the Feywild and having a little more wine than usual."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Commandments of Corellon",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Cultivate beauty in all that you do, whether you’re casting a spell, composing a saga, strumming a lute, or practicing the arts of war.",
+												"Seek out lost magic items, forgotten rituals, and ancient works of art. Corellon might have inspired them in the world’s first days.",
+												"Thwart the followers of Lolth at every opportunity."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Piety",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Earning and Losing Piety",
+											"entries": [
+												"You increase your piety score to Corellon when you expand the god's influence in the world in a concrete way through acts such as these:"
+											]
+										}
+									]
+								},
+								{
+									"type": "list",
+									"items": [
+										"Following a fleeting passion or taking action on impulse",
+										"Creating something wondrous, such as a painting or poem",
+										"Discovering a lost piece of magic or art",
+										"Destroying the followers of Lolth"
+									]
+								},
+								"Your piety score to Corellon decreases if you diminish Corellon's influence in the world through acts such as these:",
+								{
+									"type": "list",
+									"items": [
+										"Preventing a person from following their passions",
+										"Selfishly refusing to share art or other things of beauty with the world",
+										"Allowing yourself to become stagnant and unchanging",
+										"Aiding a follower of Lolth"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Benefits of Piety",
+									"entries": [
+										{
+											"type": "list",
+											"columns": 2,
+											"items": [
+												"{@reward Corellon's Devotee|WorldOfLight}",
+												"{@reward Corellon's Votary|WorldOfLight}",
+												"{@reward Corellon's Disciple|WorldOfLight}",
+												"{@reward Champion of High Magic|WorldOfLight}"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "The Blessed of Corellon",
+							"entries": [
+								"Ever changing, mirthful, and beautiful, the primal elves could assume whatever sex they liked. When they bowed to Lolth's influence and chose to fix their physical forms, elves lost the ability to transform in this way. Yet occasionally elves are born who are so androgynous that they are proclaimed to be among the blessed of Corellon-living symbols of the god's love and of the primal elves' original fluid state of being. Many of Corellon's chief priests bear this blessing.",
+								"The rarest of these blessed elves can change their sex whenever they finish a long rest-a miracle celebrated by elves of all sorts except drow. (The DM decides whether an elf can manifest this miracle.) Dark elves find this ability to be terrifying and characterize it as a curse, for it could destabilize their entire society. If Corellon's blessing manifests in a drow, that elf usually flees to the surface world to seek shelter among those dedicated to Corellon."
+							]
+						}
+					]
+				}
+			]
+		},
+		
 
+"In ancient times, Bahamut was widely worshipped by elves, but by a name now mostly forgotten; Syberis. In fact, the ancient elves had a tendancy to worship gods for aspects they do not directly hold dominion over, and Syberis was no different, having Courtship and Battle under his gleaming wings as well.",
 		{
 			"name": "Akadi",
 			"title": "Primordial of Air",
