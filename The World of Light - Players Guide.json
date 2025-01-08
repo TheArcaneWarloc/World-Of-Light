@@ -3095,7 +3095,7 @@
 			"name": "Syberis",
 			"title": "Draconic God of Night, Wisdom and Gems",
 			"altNames": [
-				"The Archheart",
+				"Lord of Drakharis",
 				"{@deity Corellon|Ilúvë|WorldOfLight}"
 			],
 			"alignment": [
@@ -3120,121 +3120,88 @@
 				{
 					"type": "section",
 					"entries": [
-						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Erestem|Ilúvë|WorldOfLight} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Erestem|Ilúvë|WorldOfLight}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris.",
-						"",
-						{
-							"type": "entries",
-							"name": "Corellon's Influence",
-							"entries": [
-								"Corellon watches the business of mortals and gods from within the palace of Crescent Grove, a grove depicted as being surrounded by towering white trees and pillars of marble.",
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Depiction",
-											"entries": [
-												"Most modern tapestries and tomes depict the Arch Heart as an elven being of impossible grace and beauty, androgynous and alluring, framed by long, wavy, golden hair. They were the inspiration for many early elven art pieces, and elements of their visage or symbol are included in most elven architecture."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Holy Day",
-											"entries": [
-												"Corellon's holy day is called Elvendawn, or Midsummer. It is celebrated on the twentieth day of the sixth month, and commemorates the elves' first emergence from the Feywild. Though the Empire doesn't promote the worship of the Archheart, many elves within Sylingur quietly celebrate in private by opening small doors to the Feywild and having a little more wine than usual."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Commandments of Corellon",
-									"entries": [
-										{
-											"type": "list",
-											"items": [
-												"Cultivate beauty in all that you do, whether you’re casting a spell, composing a saga, strumming a lute, or practicing the arts of war.",
-												"Seek out lost magic items, forgotten rituals, and ancient works of art. Corellon might have inspired them in the world’s first days.",
-												"Thwart the followers of Lolth at every opportunity."
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Piety",
-							"entries": [
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"name": "Earning and Losing Piety",
-											"entries": [
-												"You increase your piety score to Corellon when you expand the god's influence in the world in a concrete way through acts such as these:"
-											]
-										}
-									]
-								},
-								{
-									"type": "list",
-									"items": [
-										"Following a fleeting passion or taking action on impulse",
-										"Creating something wondrous, such as a painting or poem",
-										"Discovering a lost piece of magic or art",
-										"Destroying the followers of Lolth"
-									]
-								},
-								"Your piety score to Corellon decreases if you diminish Corellon's influence in the world through acts such as these:",
-								{
-									"type": "list",
-									"items": [
-										"Preventing a person from following their passions",
-										"Selfishly refusing to share art or other things of beauty with the world",
-										"Allowing yourself to become stagnant and unchanging",
-										"Aiding a follower of Lolth"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Benefits of Piety",
-									"entries": [
-										{
-											"type": "list",
-											"columns": 2,
-											"items": [
-												"{@reward Corellon's Devotee|WorldOfLight}",
-												"{@reward Corellon's Votary|WorldOfLight}",
-												"{@reward Corellon's Disciple|WorldOfLight}",
-												"{@reward Champion of High Magic|WorldOfLight}"
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"type": "inset",
-							"name": "The Blessed of Corellon",
-							"entries": [
-								"Ever changing, mirthful, and beautiful, the primal elves could assume whatever sex they liked. When they bowed to Lolth's influence and chose to fix their physical forms, elves lost the ability to transform in this way. Yet occasionally elves are born who are so androgynous that they are proclaimed to be among the blessed of Corellon-living symbols of the god's love and of the primal elves' original fluid state of being. Many of Corellon's chief priests bear this blessing.",
-								"The rarest of these blessed elves can change their sex whenever they finish a long rest-a miracle celebrated by elves of all sorts except drow. (The DM decides whether an elf can manifest this miracle.) Dark elves find this ability to be terrifying and characterize it as a curse, for it could destabilize their entire society. If Corellon's blessing manifests in a drow, that elf usually flees to the surface world to seek shelter among those dedicated to Corellon."
-							]
-						}
+						"Legend speaks of a third dragon god, responsible for creating the ever-elusive Gem dragons. According to the ancient draconic myth {@i Elegy for the First World}, when the gods were creating the Given World, before the High God {@deity Erestem|Ilúvë|WorldOfLight} plucked stars from the sky, like marbles from a bag, Syberis, the first of the three dragon gods according to this myth, plucked one of his own, and showed it to {@deity Erestem|Ilúvë|WorldOfLight}. The other gods were, unfortunately, unsatisfied, and Syberis's marble was dropped in favor of a brighter one. Syberis, unbeknownst to the other gods, then hid this marble back among the stars, and named it Drahkaris."
 					]
 				}
 			]
 		},
-		
+		{
+			"name": "Xymor",
+			"title": "Draconic God of Self-Sacrifice and Enlightenment",
+			"altNames": [
+				"Lord of Pure Incantations",
+				"The Valiant",
+				"Marduk",
+				"{@deity Bahamut|Ilúvë|WorldOfLight}"
+			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Self-Sacrifice, Duty, Spellcasting, Enlightenment, Justice and Foresight",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Arcana",
+				"Grave",
+				"Knowledge",
+				"Life",
+				"Light",
+				"Order",
+				"War"
+			],
+			"symbol": "Right Gauntlet",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"The Ancient Elves, those existing during and prior to the heyday of ancient Arcanix, worshipped gods less like individual entities, and more for their individual aspects. Some gods then directly responded to this under the guises of aspects. In any case, Bahamut conjured up the guise of Marduk, or Xymor in the Draconic tongue."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nihilat",
+			"title": "Draconic Goddess of Chaos",
+			"altNames": [
+				"The Darklady",
+				"The False Metal",
+				"{@deity Takhisis|Ilúvë|WorldOfLight}"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"province": "Hatred, Control, Intrigue, Chaos",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Arcana",
+				"Death",
+				"Grave",
+				"Trickery",
+				"Twilight",
+				"War"
+			],
+			"symbol": "Black Crescent",
+			"source": "WorldOfLight",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Worshipped less as a god and more as a boogeyman, Nihilat is the ancient, primeval aspect of Takhisis, and is sometimes seen as the precursor to Null Rancaria. While the ancient Elves valued control over many other things, they had a particular disdain for chaos sowed within their walls, and as such used Nihilat as a cautionary tale."
+					]
+				}
+			]
+		},
 
-"In ancient times, Bahamut was widely worshipped by elves, but by a name now mostly forgotten; Syberis. In fact, the ancient elves had a tendancy to worship gods for aspects they do not directly hold dominion over, and Syberis was no different, having Courtship and Battle under his gleaming wings as well.",
+
+
 		{
 			"name": "Akadi",
 			"title": "Primordial of Air",
@@ -7625,6 +7592,97 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Temporal Storm",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "A broken pocket watch and a weather vane"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				"You twist and fracture the threads of reality, forming cracks in the very fabric of time and space around you. Each creature of your choice within a 30-foot radius must make a Dexterity saving throw. Any creature within this emanation takes {@damage 4d12} force damage on a failed save, or half as much on a successful one, as the temporal storm tears through them, ripping at their essence with fragmented time.",
+				"Any creature that fails the save must also roll a d4 at the start of its next turn. The result determines the creature’s interaction with time:",
+				{
+					"type": "table",
+					"caption": "Temporal Storm Effect",
+					"colLabels": [
+						"d4",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"The creature's speed is reduced to 0 until the end of its turn as time around it grinds to a halt."
+						],
+						[
+							"2",
+							"The creature takes an additional {@damage 2d12} force damage as the cracks in reality lash out unpredictably."
+						],
+						[
+							"3",
+							"The creature is {@condition stunned} until the end of its next turn, unable to move or act as it becomes caught in a temporal anomaly."
+						],
+						[
+							"4",
+							"The creature gains an extra action on its turn, as the storm unpredictably accelerates its timeline."
+						]
+					]
+				},
+				"The storm leaves behind a faint, shimmering distortion in the area for 1 minute, causing all movement within the radius to count as difficult terrain."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the force damage increases by {@scaledamage 1d12|5,6,7,8,9|1d12} for each slot level above 5th."
+					]
+				}
+			]
 		},
 		{
 			"name": "Transfer Enchantment",
