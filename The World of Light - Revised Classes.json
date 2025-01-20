@@ -5137,11 +5137,11 @@
 					"entries": [
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Agile Parry|Monk|XGE|Kensei|XGE|3"
+							"subclassFeature": "Agile Parry|Monk|WorldOfLightClasses|Kensei|XGE|3"
 						},
 						{
 							"type": "refSubclassFeature",
-							"subclassFeature": "Kensei's Shot|Monk|XGE|Kensei|XGE|3"
+							"subclassFeature": "Kensei's Shot|Monk|WorldOfLightClasses|Kensei|XGE|3"
 						}
 					]
 				},
@@ -5152,6 +5152,24 @@
 						"You gain proficiency with your choice of {@item calligrapher's supplies|phb} or {@item painter's supplies|phb}."
 					]
 				}
+			]
+		},
+		{
+			"name": "Agile Parry",
+			"source": "XGE",
+			"page": 34,
+			"className": "Monk",
+			"classSource": "WorldOfLightClasses",
+			"subclassShortName": "Kensei",
+			"subclassSource": "XGE",
+			"level": 11,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"If you make an unarmed strike as part of the Attack action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't incapacitated."
 			]
 		},
 		{

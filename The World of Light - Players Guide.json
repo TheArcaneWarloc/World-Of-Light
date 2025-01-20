@@ -986,8 +986,7 @@
 			"pantheon": "Ilúvë",
 			"category": [
 				"Deities of Radiance",
-				"The Natural Three",
-				"The Evanur"
+				"The Natural Three"
 			],
 			"domains": [
 				"Life",
@@ -3199,7 +3198,53 @@
 				}
 			]
 		},
-
+		{
+			"name": "Selûne",
+			"title": "Goddess of The Moons",
+			"altNames": [
+				"Sehanine",
+				"Mistress of the Moonbow",
+				"The Moonweaver"
+			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
+			"pantheon": "Ilúvë",
+			"category": [
+				"Deities of Radiance",
+				"The Natural Three",
+				"The Evanur"
+			],
+			"domains": [
+				"Life",
+				"Light",
+				"Nature",
+				"Tempest",
+				"Time",
+				"Trickery",
+				"Twilight"
+			],
+			"symbol": "Crescent moon",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/AwLHsLB.png"
+				}
+			},
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Sehanine has gone by many names, being herself as mercurial as the lofty race of Elves. When the Elves were but nascent children, the Elves instead worshipped the primal essence of the Moons. Believed to be a wielder of the \"moonbow\", Selûne depicts a much more primal and stern goddess. These parts of her are still widely worshipped, and this is directly related to Sehanine's afterlife: an infinite sea with a single tower, called the Tower of Selûne.",
+						"Back in the 3nd Era, Selûne played a pivotal role in the lives of many surfacing Drow, looking to be absolved of what their Lolth-worshipping ancestors did in ages past. Her then-worshipped aspect included the portfolios of Mystery and Shadows."
+							]
+				}
+			],
+			"source": "WorldOfLight"
+		},
 
 
 		{
