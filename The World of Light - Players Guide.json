@@ -7964,11 +7964,11 @@
 			"classSource": "XPHB",
 			"name": "Madness Domain",
 			"subclassFeatures": [
-				"Madness Domain|Cleric||Madness|WorldOfLight|3",
-				"Channel Divinity: Madness Overtaking|Cleric||Madness|WorldOfLight|3",
-				"Spreading Insanity|Cleric||Madness|WorldOfLight|6",
-				"Potent Spellcasting|Cleric||Madness|WorldOfLight|8",
-				"Creeping Mania|Cleric||Madness|WorldOfLight|17"
+				"Madness Domain|Cleric|XPHB|Madness|WorldOfLight|3",
+				"Channel Divinity: Madness Overtaking|Cleric|XPHB|Madness|WorldOfLight|3",
+				"Spreading Insanity|Cleric|XPHB|Madness|WorldOfLight|6",
+				"Potent Spellcasting|Cleric|XPHB|Madness|WorldOfLight|8",
+				"Creeping Mania|Cleric|XPHB|Madness|WorldOfLight|17"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Madness"
@@ -7978,11 +7978,11 @@
 			"classSource": "XPHB",
 			"name": "Time Domain",
 			"subclassFeatures": [
-				"Time Domain|Cleric||Time|WorldOfLight|3",
-				"Channel Divinity: Temporal Continuum|Cleric||Time|WorldOfLight|3",
-				"Visions of the Fourth Dimension|Cleric||Time|WorldOfLight|6",
-				"Meridian Combatant|Cleric||Time|WorldOfLight|8",
-				"Temporal Mastery|Cleric||Time|WorldOfLight|17"
+				"Time Domain|Cleric|XPHB|Time|WorldOfLight|3",
+				"Channel Divinity: Temporal Continuum|Cleric|XPHB|Time|WorldOfLight|3",
+				"Visions of the Fourth Dimension|Cleric|XPHB|Time|WorldOfLight|6",
+				"Meridian Combatant|Cleric|XPHB|Time|WorldOfLight|8",
+				"Temporal Mastery|Cleric|XPHB|Time|WorldOfLight|17"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Time"
@@ -7992,74 +7992,82 @@
 			"classSource": "XPHB",
 			"name": "Trickery Domain (Revised)",
 			"subclassFeatures": [
-				"Trickery Domain (Revised)|Cleric||Trickery (Revised)|WorldOfLight|3",
-				"Channel Divinity: Invoke Duplicity|Cleric||Trickery (Revised)|WorldOfLight|3",
-				"Channel Divinity: Cloak of Shadows|Cleric||Trickery (Revised)|WorldOfLight|6",
-				"Potent Spellcasting|Cleric||Trickery (Revised)|WorldOfLight|8",
-				"Blessed Strike|Cleric||Trickery (Revised)|WorldOfLight|8",
-				"Improved Duplicity|Cleric||Trickery (Revised)|WorldOfLight|17"
+				"Trickery Domain (Revised)|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3",
+				"Channel Divinity: Invoke Duplicity|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3",
+				"Channel Divinity: Cloak of Shadows|Cleric|XPHB|Trickery (Revised)|WorldOfLight|6",
+				"Potent Spellcasting|Cleric|XPHB|Trickery (Revised)|WorldOfLight|8",
+				"Blessed Strike|Cleric|XPHB|Trickery (Revised)|WorldOfLight|8",
+				"Improved Duplicity|Cleric|XPHB|Trickery (Revised)|WorldOfLight|17"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Trickery (Revised)"
 		},
+		
 		{
 			"className": "Druid",
+			"classSource": "XPHB",
 			"name": "Circle of The Mushroom",
 			"subclassFeatures": [
-				"Circle of The Mushroom|Druid||Mushroom|WorldOfLight|3",
-				"Parasitic Fungus|Druid||Mushroom|WorldOfLight|6",
-				"Spreading Spores|Druid||Mushroom|WorldOfLight|10",
-				"Fungal Body|Druid||Mushroom|WorldOfLight|14"
+				"Circle of The Mushroom|Druid|XPHB|Mushroom|WorldOfLight|3",
+				"Parasitic Fungus|Druid|XPHB|Mushroom|WorldOfLight|6",
+				"Spreading Spores|Druid|XPHB|Mushroom|WorldOfLight|10",
+				"Fungal Body|Druid|XPHB|Mushroom|WorldOfLight|14"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Mushroom"
 		},
+
 		{
 			"className": "Fighter",
+			"classSource": "XPHB",
 			"name": "Vanguard",
 			"subclassFeatures": [
-				"Blessed Protector|Fighter||Vanguard|WorldOfLight|3",
-				"Perseverance|Fighter||Vanguard|WorldOfLight|7",
-				"Additional Fighting Style|Fighter||Vanguard|WorldOfLight|10",
-				"Improved Aegis|Fighter||Vanguard|WorldOfLight|15",
-				"Last Stand|Fighter||Vanguard|WorldOfLight|18"
+				"Blessed Protector|Fighter|XPHB|Vanguard|WorldOfLight|3",
+				"Perseverance|Fighter|XPHB|Vanguard|WorldOfLight|7",
+				"Additional Fighting Style|Fighter|XPHB|Vanguard|WorldOfLight|10",
+				"Improved Aegis|Fighter|XPHB|Vanguard|WorldOfLight|15",
+				"Last Stand|Fighter|XPHB|Vanguard|WorldOfLight|18"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Vanguard"
 		},
 		{
 			"className": "Fighter",
+			"classSource": "XPHB",
 			"name": "Marauder",
 			"subclassFeatures": [
-				"The Marauder|Fighter||Marauder|WorldOfLight|3",
-				"Brawny|Fighter||Marauder|WorldOfLight|7",
-				"Stay Down|Fighter||Marauder|WorldOfLight|10",
-				"Tenacity|Fighter||Marauder|WorldOfLight|15",
-				"Finishing Blow|Fighter||Marauder|WorldOfLight|18"
+				"The Marauder|Fighter|XPHB|Marauder|WorldOfLight|3",
+				"Brawny|Fighter|XPHB|Marauder|WorldOfLight|7",
+				"Stay Down|Fighter|XPHB|Marauder|WorldOfLight|10",
+				"Tenacity|Fighter|XPHB|Marauder|WorldOfLight|15",
+				"Finishing Blow|Fighter|XPHB|Marauder|WorldOfLight|18"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Marauder"
 		},
+
 		{
 			"className": "Monk",
+			"classSource": "XPHB",
 			"name": "Way of Time",
 			"subclassFeatures": [
-				"Way of Time|Monk||Time|WorldOfLight|3",
-				"Speech of Importance|Monk||Time|WorldOfLight|6",
-				"Deliberated Clairvoyance|Monk||Time|WorldOfLight|11",
-				"Channeled Dilation|Monk||Time|WorldOfLight|17"
+				"Way of Time|Monk|XPHB|Time|WorldOfLight|3",
+				"Speech of Importance|Monk|XPHB|Time|WorldOfLight|6",
+				"Deliberated Clairvoyance|Monk|XPHB|Time|WorldOfLight|11",
+				"Channeled Dilation|Monk|XPHB|Time|WorldOfLight|17"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Time"
 		},
 		{
 			"className": "Monk",
+			"classSource": "XPHB",
 			"name": "Way of the Moon Soul",
 			"subclassFeatures": [
-				"Way of The Moon Soul|Monk||Moon Soul|WorldOfLight|3",
-				"Channeling The Night|Monk||Moon Soul|WorldOfLight|6",
-				"Starforger|Monk||Moon Soul|WorldOfLight|11",
-				"Lunar Eclipse|Monk||Moon Soul|WorldOfLight|17"
+				"Way of The Moon Soul|Monk|XPHB|Moon Soul|WorldOfLight|3",
+				"Channeling The Night|Monk|XPHB|Moon Soul|WorldOfLight|6",
+				"Starforger|Monk|XPHB|Moon Soul|WorldOfLight|11",
+				"Lunar Eclipse|Monk|XPHB|Moon Soul|WorldOfLight|17"
 			],
 			"subclassSpells": [
 				"Faerie Fire",
@@ -8071,18 +8079,21 @@
 		},
 		{
 			"className": "Monk",
+			"classSource": "XPHB",
 			"name": "Way of the Wild",
 			"subclassFeatures": [
-				"Way of the Wild|Monk||Wild|WorldOfLight|3",
-				"Touch of Thorns|Monk||Wild|WorldOfLight|6",
-				"Ancient Oak's Acumen|Monk||Wild|WorldOfLight|11",
-				"Wild Spirits|Monk||Wild|WorldOfLight|17"
+				"Way of the Wild|Monk|XPHB|Wild|WorldOfLight|3",
+				"Touch of Thorns|Monk|XPHB|Wild|WorldOfLight|6",
+				"Ancient Oak's Acumen|Monk|XPHB|Wild|WorldOfLight|11",
+				"Wild Spirits|Monk|XPHB|Wild|WorldOfLight|17"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Wild"
 		},
+
 		{
 			"className": "Paladin",
+			"classSource": "XPHB",
 			"name": "Oath of the Open Sea",
 			"additionalSpells": [
 				{
@@ -8111,49 +8122,13 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of the Open Sea|Paladin||Open Sea|WorldOfLight|3",
-				"Aura of Liberation|Paladin||Open Sea|WorldOfLight|7",
-				"Stormy Waters|Paladin||Open Sea|WorldOfLight|15",
-				"Mythic Swashbuckler|Paladin||Open Sea|WorldOfLight|20"
+				"Oath of the Open Sea|Paladin|XPHB|Open Sea|WorldOfLight|3",
+				"Aura of Liberation|Paladin|XPHB|Open Sea|WorldOfLight|7",
+				"Stormy Waters|Paladin|XPHB|Open Sea|WorldOfLight|15",
+				"Mythic Swashbuckler|Paladin|XPHB|Open Sea|WorldOfLight|20"
 			],
 			"source": "WorldOfLight",
 			"shortName": "Open Sea"
-		},
-		{
-			"className": "Warlock",
-			"name": "Deviant",
-			"subclassFeatures": [
-				"The Deviant|Warlock||Deviant|WorldOfLight|3",
-				"Duplicitous Double Speak|Warlock||Deviant|WorldOfLight|6",
-				"Illusory Facsimile|Warlock||Deviant|WorldOfLight|10",
-				"Malefic Illusions|Warlock||Deviant|WorldOfLight|14"
-			],
-			"source": "WorldOfLight",
-			"shortName": "Deviant"
-		},
-		{
-			"className": "Warlock",
-			"name": "Hexblade (Variant)",
-			"subclassFeatures": [
-				"The Hexblade|Warlock||Hexblade (Variant)|WorldOfLight|3",
-				"Spellsword|Warlock||Hexblade (Variant)|WorldOfLight|6",
-				"Armor of Hexes|Warlock||Hexblade (Variant)|WorldOfLight|10",
-				"Master of Hexes|Warlock||Hexblade (Variant)|WorldOfLight|14"
-			],
-			"source": "WorldOfLight",
-			"shortName": "Hexblade (Variant)"
-		},
-		{
-			"className": "Wizard",
-			"name": "Chronurgy Magic (Variant)",
-			"subclassFeatures": [
-				"Chronurgy Magic|Wizard||Chronurgy (Variant)|WorldOfLight|3",
-				"Momentary Stasis|Wizard||Chronurgy (Variant)|WorldOfLight|6",
-				"Arcane Abeyance|Wizard||Chronurgy (Variant)|WorldOfLight|10",
-				"Transcendent Juncture|Wizard||Chronurgy (Variant)|WorldOfLight|14"
-			],
-			"source": "WorldOfLight",
-			"shortName": "Chronurgy (Variant)"
 		},
 
 		{
@@ -8168,6 +8143,33 @@
 			],
 			"source": "WorldOfLight",
 			"shortName": "Hexblade (Variant)"
+		},
+		{
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"name": "Deviant",
+			"subclassFeatures": [
+				"The Deviant|Warlock|XPHB|Deviant|WorldOfLight|3",
+				"Duplicitous Double Speak|Warlock|XPHB|Deviant|WorldOfLight|6",
+				"Illusory Facsimile|Warlock|XPHB|Deviant|WorldOfLight|10",
+				"Malefic Illusions|Warlock|XPHB|Deviant|WorldOfLight|14"
+			],
+			"source": "WorldOfLight",
+			"shortName": "Deviant"
+		},
+
+		{
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"name": "Chronurgy Magic (Variant)",
+			"subclassFeatures": [
+				"Chronurgy Magic|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3",
+				"Momentary Stasis|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|6",
+				"Arcane Abeyance|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|10",
+				"Transcendent Juncture|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|14"
+			],
+			"source": "WorldOfLight",
+			"shortName": "Chronurgy (Variant)"
 		}
 	],
 	"subclassFeature": [
