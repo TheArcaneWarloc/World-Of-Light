@@ -7961,10 +7961,11 @@
 	"subclass": [
 		{
 			"className": "Cleric",
+			"classSource": "XPHB",
 			"name": "Madness Domain",
 			"subclassFeatures": [
-				"Madness Domain|Cleric||Madness|WorldOfLight|1",
-				"Channel Divinity: Madness Overtaking|Cleric||Madness|WorldOfLight|2",
+				"Madness Domain|Cleric||Madness|WorldOfLight|3",
+				"Channel Divinity: Madness Overtaking|Cleric||Madness|WorldOfLight|3",
 				"Spreading Insanity|Cleric||Madness|WorldOfLight|6",
 				"Potent Spellcasting|Cleric||Madness|WorldOfLight|8",
 				"Creeping Mania|Cleric||Madness|WorldOfLight|17"
@@ -7974,10 +7975,11 @@
 		},
 		{
 			"className": "Cleric",
+			"classSource": "XPHB",
 			"name": "Time Domain",
 			"subclassFeatures": [
-				"Time Domain|Cleric||Time|WorldOfLight|1",
-				"Channel Divinity: Temporal Continuum|Cleric||Time|WorldOfLight|2",
+				"Time Domain|Cleric||Time|WorldOfLight|3",
+				"Channel Divinity: Temporal Continuum|Cleric||Time|WorldOfLight|3",
 				"Visions of the Fourth Dimension|Cleric||Time|WorldOfLight|6",
 				"Meridian Combatant|Cleric||Time|WorldOfLight|8",
 				"Temporal Mastery|Cleric||Time|WorldOfLight|17"
@@ -7987,10 +7989,11 @@
 		},
 		{
 			"className": "Cleric",
+			"classSource": "XPHB",
 			"name": "Trickery Domain (Revised)",
 			"subclassFeatures": [
-				"Trickery Domain (Revised)|Cleric||Trickery (Revised)|WorldOfLight|1",
-				"Channel Divinity: Invoke Duplicity|Cleric||Trickery (Revised)|WorldOfLight|2",
+				"Trickery Domain (Revised)|Cleric||Trickery (Revised)|WorldOfLight|3",
+				"Channel Divinity: Invoke Duplicity|Cleric||Trickery (Revised)|WorldOfLight|3",
 				"Channel Divinity: Cloak of Shadows|Cleric||Trickery (Revised)|WorldOfLight|6",
 				"Potent Spellcasting|Cleric||Trickery (Revised)|WorldOfLight|8",
 				"Blessed Strike|Cleric||Trickery (Revised)|WorldOfLight|8",
@@ -8003,7 +8006,7 @@
 			"className": "Druid",
 			"name": "Circle of The Mushroom",
 			"subclassFeatures": [
-				"Circle of The Mushroom|Druid||Mushroom|WorldOfLight|2",
+				"Circle of The Mushroom|Druid||Mushroom|WorldOfLight|3",
 				"Parasitic Fungus|Druid||Mushroom|WorldOfLight|6",
 				"Spreading Spores|Druid||Mushroom|WorldOfLight|10",
 				"Fungal Body|Druid||Mushroom|WorldOfLight|14"
@@ -8120,7 +8123,7 @@
 			"className": "Warlock",
 			"name": "Deviant",
 			"subclassFeatures": [
-				"The Deviant|Warlock||Deviant|WorldOfLight|1",
+				"The Deviant|Warlock||Deviant|WorldOfLight|3",
 				"Duplicitous Double Speak|Warlock||Deviant|WorldOfLight|6",
 				"Illusory Facsimile|Warlock||Deviant|WorldOfLight|10",
 				"Malefic Illusions|Warlock||Deviant|WorldOfLight|14"
@@ -8132,7 +8135,7 @@
 			"className": "Warlock",
 			"name": "Hexblade (Variant)",
 			"subclassFeatures": [
-				"The Hexblade|Warlock||Hexblade (Variant)|WorldOfLight|1",
+				"The Hexblade|Warlock||Hexblade (Variant)|WorldOfLight|3",
 				"Spellsword|Warlock||Hexblade (Variant)|WorldOfLight|6",
 				"Armor of Hexes|Warlock||Hexblade (Variant)|WorldOfLight|10",
 				"Master of Hexes|Warlock||Hexblade (Variant)|WorldOfLight|14"
@@ -8144,7 +8147,7 @@
 			"className": "Wizard",
 			"name": "Chronurgy Magic (Variant)",
 			"subclassFeatures": [
-				"Chronurgy Magic|Wizard||Chronurgy (Variant)|WorldOfLight|2",
+				"Chronurgy Magic|Wizard||Chronurgy (Variant)|WorldOfLight|3",
 				"Momentary Stasis|Wizard||Chronurgy (Variant)|WorldOfLight|6",
 				"Arcane Abeyance|Wizard||Chronurgy (Variant)|WorldOfLight|10",
 				"Transcendent Juncture|Wizard||Chronurgy (Variant)|WorldOfLight|14"
@@ -8172,10 +8175,10 @@
 			"name": "Madness Domain",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Madness",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"entries": [
 				{
 					"type": "quote",
@@ -8223,11 +8226,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrips|Cleric||Madness|WorldOfLight|1"
+					"subclassFeature": "Bonus Cantrips|Cleric||Madness|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inscrutable Mind|Cleric||Madness|WorldOfLight|1"
+					"subclassFeature": "Inscrutable Mind|Cleric||Madness|WorldOfLight|3"
 				}
 			]
 		},
@@ -8235,41 +8238,41 @@
 			"type": "entries",
 			"name": "Bonus Cantrips",
 			"entries": [
-				"When you choose this domain at 1st level, you gain the {@spell vicious mockery} cantrip. It is a cleric cantrip for you, and does not count against your maximum number of cleric cantrips."
+				"When you choose this domain at 3rd level, you gain the {@spell vicious mockery} cantrip. It is a cleric cantrip for you, and does not count against your maximum number of cleric cantrips."
 			],
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Madness",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"header": 1
 		},
 		{
 			"type": "entries",
 			"name": "Inscrutable Mind",
 			"entries": [
-				"Also at 1st level, your mind becomes a place where reality is a vague concept at best, giving you a very colorful imagination. You become proficient in the {@skill Deception} skill."
+				"Also at 3rd level, your mind becomes a place where reality is a vague concept at best, giving you a very colorful imagination. You become proficient in the {@skill Deception} skill."
 			],
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Madness",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Channel Divinity: Madness Overtaking",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Madness",
 			"subclassSource": "WorldOfLight",
-			"level": 2,
+			"level": 3,
 			"header": 2,
 			"entries": [
-				"Starting at 2nd level, you can use your Channel Divinity to call upon your deity to taint your magic with the seeds of insanity.",
+				"Starting at 3rd level, you can use your Channel Divinity to call upon your deity to taint your magic with the seeds of insanity.",
 				"When you cast one of your domain spells, you can expand a use of Channel Divinity to select a target. If there are multiple target, choose one among all the targets affected by your spell. That target must make an additional Wisdom saving throw against your spell save DC. If the creature fails, it becomes afflicted with a randomly determined short term madness (see \"{@book Madness Effects|dmg|8|Madness Effects}\" in chapter 8 of the Dungeon Master's Guide)."
 			]
 		},
@@ -8277,7 +8280,7 @@
 			"name": "Spreading Insanity",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Madness",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -8291,7 +8294,7 @@
 			"name": "Potent Spellcasting",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Madness",
 			"subclassSource": "WorldOfLight",
 			"level": 8,
@@ -8304,7 +8307,7 @@
 			"name": "Creeping Mania",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Madness",
 			"subclassSource": "WorldOfLight",
 			"level": 17,
@@ -8319,10 +8322,10 @@
 			"name": "Time Domain",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"entries": [
 				"Gods of time\u2014including Labelas Enoreth, Savras, Istus, Chronos, the Moirai and specifically Erestem in Ilúvë\u2014govern the passing of years and the turning of seasons. These deities oversee cause and effect, providing a background against which the course of history unfolds. They are also gods of fate and of the inevitable, responsible for the fulfillment of prophecies and the destinies of mortals. Clerics of gods of time are granted knowledge of events in the distant past and the far future, and are tasked with protecting prophecies and ensuring pivotal moments in history.",
 				"At each indicated cleric level, you add the listed spells to your spells prepared.",
@@ -8362,11 +8365,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Knight of the Old Ways|Cleric||Time|WorldOfLight|1"
+					"subclassFeature": "Knight of the Old Ways|Cleric||Time|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oracle of Chronology|Cleric||Time|WorldOfLight|1"
+					"subclassFeature": "Oracle of Chronology|Cleric||Time|WorldOfLight|3"
 				}
 			]
 		},
@@ -8374,42 +8377,42 @@
 			"name": "Knight of the Old Ways",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Time Domain feature}",
-				"Starting at 1st level, you gain proficiency with Heavy Armor and Martial Weapons."
+				"{@i 3rd-level Time Domain feature}",
+				"Starting at 3rd level, you gain proficiency with Heavy Armor and Martial Weapons."
 			]
 		},
 		{
 			"name": "Oracle of Chronology",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Time Domain feature}",
-				"Also starting at 1st level, your deity allows you to glimpse moments from history and of possible futures. You gain proficiency in the {@skill History} skill, and you learn the {@spell guidance} cantrip if you don't already know it."
+				"{@i 3rd-level Time Domain feature}",
+				"Also starting at 3rd level, your deity allows you to glimpse moments from history and of possible futures. You gain proficiency in the {@skill History} skill, and you learn the {@spell guidance} cantrip if you don't already know it."
 			]
 		},
 		{
 			"name": "Channel Divinity: Temporal Continuum",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
-			"level": 2,
+			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 2nd-level Time Domain feature}",
-				"Starting at 2nd level, you can use your Channel Divinity to briefly speed up time for yourself.",
+				"{@i 3rd-level Time Domain feature}",
+				"Starting at 3rd level, you can use your Channel Divinity to briefly speed up time for yourself.",
 				"You can use your Channel Divinity to take the Attack, Dash or Use an Object actions as a bonus action.",
 				"Additionally, when you cast a spell with a casting time of 1 action, you can use your Channel Divinity to change its casting time to 1 bonus action for this casting."
 			]
@@ -8418,7 +8421,7 @@
 			"name": "Visions of the Fourth Dimension",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -8434,7 +8437,7 @@
 			"name": "Meridian Combatant",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 8,
@@ -8448,7 +8451,7 @@
 			"name": "Temporal Mastery",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 17,
@@ -8464,10 +8467,10 @@
 			"name": "Trickery Domain (Revised)",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"entries": [
 				"The Gods of trickery\u2014whether they are goodwilled such as {@deity Avandra|Ilúvë|WorldOfLight} and {@deity Sehanine|Ilúvë|WorldOfLight} or ill-meaning such as {@deity Tharizdun|Ilúvë|WorldOfLight}, {@deity Takhisis|Ilúvë|WorldOfLight} and {@deity Zehir|Ilúvë|WorldOfLight}\u2014are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.",
 				"At each indicated cleric level, you add the listed spells to your spells prepared.",
@@ -8507,11 +8510,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessing of the Trickster|Cleric||Trickery (Revised)|WorldOfLight|1"
+					"subclassFeature": "Blessing of the Trickster|Cleric||Trickery (Revised)|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric||Trickery (Revised)|WorldOfLight|1"
+					"subclassFeature": "Bonus Proficiency|Cleric||Trickery (Revised)|WorldOfLight|3"
 				}
 			]
 		},
@@ -8519,27 +8522,27 @@
 			"name": "Blessing of the Trickster",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Trickery Domain feature}",
-				"Starting when you choose this domain at 1st level, you can use your action to touch yourself or one willing creature to give it advantage on Dexterity ({@skill Stealth}) checks. This blessing lasts for 1 hour or until you use this feature again."
+				"{@i 3rd-level Trickery Domain feature}",
+				"Starting when you choose this domain at 3rd level, you can use your action to touch yourself or one willing creature to give it advantage on Dexterity ({@skill Stealth}) checks. This blessing lasts for 1 hour or until you use this feature again."
 			]
 		},
 		{
 			"name": "Bonus Proficiency",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Trickery Domain feature}",
+				"{@i 3rd-level Trickery Domain feature}",
 				"You gain proficiency in the {@skill stealth} skill and {@item thieves' tools}."
 			]
 		},
@@ -8547,14 +8550,14 @@
 			"name": "Channel Divinity: Invoke Duplicity",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
-			"level": 2,
+			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 2nd-level Trickery Domain feature}",
-				"Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.",
+				"{@i 3rd-level Trickery Domain feature}",
+				"Starting at 3rd level, you can use your Channel Divinity to create an illusory duplicate of yourself.",
 				"As an action, you create a perfect illusion of yourself that lasts for 1 minute. The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
 				"For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, whenever you are within 5 feet of your illusion, enemies have disadvantage on melee attack rolls against you, given how distracting the illusion is to the target."
 			]
@@ -8563,7 +8566,7 @@
 			"name": "Channel Divinity: Cloak of Shadows",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -8578,7 +8581,7 @@
 			"name": "Potent Spellcasting",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
 			"level": 8,
@@ -8592,7 +8595,7 @@
 			"name": "Blessed Strike",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
 			"level": 8,
@@ -8607,7 +8610,7 @@
 			"name": "Improved Duplicity",
 			"source": "WorldOfLight",
 			"className": "Cleric",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Trickery (Revised)",
 			"subclassSource": "WorldOfLight",
 			"level": 17,
@@ -8623,10 +8626,10 @@
 			"name": "Circle of The Mushroom",
 			"source": "WorldOfLight",
 			"className": "Druid",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
 			"subclassSource": "WorldOfLight",
-			"level": 2,
+			"level": 3,
 			"entries": [
 				{
 					"type": "quote",
@@ -8639,11 +8642,11 @@
 				"Your link to fungus and your ability to tap into hazy visions and strange toxins grants you access to certain spells. At 2nd level, you learn the infestation cantrip.  At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Mushroom Spells table.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Mushroom|WorldOfLight|2"
+					"subclassFeature": "Circle Spells|Druid||Mushroom|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fungal Tap|Druid||Mushroom|WorldOfLight|2"
+					"subclassFeature": "Fungal Tap|Druid||Mushroom|WorldOfLight|3"
 				}
 			]
 		},
@@ -8685,10 +8688,10 @@
 			],
 			"source": "WorldOfLight",
 			"className": "Druid",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
 			"subclassSource": "WorldOfLight",
-			"level": 2,
+			"level": 3,
 			"header": 1
 		},
 		{
@@ -8716,17 +8719,17 @@
 			],
 			"source": "WorldOfLight",
 			"className": "Druid",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
 			"subclassSource": "WorldOfLight",
-			"level": 2,
+			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Parasitic Fungus",
 			"source": "WorldOfLight",
 			"className": "Druid",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -8741,7 +8744,7 @@
 			"name": "Spreading Spores",
 			"source": "WorldOfLight",
 			"className": "Druid",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
 			"subclassSource": "WorldOfLight",
 			"level": 10,
@@ -8754,7 +8757,7 @@
 			"name": "Fungal Body",
 			"source": "WorldOfLight",
 			"className": "Druid",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Mushroom",
 			"subclassSource": "WorldOfLight",
 			"level": 14,
@@ -8769,7 +8772,7 @@
 			"name": "Blessed Protector",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -8790,7 +8793,7 @@
 			"name": "Aegis",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -8806,7 +8809,7 @@
 			"name": "Fortitude",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -8828,7 +8831,7 @@
 			"name": "Perseverance",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
 			"subclassSource": "WorldOfLight",
 			"level": 7,
@@ -8842,7 +8845,7 @@
 			"name": "Additional Fighting Style",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
 			"subclassSource": "WorldOfLight",
 			"level": 10,
@@ -8856,7 +8859,7 @@
 			"name": "Improved Aegis",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
 			"subclassSource": "WorldOfLight",
 			"level": 15,
@@ -8870,7 +8873,7 @@
 			"name": "Last Stand",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Vanguard",
 			"subclassSource": "WorldOfLight",
 			"level": 18,
@@ -8885,7 +8888,7 @@
 			"name": "The Marauder",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -8903,7 +8906,7 @@
 			"name": "Concussive Blows",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -8918,7 +8921,7 @@
 			"name": "Brawny",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
 			"subclassSource": "WorldOfLight",
 			"level": 7,
@@ -8933,7 +8936,7 @@
 			"name": "Stay Down",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
 			"subclassSource": "WorldOfLight",
 			"level": 10,
@@ -8948,7 +8951,7 @@
 			"name": "Tenacity",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
 			"subclassSource": "WorldOfLight",
 			"level": 15,
@@ -8962,7 +8965,7 @@
 			"name": "Finishing Blow",
 			"source": "WorldOfLight",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Marauder",
 			"subclassSource": "WorldOfLight",
 			"level": 18,
@@ -8980,7 +8983,7 @@
 			"name": "Way of Time",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9000,7 +9003,7 @@
 			"name": "Mystic Timestopper",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9015,7 +9018,7 @@
 			"name": "Speech of Importance",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -9033,7 +9036,7 @@
 			"name": "Deliberated Clairvoyance",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 11,
@@ -9049,7 +9052,7 @@
 			"name": "Channeled Dilation",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Time",
 			"subclassSource": "WorldOfLight",
 			"level": 17,
@@ -9066,7 +9069,7 @@
 			"name": "Way of The Moon Soul",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9087,7 +9090,7 @@
 			"name": "Fist of The New Moon",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9103,7 +9106,7 @@
 			"name": "Path of Illumination",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9118,7 +9121,7 @@
 			"name": "Channeling The Night",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -9134,7 +9137,7 @@
 			"name": "Starforger",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
 			"subclassSource": "WorldOfLight",
 			"level": 11,
@@ -9150,7 +9153,7 @@
 			"name": "Lunar Eclipse",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Moon Soul",
 			"subclassSource": "WorldOfLight",
 			"level": 17,
@@ -9175,7 +9178,7 @@
 			"name": "Way of the Wild",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9196,7 +9199,7 @@
 			"name": "Tranquil as the Forest",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9214,7 +9217,7 @@
 			"name": "Reclusive Mind",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9228,7 +9231,7 @@
 			"name": "Touch of Thorns",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -9244,7 +9247,7 @@
 			"name": "Ancient Oak's Acumen",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "WorldOfLight",
 			"level": 11,
@@ -9258,7 +9261,7 @@
 			"name": "Wild Spirits",
 			"source": "WorldOfLight",
 			"className": "Monk",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Wild",
 			"subclassSource": "WorldOfLight",
 			"level": 17,
@@ -9276,7 +9279,7 @@
 			"name": "Oath of the Open Sea",
 			"source": "WorldOfLight",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9304,7 +9307,7 @@
 			"name": "Tenets of the Open Sea",
 			"source": "WorldOfLight",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9365,7 +9368,7 @@
 			"name": "Oath Spells",
 			"source": "WorldOfLight",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9412,7 +9415,7 @@
 			"name": "Channel Divinity: Marine Layer",
 			"source": "WorldOfLight",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
 			"subclassSource": "WorldOfLight",
 			"level": 3,
@@ -9440,7 +9443,7 @@
 			"name": "Aura of Liberation",
 			"source": "WorldOfLight",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
 			"subclassSource": "WorldOfLight",
 			"level": 7,
@@ -9455,7 +9458,7 @@
 			"name": "Stormy Waters",
 			"source": "WorldOfLight",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
 			"subclassSource": "WorldOfLight",
 			"level": 15,
@@ -9469,7 +9472,7 @@
 			"name": "Mythic Swashbuckler",
 			"source": "WorldOfLight",
 			"className": "Paladin",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Open Sea",
 			"subclassSource": "WorldOfLight",
 			"level": 20,
@@ -9496,10 +9499,10 @@
 			"name": "The Deviant",
 			"source": "WorldOfLight",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"entries": [
 				"The Deviant Warlock is a Warlock that specializes in the art of Trickery and Deception. They might have secret identities or other such spells to mask their identities, and are notorious for wreaking havoc wherever they may pass.",
 				"Your patron is a deity of a Trickery domain; ideally Asmodeus or other Betrayer Gods, or the vicious aspects of Sehanine. Any devil might do too, such as a Succubus, Rakshasa (These work very well) or some other Tricksy Fiend.",
@@ -9546,11 +9549,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Satirical Sorcery|Warlock||Deviant|WorldOfLight|1"
+					"subclassFeature": "Satirical Sorcery|Warlock||Deviant|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Crown of Lies|Warlock||Deviant|WorldOfLight|1"
+					"subclassFeature": "Crown of Lies|Warlock||Deviant|WorldOfLight|3"
 				}
 			]
 		},
@@ -9558,14 +9561,14 @@
 			"name": "Satirical Sorcery",
 			"source": "WorldOfLight",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Deviant feature}",
-				"Starting at 1st level, you learn the {@spell vicious mockery} and {@spell guidance} cantrips. They are warlock cantrips for you, and they don't count against your number of cantrips known."
+				"{@i 3rd-level Deviant feature}",
+				"Starting at 3rd level, you learn the {@spell vicious mockery} and {@spell guidance} cantrips. They are warlock cantrips for you, and they don't count against your number of cantrips known."
 			]
 		},
 		{
@@ -9575,18 +9578,18 @@
 			"classSource": "PHB",
 			"subclassShortName": "Deviant",
 			"subclassSource": "WorldOfLight",
-			"level": 1,
+			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Deviant feature}",
-				"Also starting at 1st level, you gain proficiency in the Charisma ({@skill Persuasion}) and Charisma ({@skill Deception}) skills. If you already have proficiency in either of these skills, you add double your proficiency bonus instead. Moreover, when you make a Charisma ({@skill Deception}) check to have someone believe something you say, treat a roll of 7 or lower on the d20 as an 8."
+				"{@i 3rd-level Deviant feature}",
+				"Also starting at 3rd level, you gain proficiency in the Charisma ({@skill Persuasion}) and Charisma ({@skill Deception}) skills. If you already have proficiency in either of these skills, you add double your proficiency bonus instead. Moreover, when you make a Charisma ({@skill Deception}) check to have someone believe something you say, treat a roll of 7 or lower on the d20 as an 8."
 			]
 		},
 		{
 			"name": "Duplicitous Double Speak",
 			"source": "WorldOfLight",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
 			"subclassSource": "WorldOfLight",
 			"level": 6,
@@ -9601,7 +9604,7 @@
 			"name": "Illusory Facsimile",
 			"source": "WorldOfLight",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
 			"subclassSource": "WorldOfLight",
 			"level": 10,
@@ -9617,7 +9620,7 @@
 			"name": "Malefic Illusions",
 			"source": "WorldOfLight",
 			"className": "Warlock",
-			"classSource": "PHB",
+			"classSource": "XPHB",
 			"subclassShortName": "Deviant",
 			"subclassSource": "WorldOfLight",
 			"level": 14,
@@ -9628,265 +9631,6 @@
 				"When an illusionary duplicate mimics a weapon attack it deals {@dice 1d10} + your Charisma modifier in psychic damage."
 			]
 		},
-
-		{
-			"name": "The Hexblade",
-			"source": "WorldOfLight",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 1,
-			"entries": [
-				"You have made a pact with a mysterious entity. This entity, whatever it may be, has granted you\u2014or sometimes even is\u2014a weapon carved from the boon that a Hexblade calls their pact. While unknown to many, Hexblades come in many a form. Some gain their power from the stuff of shadow, while others have made a pact with the blade itself.",
-				"The mighty sword {@i Dawnbreaker} is the most notable Hexblade weapon, which has been spread across the world over the ages, carried by a Warlock said to have made a pact with the goddess {@deity Auroril|Ilúvë|WorldOfLight} herself. Sages believe that almost every being with sufficient power could create a pact blade and give it to their followers, yet this brings into question what (or perhaps whom) binds these pacts in the first place.",
-				{
-					"type": "entries",
-					"name": "Expanded Spell List",
-					"entries": [
-						"The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-						{
-							"type": "table",
-							"caption": "Hexblade Expanded Spells",
-							"colLabels": [
-								"Spell Level",
-								"Spells"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"1st",
-									"{@spell shield}, {@spell wrathful smite}"
-								],
-								[
-									"2nd",
-									"{@spell blur}, {@spell branding smite}"
-								],
-								[
-									"3rd",
-									"{@spell blink}, {@spell elemental weapon}"
-								],
-								[
-									"4th",
-									"{@spell phantasmal killer}, {@spell staggering smite}"
-								],
-								[
-									"5th",
-									"{@spell banishing smite}, {@spell cone of cold}"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Hexblade's Curse|Warlock||Hexblade (Variant)|WorldOfLight|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Hex Warrior|Warlock||Hexblade (Variant)|WorldOfLight|1"
-				}
-			]
-		},
-		{
-			"name": "Hexblade's Curse",
-			"source": "WorldOfLight",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"{@i 1st-level Hexblade feature}",
-				"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition incapacitated}. Until the curse ends, you gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.",
-						"Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the {@dice d20}.",
-						"If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point)."
-					]
-				},
-				"You can't use this feature again until you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Hex Warrior",
-			"source": "WorldOfLight",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"{@i 1st-level Hexblade feature}",
-				"At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.",
-				"The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type."
-			]
-		},
-		{
-			"name": "Spellsword",
-			"source": "WorldOfLight",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"{@i 6th-level Hexblade feature}",
-				"Beginning at 6th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
-			]
-		},
-		{
-			"name": "Armor of Hexes",
-			"source": "WorldOfLight",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"{@i 10th-level Hexblade feature}",
-				"At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a {@dice d6}. On a 4 or higher, the attack instead misses you, regardless of its roll."
-			]
-		},
-		{
-			"name": "Master of Hexes",
-			"source": "WorldOfLight",
-			"className": "Warlock",
-			"classSource": "PHB",
-			"subclassShortName": "Hexblade (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"{@i 14th-level Hexblade feature}",
-				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition incapacitated}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
-			]
-		},
-
-
-
-		{
-			"name": "Chronurgy Magic",
-			"source": "WorldOfLight",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 2,
-			"entries": [
-				"Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory divination magic, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Relativity Savant|Wizard||Chronurgy (Variant)|WorldOfLight|2"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Chronal Shift|Wizard||Chronurgy (Variant)|WorldOfLight|2"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Temporal Awareness|Wizard||Chronurgy (Variant)|WorldOfLight|2"
-				}
-			]
-		},
-		{
-			"name": "Relativity Savant",
-			"source": "WorldOfLight",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"{@i 2nd-level Chronurgy Magic feature}",
-				"Beginning when you select this school at 2nd level, the time you must spend to copy any spell into your spellbook is halved."
-			]
-		},
-		{
-			"name": "Chronal Shift",
-			"source": "WorldOfLight",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"{@i 2nd-level Chronurgy Magic feature}",
-				"You can magically exert limited control over the flow of time around a creature. As a reaction, after you or a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can force the creature to reroll. You make this decision after you see whether the roll succeeds or fails. The target must use the result of the second roll.",
-				"You can use this ability twice, and you regain any expended uses when you finish a long rest."
-			]
-		},
-		{
-			"name": "Temporal Awareness",
-			"source": "WorldOfLight",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 2,
-			"header": 1,
-			"entries": [
-				"{@i 2nd-level Chronurgy Magic feature}",
-				"You can add your Intelligence modifier to your initiative rolls."
-			]
-		},
-		{
-			"name": "Momentary Stasis",
-			"source": "WorldOfLight",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"{@i 6th-level Chronurgy Magic feature}",
-				"As an action, you can magically force a Large or smaller creature you can see within 60 feet of you to make a Constitution saving throw against your spell save DC. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of your next turn or until the creature takes any damage. While encased in this way, the creature is {@condition incapacitated} and has a speed of 0.",
-				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest."
-			]
-		},
-		{
-			"name": "Arcane Abeyance",
-			"source": "WorldOfLight",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"{@i 10th-level Chronurgy Magic feature}",
-				"When you cast a spell using a spell slot of 4th level or lower, you can condense the spell's magic into a mote. The spell is frozen in time at the moment of casting and held within a gray bead for 1 hour. This bead is a Tiny object with AC 15 and 1 hit point, and it is immune to poison and psychic damage. When the duration ends, or if the bead is destroyed, it vanishes in a flash of light, and the spell is lost.",
-				"A creature holding the bead can use its action to release the spell within, whereupon the bead disappears. The spell uses your spell attack bonus and save DC, and the spell treats the creature who released it as the caster for all other purposes.",
-				"Once you create a bead with this feature, you can't do so again until you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Transcendent Juncture",
-			"source": "WorldOfLight",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Chronurgy (Variant)",
-			"subclassSource": "WorldOfLight",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"{@i 14th-level Chronurgy Magic feature}",
-				"Starting at 14th level, glimpses of the future begin to press in on your awareness, and with it, the secrets to manipulate them. When you finish a long rest, roll three {@dice d20}s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You can choose to do so before or after the roll, and you can replace a roll in this way only once per turn."
-			]
-		},
-
 
 		{
 			"name": "The Hexblade",
@@ -10028,6 +9772,120 @@
 			"entries": [
 				"{@i 14th-level Hexblade feature}",
 				"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition incapacitated}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
+			]
+		},
+
+
+		{
+			"name": "Chronurgy Magic",
+			"source": "WorldOfLight",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Chronurgy (Variant)",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"entries": [
+				"Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory divination magic, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Relativity Savant|Wizard||Chronurgy (Variant)|WorldOfLight|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Chronal Shift|Wizard||Chronurgy (Variant)|WorldOfLight|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Temporal Awareness|Wizard||Chronurgy (Variant)|WorldOfLight|3"
+				}
+			]
+		},
+		{
+			"name": "Relativity Savant",
+			"source": "WorldOfLight",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Chronurgy (Variant)",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Chronurgy Magic feature}",
+				"Beginning when you select this school at 3rd level, the time you must spend to copy any spell into your spellbook is halved."
+			]
+		},
+		{
+			"name": "Chronal Shift",
+			"source": "WorldOfLight",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Chronurgy (Variant)",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Chronurgy Magic feature}",
+				"You can magically exert limited control over the flow of time around a creature. As a reaction, after you or a creature you can see within 30 feet of you makes an attack roll, an ability check, or a saving throw, you can force the creature to reroll. You make this decision after you see whether the roll succeeds or fails. The target must use the result of the second roll.",
+				"You can use this ability twice, and you regain any expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Temporal Awareness",
+			"source": "WorldOfLight",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Chronurgy (Variant)",
+			"subclassSource": "WorldOfLight",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Chronurgy Magic feature}",
+				"You can add your Intelligence modifier to your initiative rolls."
+			]
+		},
+		{
+			"name": "Momentary Stasis",
+			"source": "WorldOfLight",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Chronurgy (Variant)",
+			"subclassSource": "WorldOfLight",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Chronurgy Magic feature}",
+				"As an action, you can magically force a Large or smaller creature you can see within 60 feet of you to make a Constitution saving throw against your spell save DC. Unless the saving throw is a success, the creature is encased in a field of magical energy until the end of your next turn or until the creature takes any damage. While encased in this way, the creature is {@condition incapacitated} and has a speed of 0.",
+				"You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Arcane Abeyance",
+			"source": "WorldOfLight",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Chronurgy (Variant)",
+			"subclassSource": "WorldOfLight",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Chronurgy Magic feature}",
+				"When you cast a spell using a spell slot of 4th level or lower, you can condense the spell's magic into a mote. The spell is frozen in time at the moment of casting and held within a gray bead for 1 hour. This bead is a Tiny object with AC 15 and 1 hit point, and it is immune to poison and psychic damage. When the duration ends, or if the bead is destroyed, it vanishes in a flash of light, and the spell is lost.",
+				"A creature holding the bead can use its action to release the spell within, whereupon the bead disappears. The spell uses your spell attack bonus and save DC, and the spell treats the creature who released it as the caster for all other purposes.",
+				"Once you create a bead with this feature, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Transcendent Juncture",
+			"source": "WorldOfLight",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"subclassShortName": "Chronurgy (Variant)",
+			"subclassSource": "WorldOfLight",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Chronurgy Magic feature}",
+				"Starting at 14th level, glimpses of the future begin to press in on your awareness, and with it, the secrets to manipulate them. When you finish a long rest, roll three {@dice d20}s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You can choose to do so before or after the roll, and you can replace a roll in this way only once per turn."
 			]
 		}
 	],
@@ -10347,7 +10205,8 @@
 						"level": 5,
 						"class": {
 							"name": "Warlock"
-						}
+						},
+						"classSource": "XPHB"
 					}
 				}
 			],
