@@ -8002,7 +8002,7 @@
 			"source": "WorldOfLight",
 			"shortName": "Trickery (Revised)"
 		},
-		
+
 		{
 			"className": "Druid",
 			"classSource": "XPHB",
@@ -8228,11 +8228,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Cantrips|Cleric||Madness|WorldOfLight|3"
+					"subclassFeature": "Bonus Cantrips|Cleric|XPHB|Madness|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Inscrutable Mind|Cleric||Madness|WorldOfLight|3"
+					"subclassFeature": "Inscrutable Mind|Cleric|XPHB|Madness|WorldOfLight|3"
 				}
 			]
 		},
@@ -8367,11 +8367,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Knight of the Old Ways|Cleric||Time|WorldOfLight|3"
+					"subclassFeature": "Knight of the Old Ways|Cleric|XPHB|Time|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oracle of Chronology|Cleric||Time|WorldOfLight|3"
+					"subclassFeature": "Oracle of Chronology|Cleric|XPHB|Time|WorldOfLight|3"
 				}
 			]
 		},
@@ -8512,11 +8512,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Blessing of the Trickster|Cleric||Trickery (Revised)|WorldOfLight|3"
+					"subclassFeature": "Blessing of the Trickster|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiency|Cleric||Trickery (Revised)|WorldOfLight|3"
+					"subclassFeature": "Bonus Proficiency|Cleric|XPHB|Trickery (Revised)|WorldOfLight|3"
 				}
 			]
 		},
@@ -8644,11 +8644,11 @@
 				"Your link to fungus and your ability to tap into hazy visions and strange toxins grants you access to certain spells. At 2nd level, you learn the infestation cantrip.  At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Mushroom Spells table.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Circle Spells|Druid||Mushroom|WorldOfLight|3"
+					"subclassFeature": "Circle Spells|Druid|XPHB|Mushroom|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fungal Tap|Druid||Mushroom|WorldOfLight|3"
+					"subclassFeature": "Fungal Tap|Druid|XPHB|Mushroom|WorldOfLight|3"
 				}
 			]
 		},
@@ -8783,11 +8783,11 @@
 				"Those who take up this archetype stand their ground against any adversary, willing to lay down their lives for the greater good.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aegis|Fighter||Vanguard|WorldOfLight|3"
+					"subclassFeature": "Aegis|Fighter|XPHB|Vanguard|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fortitude|Fighter||Vanguard|WorldOfLight|3"
+					"subclassFeature": "Fortitude|Fighter|XPHB|Vanguard|WorldOfLight|3"
 				}
 			]
 		},
@@ -8900,7 +8900,7 @@
 				"Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Concussive Blows|Fighter||Marauder|WorldOfLight|3"
+					"subclassFeature": "Concussive Blows|Fighter|XPHB|Marauder|WorldOfLight|3"
 				}
 			]
 		},
@@ -8997,7 +8997,7 @@
 				"The Chroniclers, to most unknown, also created a small off-shoot of their order, the \"Hand of Eon's Minute\". This order has, since the Chroniclers have gone into hiding, reinstated itself in Thalor Ancalen, near the Cloakwood Forest. The monks of this monastic order teach a modified \"Elder Way\", wherein they believe and teach that Ki energy is the vital way to unlocking the secrets of time.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Mystic Timestopper|Monk||Time|WorldOfLight|3"
+					"subclassFeature": "Mystic Timestopper|Monk|XPHB|Time|WorldOfLight|3"
 				}
 			]
 		},
@@ -9080,11 +9080,11 @@
 				"Unlike the Way of The Sun Soul, they are more defensive and fight in the front lines, focussing all their efforts to take down one enemy at a time. They will also attempt to avoid conflict if possible, but aren't afraid to get their hands dirty.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fist of The New Moon|Monk||Moon Soul|WorldOfLight|3"
+					"subclassFeature": "Fist of The New Moon|Monk|XPHB|Moon Soul|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Path of Illumination|Monk||Moon Soul|WorldOfLight|3"
+					"subclassFeature": "Path of Illumination|Monk|XPHB|Moon Soul|WorldOfLight|3"
 				}
 			]
 		},
@@ -9189,11 +9189,11 @@
 				"Unlike most Monks, these monks have more in common with Druids or Rangers, and most Rangers might dip into this subclass for close-quarters combat.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tranquil as the Forest|Monk||Wild|WorldOfLight|3"
+					"subclassFeature": "Tranquil as the Forest|Monk|XPHB|Wild|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Reclusive Mind|Monk||Wild|WorldOfLight|3"
+					"subclassFeature": "Reclusive Mind|Monk|XPHB|Wild|WorldOfLight|3"
 				}
 			]
 		},
@@ -9289,19 +9289,19 @@
 				"The Oath of the Open Sea calls to sea-faring warriors, swashbuckling sailors, and journeying guardians who seek the thrill of an endless horizon. Driven to seek the adventure and mystery across and beneath every endless oceanic expanse, paladins who swear this oath stand against those who would deny the liberties afforded to likeminded travelers, rooting out the tyrannical and corrupt that claim any shore. Such guardians believe in the natural beauty of the sea, often making offerings and prayers to entities or deities like the Wild Mother or Storm Lord that influence safe passage, while often feeling called to hunt those monstrosities that seek to terrorize and spoil the waters with wanton violence and ill intent.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tenets of the Open Sea|Paladin||Open Sea|WorldOfLight|3"
+					"subclassFeature": "Tenets of the Open Sea|Paladin|XPHB|Open Sea|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Oath Spells|Paladin||Open Sea|WorldOfLight|3"
+					"subclassFeature": "Oath Spells|Paladin|XPHB|Open Sea|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Marine Layer|Paladin||Open Sea|WorldOfLight|3"
+					"subclassFeature": "Channel Divinity: Marine Layer|Paladin|XPHB|Open Sea|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity: Fury of the Tides|Paladin||Open Sea|WorldOfLight|3"
+					"subclassFeature": "Channel Divinity: Fury of the Tides|Paladin|XPHB|Open Sea|WorldOfLight|3"
 				}
 			]
 		},
@@ -9551,11 +9551,11 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Satirical Sorcery|Warlock||Deviant|WorldOfLight|3"
+					"subclassFeature": "Satirical Sorcery|Warlock|XPHB|Deviant|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Crown of Lies|Warlock||Deviant|WorldOfLight|3"
+					"subclassFeature": "Crown of Lies|Warlock|XPHB|Deviant|WorldOfLight|3"
 				}
 			]
 		},
@@ -9790,15 +9790,15 @@
 				"Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory divination magic, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Relativity Savant|Wizard||Chronurgy (Variant)|WorldOfLight|3"
+					"subclassFeature": "Relativity Savant|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Chronal Shift|Wizard||Chronurgy (Variant)|WorldOfLight|3"
+					"subclassFeature": "Chronal Shift|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Temporal Awareness|Wizard||Chronurgy (Variant)|WorldOfLight|3"
+					"subclassFeature": "Temporal Awareness|Wizard|XPHB|Chronurgy (Variant)|WorldOfLight|3"
 				}
 			]
 		},
