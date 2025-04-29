@@ -295,7 +295,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Khorvuz wields a {@item staff of the magi} and he wears a {@item robe of the archmagi}. In addition, he wears a {@item ring of spell storing} containing a 5th-level {@spell magic missile} spell."
+						"Khorvuz wields a {@item staff of the magi} and he wears a {@item robe of the archmagi}. In addition, he wears a {@item ring of greater spell storing|WorldOfLight} containing a 7th-level {@spell magic missile} spell."
 					]
 				},
 				{
@@ -316,7 +316,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Khorvuz is a 15th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He knows the following wizard spells, and prepared spells are marked with brackets."
+						"Khorvuz is a 17th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He knows the following wizard spells, and prepared spells are marked with brackets."
 					],
 					"spells": {
 						"0": {

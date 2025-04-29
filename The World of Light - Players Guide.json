@@ -3860,7 +3860,7 @@
 			"source": "WorldOfLight",
 			"baseItem": "shortsword|PHB",
 			"type": "M",
-			"rarity": "rare",
+			"rarity": "very rare",
 			"weight": 2,
 			"reqAttune": true,
 			"weaponCategory": "martial",
@@ -3896,10 +3896,10 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
-			"bonusWeapon": "+1",
+			"bonusWeapon": "+2",
 			"entries": [
 				"Made of an exquisite Elven steel, this greatsword bears a beautiful handle made from solid gold. A blade fit for a king, the pommel contains a singular, large pink diamond, and embedded into the blade sit five dazzling gems.",
-				"You gain a +1 bonus to attack and damage rolls you make with this magic weapon. In addition, you have resistance to force damage while you wield this blade.",
+				"You gain a +2 bonus to attack and damage rolls you make with this magic weapon. In addition, you have resistance to force damage while you wield this blade.",
 				{
 					"name": "Arcane Barrage",
 					"type": "entries",
@@ -3914,15 +3914,6 @@
 					"entries": [
 						"While you are attuned to this weapon, you gain a +2 bonus to Intelligence ({@skill History}) and Intelligence ({@skill Arcana}) checks."
 					]
-				},
-				{
-					"name": "Sentience and Personality",
-					"type": "entries",
-					"entries": [
-						"Entrapped within this blade is the soul of Rhoderihck Johannez, making this weapon a neutral evil sentient weapon with an Intelligence of 14, a Wisdom of 18, and a Charisma of 22. It has hearing and {@sense darkvision} out to a range of 60 feet. It also has {@sense truesight} out to a range of 15 feet.",
-						"The sword can speak, read, and understand {@language Arconic|WorldOfLight}, {@language Common}, {@language Elvish}, {@language Draconic} and {@language Primordial}, and it can communicate with its wielder telepathically. Its voice is sly and impatient. It also knows every language you know while attuned to it.",
-						"Forged by the Arch-Sorcerer Alzatar Lefay, and trapped in the blade by Morgana Umbrind, Rhoderihck feels great resentment for his Phoenix Twelve members betraying him. Though he is neutral evil, he does take a quick liking to smart wielders."
-					]
 				}
 			]
 		},
@@ -3934,7 +3925,7 @@
 			"wondrous": true,
 			"weight": 20,
 			"entries": [
-				"This bag belonged to Rhoderihck Johannez of Arcanix II, and has an interior space considerably larger than its outside dimensions, roughly 4 feet in diameter at the mouth and 8 feet deep. The bag can hold up to 1000 pounds, not exceeding a volume of 128 cubic feet. The bag weighs 20 pounds, regardless of its contents. Retrieving an item from the bag requires an action.",
+				"This bag belongs to Rhoderihck Johannez of Arcanix II, and has an interior space considerably larger than its outside dimensions, roughly 4 feet in diameter at the mouth and 8 feet deep. The bag can hold up to 1000 pounds, not exceeding a volume of 128 cubic feet. The bag weighs 20 pounds, regardless of its contents. Retrieving an item from the bag requires an action.",
 				"If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
 				"Placing a bag of holding inside an extradimensional space created by a {@item Heward's handy haversack}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
 			],
@@ -3956,7 +3947,7 @@
 			"source": "WorldOfLight",
 			"wondrous": true,
 			"entries": [
-				"This small runestone seems suffused with a strange energy.",
+				"This small runestone seems suffused with a dark energy.",
 				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals necrotic damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
 			]
 		},
@@ -3969,7 +3960,7 @@
 			"entries": [
 				"This small runestone seems suffused with malicious energy.",
 				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals fire or necrotic damage (your choice) equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact.",
-				"Alternatively, you can use a bonus action to crush the stone in your palm, dealing {@dice 4d6} necrotic damage to you, and radiating out a shockwave of hellish energy. Any creature within 20 feet of you must make a DC 16 dexterity saving throw, dealing {@damage 10d6} fire or necrotic damage (your choice) on a failed save, or half as much on a successful one. The stone is destroyed upon use."
+				"Alternatively, you can use a bonus action to crush the stone in your palm, dealing {@dice 4d6} necrotic damage to you, and radiating out a shockwave of hellish energy. Any creature within 20 feet of you must make a DC 16 dexterity saving throw, dealing {@damage 3d20} fire or necrotic damage (your choice) on a failed save, or half as much on a successful one. The stone is destroyed upon use."
 			]
 		},
 		{
@@ -4491,15 +4482,219 @@
 			"fluff": {}
 		},
 		{
-			"name": "Gemstone Tattoo",
-			"source": "TCE",
-			"page": 135,
-			"rarity": "common",
+			"name": "Gemstone Tattoo, Ruby Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
 			"wondrous": true,
 			"tattoo": true,
+			"value": 220000,
 			"entries": [
-				"Produced by a special needle, this magic tattoo contains a single {@filter 1st level spell|spells|level=1}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
-				"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You gain a +1 bonus to your Strength score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Emerald Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 220000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You gain a +1 bonus to your Dexterity score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Diamond Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 250000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You gain a +1 bonus to your Constitution score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Jade Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 220000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You gain a +1 bonus to your Wisdom score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Sapphire Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 220000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You gain a +1 bonus to your Intelligence score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Aquamarine Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 220000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You gain a +1 bonus to your Charisma score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Fire Opal Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Fire damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Black Sapphire Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Cold damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Topaz Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Lightning damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Amethyst Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Psychic damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Garnet Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Acid damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Onyx Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Necrotic damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Moonstone Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Radiant damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Citrine Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 500000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Thunder damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Obsidian Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 550000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Force damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Peridot Dust",
+			"source": "WorldOfLight",
+			"rarity": "rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 400000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Poison damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Alexandrite Dust",
+			"source": "WorldOfLight",
+			"rarity": "very rare",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 850000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Acid and Poison damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
+			]
+		},
+		{
+			"name": "Gemstone Tattoo, Star Alexandrite Dust",
+			"source": "WorldOfLight",
+			"rarity": "legendary",
+			"wondrous": true,
+			"tattoo": true,
+			"value": 1400000,
+			"entries": [
+				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
+				"You have resistance to Acid, Poison and Necrotic damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
 			]
 		},
 		{
@@ -4591,6 +4786,22 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Ring of Greater Spell Storing",
+			"source": "WorldOfLight",
+			"type": "RG|XDMG",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"entries": [
+				"This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 7 levels worth of spells at a time. When found, it contains {@dice 1d8 - 1} levels of stored spells chosen by the DM.",
+				"Any creature can cast a spell of level 1 through 7 into the ring by touching the ring as the spell is cast. The spell has no effect other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
+				"While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space."
+			],
+			"lootTables": [
+				"Arcana - Very Rare|XDMG",
+				"Relics - Very Rare|XDMG"
+			]
 		}
 	],
 	"itemGroup": [
@@ -4600,13 +4811,39 @@
 			"rarity": "varies",
 			"wondrous": true,
 			"items": [
-				"Runestone, Acid",
-				"Runestone, Cold",
-				"Runestone, Fire",
-				"Runestone, Force",
+				"Runestone, Acid|WorldOfLight",
+				"Runestone, Cold|WorldOfLight",
+				"Runestone, Fire|WorldOfLight",
+				"Runestone, Force|WorldOfLight",
 				"Runestone, Necrotic|WorldOfLight",
 				"Runestone, Brisingr|WorldOfLight",
 				"Runestone, Ithildin|WorldOfLight"
+			]
+		},
+		{
+			"name": "Gemstone Tattoo",
+			"source": "WorldOfLight",
+			"rarity": "varies",
+			"wondrous": true,
+			"items": [
+				"Gemstone Tattoo, Ruby Dust|WorldOfLight",
+				"Gemstone Tattoo, Emerald Dust|WorldOfLight",
+				"Gemstone Tattoo, Diamond Dust|WorldOfLight",
+				"Gemstone Tattoo, Jade Dust|WorldOfLight",
+				"Gemstone Tattoo, Sapphire Dust|WorldOfLight",
+				"Gemstone Tattoo, Aquamarine Dust|WorldOfLight",
+				"Gemstone Tattoo, Fire Opal Dust|WorldOfLight",
+				"Gemstone Tattoo, Black Sapphire Dust|WorldOfLight",
+				"Gemstone Tattoo, Topaz Dust|WorldOfLight",
+				"Gemstone Tattoo, Amethyst Dust|WorldOfLight",
+				"Gemstone Tattoo, Garnet Dust|WorldOfLight",
+				"Gemstone Tattoo, Onyx Dust|WorldOfLight",
+				"Gemstone Tattoo, Citrine Dust|WorldOfLight",
+				"Gemstone Tattoo, Moonstone Dust|WorldOfLight",
+				"Gemstone Tattoo, Obsidian Dust|WorldOfLight",
+				"Gemstone Tattoo, Peridot Dust|WorldOfLight",
+				"Gemstone Tattoo, Alexandrite Dust|WorldOfLight",
+				"Gemstone Tattoo, Star Alexandrite Dust|WorldOfLight"
 			]
 		}
 	],
