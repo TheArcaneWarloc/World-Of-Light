@@ -474,11 +474,11 @@
 				"E"
 			],
 			"ac": [
-				13,
 				{
-					"ac": 16,
-					"condition": "with {@spell mage armor}",
-					"braces": true
+					"ac": 19,
+					"from": [
+						"elven chain mail, staff of power"
+					]
 				}
 			],
 			"hp": {
@@ -520,7 +520,13 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Rhoderihck wields a {@item staff of power} and he wears a {@item cloak of elvenkind}. In addition, he wears (thought isn't attuned to) a {@item ring of spell storing} containing a 5th-level {@spell fireball} spell. He also wears a {@item ring of invisibility}, and carries with him {@item rhoderihck's bag of holding|WorldOfLight}."
+						"Rhoderihck wields a {@item staff of power} and wears a {@item cloak of elvenkind}, a {@item belt of dwarvenkind}, {@item elven chain mail} and {@item boots of elvenkind} (though he isn't attuned to the cloak). In addition, he wears a {@item ring of spell storing} containing a 5th-level {@spell counterspell|PHB} spell, a {@item ring of invisibility}, a {@item ring of radiant resistance}, a {@item ring of psychic resistance}, and carries with him {@item rhoderihck's bag of holding|WorldOfLight}."
+					]
+				},
+				{
+					"name": "Thaumaturgic Expert",
+					"entries": [
+						"Rhoderihck can be attuned to 4 magical items at a time."
 					]
 				},
 				{
@@ -584,7 +590,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Rhoderihck is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He knows the following sorcerer spells:"
+						"Rhoderihck is a 20th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 19}, {@hit 14} to hit with spell attacks). He knows the following sorcerer spells:"
 					],
 					"spells": {
 						"0": {
@@ -600,14 +606,17 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell mage armor}",
+								"{@spell chaos bolt|XGE}",
+								"{@spell detect magic}",
 								"{@spell shield}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell scorching ray} (at will)"
+								"{@spell knock}",
+								"{@spell misty step}",
+								"{@spell scorching ray}"
 							]
 						},
 						"3": {
@@ -622,19 +631,23 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell blight}"
+								"{@spell rhoderihck's web of fire|WorldOfLight}",
+								"{@spell rhoderihck's speedy courier|WorldOfLight}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell bigby's hand}"
+								"{@spell bigby's hand}",
+								"{@spell teleportation circle}",
+								"{@spell telekinesis}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell disintegrate}"
+								"{@spell disintegrate}",
+								"{@spell true seeing}"
 							]
 						},
 						"7": {
@@ -648,11 +661,11 @@
 						"8": {
 							"slots": 1,
 							"spells": [
-								"{@spell demiplane}"
+								"{@spell clone}"
 							]
 						},
 						"9": {
-							"slots": 1,
+							"slots": 2,
 							"spells": [
 								"{@spell wish}"
 							]

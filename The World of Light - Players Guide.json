@@ -3616,6 +3616,7 @@
 			"value": 10000,
 			"ac": 14,
 			"armor": true,
+			"stealth": true,
 			"entries": [
 				"A brigandine is a form of body armour. It is a garment, generally heavy cloth, canvas or leather, lined with small oblong steel plates riveted to the fabric."
 			]
