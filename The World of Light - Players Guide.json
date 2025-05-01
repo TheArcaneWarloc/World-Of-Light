@@ -3943,36 +3943,138 @@
 		{
 			"name": "Runestone, Necrotic",
 			"rarity": "uncommon",
-			"tier": "major",
+			"tier": "minor",
 			"source": "WorldOfLight",
 			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
 			"entries": [
-				"This small runestone seems suffused with a dark energy.",
+				"This small runestone is suffused with dark magic.",
 				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals necrotic damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
 			]
 		},
 		{
-			"name": "Runestone, Brisingr",
-			"rarity": "uncommon",
-			"tier": "Brisingr",
+			"name": "Runestone, Brimstone",
+			"rarity": "rare",
+			"tier": "major",
 			"source": "WorldOfLight",
 			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
 			"entries": [
-				"This small runestone seems suffused with malicious energy.",
+				"This small runestone is suffused with malicious energy, radiating the fiery magic of Brimstone.",
 				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals fire or necrotic damage (your choice) equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact.",
 				"Alternatively, you can use a bonus action to crush the stone in your palm, dealing {@dice 4d6} necrotic damage to you, and radiating out a shockwave of hellish energy. Any creature within 20 feet of you must make a DC 16 dexterity saving throw, dealing {@damage 3d20} fire or necrotic damage (your choice) on a failed save, or half as much on a successful one. The stone is destroyed upon use."
 			]
 		},
 		{
 			"name": "Runestone, Ithildin",
-			"rarity": "uncommon",
-			"tier": "Ithildin",
+			"rarity": "rare",
+			"tier": "major",
 			"source": "WorldOfLight",
 			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
 			"entries": [
-				"This small runestone seems suffused with hallowed energy.",
+				"This small runestone is suffused with hallowed energy, radiating the burning radiance of Gleamsilver (otherwise known as Silver Fire, or Ithildin).",
 				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals radiant damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact.",
 				"Alternatively, you can use a bonus action to crush the stone in your palm, causing you to regain {@dice 3d12} hit points. The stone is then destroyed."
+			]
+		},
+		{
+			"name": "Runestone, Fire",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"source": "WorldOfLight",
+			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
+			"entries": [
+				"This small runestone is suffused with fire magic.",
+				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals fire damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
+			]
+		},
+		{
+			"name": "Runestone, Acid",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"source": "WorldOfLight",
+			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
+			"entries": [
+				"This small runestone is suffused with acidic magic.",
+				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals acid damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
+			]
+		},
+		{
+			"name": "Runestone, Cold",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"source": "WorldOfLight",
+			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
+			"entries": [
+				"This small runestone is suffused with frost magic.",
+				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals cold damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
+			]
+		},
+		{
+			"name": "Runestone, Force",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"source": "WorldOfLight",
+			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
+			"entries": [
+				"This small runestone is suffused with unfiltered, raw magic.",
+				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals force damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
+			]
+		},
+		{
+			"name": "Runestone, Lightning",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"source": "WorldOfLight",
+			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
+			"entries": [
+				"This small runestone is suffused with lightning magic.",
+				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals lightning damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
+			]
+		},
+		{
+			"name": "Runestone, Thunder",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"source": "WorldOfLight",
+			"wondrous": true,
+			"genericVariant": {
+				"name": "Runestone",
+				"source": "WorldOfLight"
+			},
+			"entries": [
+				"This small runestone is suffused with sonic magic.",
+				"As a bonus action, you can throw this stone toward one creature of your choice within 60 feet of you. You are considered proficient in this item when you throw it, and you may choose either dexterity, strength, intelligence or wisdom as the modifier used in the attack roll. On a hit, the stone deals thunder damage equal to {@damage 3d12} + your Dexterity, Strength, Intelligence or Wisdom modifier (your choice), and is destroyed upon impact."
 			]
 		},
 		{
@@ -4488,6 +4590,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You gain a +1 bonus to your Strength score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4500,6 +4606,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You gain a +1 bonus to your Dexterity score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4512,6 +4622,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 250000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You gain a +1 bonus to your Constitution score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4524,6 +4638,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You gain a +1 bonus to your Wisdom score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4536,6 +4654,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You gain a +1 bonus to your Intelligence score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4548,6 +4670,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 220000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You gain a +1 bonus to your Charisma score while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4560,6 +4686,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Fire damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4572,6 +4702,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Cold damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4584,6 +4718,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Lightning damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4596,6 +4734,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Psychic damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4608,6 +4750,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Acid damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4620,6 +4766,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Necrotic damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4632,6 +4782,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Radiant damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4644,6 +4798,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 500000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Thunder damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4656,6 +4814,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 550000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Force damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4668,6 +4830,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 400000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Poison damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4680,6 +4846,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 850000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Acid and Poison damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4692,6 +4862,10 @@
 			"wondrous": true,
 			"tattoo": true,
 			"value": 1400000,
+			"genericVariant": {
+				"name": "Gemstone Tattoo",
+				"source": "WorldOfLight"
+			},
 			"entries": [
 				"Gemstone tattoos are magical tattoos that are infused with gemstone dust, which enhance the physical capabilities of the person they are tattooed upon.",
 				"You have resistance to Acid, Poison and Necrotic damage while this tattoo persists on your skin. You can only benefit from one tattoo at a time."
@@ -4815,7 +4989,9 @@
 				"Runestone, Cold|WorldOfLight",
 				"Runestone, Fire|WorldOfLight",
 				"Runestone, Force|WorldOfLight",
+				"Runestone, Lightning|WorldOfLight",
 				"Runestone, Necrotic|WorldOfLight",
+				"Runestone, Thunder|WorldOfLight",
 				"Runestone, Brisingr|WorldOfLight",
 				"Runestone, Ithildin|WorldOfLight"
 			]
