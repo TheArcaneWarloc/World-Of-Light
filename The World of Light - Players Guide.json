@@ -8053,6 +8053,72 @@
 			}
 		},
 		{
+			"name": "Teddy's spell, where if you use it you get access to an extradimensional space",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a {@item bag of holding} or similar container with an extradimensional space"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"source": "WorldOfLight",
+			"entries": [
+				"You weave a spectral tether to an extradimensional space tied to an item you own, such as a {@item portable hole}, {@item bag of holding}, or similar object. The item must be within 1 mile of you, and you must be attuned to it (if attunement is required) or otherwise be its recognized owner.",
+				"When you cast this spell, you reach your hand into an invisible fold in space. While reaching into this space, you can access the linked extradimensional space, retrieving or stowing objects as though you were holding the item itself. You can retrieve or stow any one item that would be reasonable for you to grab with one or both hands inside the extradimensional space, or up to 50 coins. The fold then vanishes."
+			]
+		},
+		{
 			"name": "Temporal Storm",
 			"level": 5,
 			"school": "V",
