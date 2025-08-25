@@ -254,8 +254,8 @@
 				}
 			],
 			"hp": {
-				"average": 67,
-				"formula": "15d6+15"
+				"average": 81,
+				"formula": "18d6+18"
 			},
 			"speed": {
 				"walk": 30
@@ -267,16 +267,17 @@
 			"wis": 18,
 			"cha": 17,
 			"save": {
-				"int": "+10",
-				"wis": "+9"
+				"int": "+11",
+				"wis": "+10"
 			},
 			"skill": {
-				"arcana": "+10",
-				"history": "+10",
-				"perception": "+9"
+				"arcana": "+11",
+				"history": "+11",
+				"perception": "+10"
 			},
 			"passive": 19,
 			"languages": [
+				"Arconic|WorldOfLight"
 				"Common",
 				"Celestial",
 				"Draconic",
@@ -284,7 +285,7 @@
 				"Sylvan",
 				"Undercommon"
 			],
-			"cr": "14",
+			"cr": "18",
 			"trait": [
 				{
 					"name": "Magic Resistance",
@@ -314,18 +315,18 @@
 			],
 			"spellcasting": [
 				{
-					"name": "Spellcasting",
+					"name": "Wizard Spellcasting",
 					"headerEntries": [
-						"Khorvuz is a 17th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He knows the following wizard spells, and prepared spells are marked with brackets."
+						"Khorvuz is a 18th-level spellcaster, of which 15 are levels in Wizard. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 12} to hit with spell attacks) for the following spells. He knows the following wizard spells, and prepared spells are marked with brackets."
 					],
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell mind sliver|TCE}",
 								"{@spell fire bolt}",
-								"{@spell friends}",
 								"{@spell mage hand}",
-								"{@spell mending}"
+								"{@spell mending}",
+								"{@spell message}",
+								"{@spell wristpocket}"
 							]
 						},
 						"1": {
@@ -336,7 +337,8 @@
 								"{@spell identify}",
 								"[{@spell magic missile}]",
 								"[{@spell shield}]",
-								"{@spell sleep}*"
+								"{@spell sleep}*",
+								"{@spell tasha's hideous laughter}*"
 							]
 						},
 						"2": {
@@ -347,6 +349,7 @@
 								"[{@spell hold person}]*",
 								"{@spell invisibility}",
 								"{@spell knock}",
+								"{@spell misty step}",
 								"{@spell suggestion}*"
 							]
 						},
@@ -356,7 +359,9 @@
 								"[{@spell blink}]",
 								"[{@spell counterspell}]",
 								"[{@spell dispel magic}]",
+								"[{@spell fireball}]",
 								"[{@spell fly}]",
+								"[{@spell lightning bolt}",
 								"[{@spell sending}]",
 								"{@spell tongues}"
 							]
@@ -365,15 +370,16 @@
 							"slots": 3,
 							"spells": [
 								"[{@spell confusion}]*",
-								"[{@spell dominate beast}]*",
+								"[{@spell charm monster}]*",
 								"{@spell greater invisibility}",
-								"{@spell stoneskin}",
-								"{@spell transfer enchantment|MightMagic}"
+								"{@spell polymorph}",
+								"{@spell transfer enchantment|WorldOfLight}*"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
+								"{@spell dominate person}*",
 								"{@spell dream}",
 								"[{@spell far step|XGE}]",
 								"{@spell hold monster}*",
@@ -384,14 +390,18 @@
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell alinaar's amazing altering|MightMagic}",
-								"{@spell chain lightning}"
+								"{@spell alinaar's amazing altering|WorldOfLight}",
+								"{@spell chain lightning}",
+								"{@spell disintegrate}",
+								"{@spell globe of invulnerability}",
+								"{@spell true seeing}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"[{@spell delayed blast fireball}]",
+								"[{@spell forcecage}]",
 								"{@spell mordenkainen's sword}",
 								"[{@spell plane shift}]",
 								"[{@spell teleport}]"
@@ -401,14 +411,54 @@
 							"slots": 1,
 							"spells": [
 								"[{@spell demiplane}]",
-								"{@spell feeblemind}*"
+								"{@spell dominate monster}*",
+								"{@spell feeblemind}*",
+								"{@spell power word stun}*"
 							]
+						},
+						"9": {
+							"slots": 1
 						}
 					},
 					"footerEntries": [
 						"*Enchantment spell of 1st level or higher"
 					],
 					"ability": "int",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Sorcerer Spellcasting",
+					"headerEntries": [
+						"Khorvuz is a 18th-level spellcaster, of which 3 are levels in Sorcerer. His spellcasting ability is Charisma (spell save {@dc 19}, {@hit 10} to hit with spell attacks) for the following spells. He has the following Sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell elementalism}",
+								"{@spell friends}",
+								"{@spell prestidigitation}",
+								"{@spell sorcerous burst}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell burning hands}",
+								"{@spell disguise self}",
+								"{@spell silvery barbs|SCC}*"
+							]
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell nathair's mischief|FTD}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Enchantment spell of 1st level or higher"
+					],
+					"ability": "cha",
 					"type": "spellcasting"
 				}
 			],

@@ -10707,6 +10707,32 @@
 			]
 		},
 		{
+			"name": "Aegis of the Radiant Star",
+			"source": "WorldOfLight",
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 12,
+						"class": {
+							"name": "Warlock"
+						},
+						"classSource": "XPHB"
+					},
+					{
+						"feature": [
+						"Hex Warrior|WorldOfLight"
+						]
+					}
+				}
+			],
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can create a bond with magic armor you touch and are attuned to; you can't bond with the armor if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have {@variantrule Proficiency|XPHB} with the armor, and you can use it as a spellcasting focus. Additionally, you can ignore the armor's Strength requirements (if any), and if the armor normally infers a penalty to your movement or stealth, it no longer does."
+			]
+		},
+		{
 			"name": "Lightweight Combatant",
 			"source": "WorldOfLight",
 			"featureType": [
