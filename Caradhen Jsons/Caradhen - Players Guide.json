@@ -1,0 +1,327 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LandsOfExile",
+				"abbreviation": "CDHN",
+				"full": "Caradhen: Player's Guide",
+				"color": "c1440e",
+				"authors": [
+					"Arcane"
+				],
+				"version": "09.11.2025",
+				"url": "",
+				"targetSchema": "1.2.0"
+			}
+		],
+		"dateAdded": 1
+	},
+	"deity": [
+		{
+			"name": "Narallin",
+			"title": "God of Travel and Mercantile",
+			"altNames": [
+				"The Gilded Lord"
+			],
+			"alignment": [
+				"N"
+			],
+			"province": "Commerce, Debt, Dragons, Gold, Travel and Wealth",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Firmament"
+			],
+			"domains": [
+				"Forge",
+				"Knowledge",
+				"Tempest",
+				"Trickery"
+			],
+			"symbol": "A perfectly balanced scale",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "LandsOfExile",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"It is said that when the settlers were banished, their first goal was to rebuild society as it was, even among the darkness of the lands of Dor-Edlen. Out of these desperate times, came Narallin, or so the merchants say. Others whisper that he was made; a god hammered together from older names, his divinity soldered by greed and necessity.",
+						"The oldest tablets, most lost to the annals of history, refer to this god as a collective. A patron of fair exchange and the covenant of coin, who taught the first Elves to weigh the value of coin against the weight of metal. This interpretation of Narallin, however, quickly changed, as the most devoted preachers believed his will was not of fairness, but of avarice. Something within Narallin's faith shifted, almost turning him into a new god, not of fairness, but of {@i profit}.",
+						{
+							"type": "entries",
+							"name": "Exemption of Banishment",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "The god at the edge of divinity",
+									"entries": [
+										"It is believed that when the Gods cast out the Settlers, Narallin did not turn away. He is said to have watched from the edge of the heavens, as the exiles vanished beyond the red veil. In their absence, he keeps the roads open."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Palashirr",
+			"title": "God of Fire and Magic",
+			"altNames": [
+				"The Dying Dawn"
+			],
+			"alignment": [
+				"C",
+				"N"
+			],
+			"province": "Ambition, Fire, Magic, Ruin and The Sun",
+			"pantheon": "Caradhen",
+			"category": [
+				"Gods of The Firmament"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Light",
+				"Order",
+				"Time",
+				"War"
+			],
+			"symbol": "A burning sword",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": ""
+				}
+			},
+			"source": "LandsOfExile",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"No one remembers what Palashirr was before the Schism of Names, only that once there was a gentler radiance, a softer dawn. Now, his warmth carries the divine weight of judgement. His temples are built in open courtyards where the sky can see the faithful; his priests bear no shadows when they stand in prayer. They teach that light is not forgiveness, but clarity. And in clarity, every flaw is revealed.",
+						"The legends whisper that when the world was first divided, there were those who defied him: proud, impossibly tall beings who would not bow before His light. Palashirr’s fire descended upon them not to kill, but to remake. Some became stone, some fled into the dark places of the earth, and some still wander beneath the sun, marked and reminded by its relentless gaze.",
+						{
+							"type": "entries",
+							"name": "Palashirr's Influence",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Depiction",
+									"entries": [
+										"Palashirr is oft depicted as a tall knight carrying a gargantuan greatsword, clad head to toe in jet-black, outlined in silver armor, wreathed in divine fire, both red and blue."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Nydra",
+			"title": "Goddess of Death & The Moon",
+			"altNames": [
+				"The Eye of Dust"
+			],
+			"alignment": [
+				"N"
+			],
+			"province": "Death, Fate, Night, Nature and The Moon",
+			"pantheon": "Ilúvë",
+			"category": [
+				"Gods of The Firmament"
+			],
+			"domains": [
+				"Death",
+				"Grave",
+				"Nature",
+				"Twilight"
+			],
+			"symbol": "A crescent moon or a wolf's head, in profile",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": ""
+				}
+			},
+			"source": "LandsOfExile",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"It is said that when Palashirr's magic wanes, Nydra's gaze falls upon creation like a layer of hoarfrost. Her silence is the bitter rhythm by which all things end.",
+						"She loathes those that live in unlife, those that will not die. These crawling mockeries of life linger beyond her reach, and so she beseeches her followers to burn corpses to ash, sever infernal pacts, and leave no ghost unburied. To serve her is to understand that in death there is no embrace. Only a neutral peace.",
+						"Ultimately, she is not found to be cruel. Merely cold. For when her light falls upon the living, it is not to comfort, but to remind them that the night does not love you. It simply waits until the campfire dims.",
+						{
+							"type": "entries",
+							"name": "Fickle Fate",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "A great many enemies",
+									"entries": [
+										"Legends tell that in an age long forgotten, her foes rose against her and were unmade by her curse: their souls bound to beast and blood, their lycanthropic howls echoing in eternal rebellion. Even now, the afflicted tremble beneath her moon, a warning written in flesh."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Morvael",
+			"title": "Goddess of Technology & Invention",
+			"altNames": [
+				"The Grand Design"
+			],
+			"alignment": [
+				"N",
+				"G"
+			],
+			"province": "Crafting, Dreams, Engineering, Invention, Knowledge and Technology",
+			"pantheon": "Ilúvë",
+			"category": [
+				"Gods of The Firmament"
+			],
+			"domains": [
+				"Knowledge",
+				"Forge",
+				"Order",
+				"Time",
+				"Trickery"
+			],
+			"symbol": "A single brass cog",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "-"
+				}
+			},
+			"source": "LandsOfExile",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"Morvael is said to be the Spark Between Thoughts, the goddess who will never truly awaken. She is the quiet ember in the dark, shaping wonders from the raw ore of imagination. Her followers claim that every invention begins as one of her many whispers, every blueprint as her vision half-remembered upon waking.",
+						"As such, she is not worshipped through sacrifice, but rather through the act of creation. To follow her is to build, to dream big, and to invent until even the gears of time grind to a halt. And then to invent more. Her most pious priests keep journals filled with sketches drawn in that strange drowsy light between wakefulness and sleep, convinced that inspiration itself is divine correspondence.",
+						{
+							"type": "entries",
+							"name": "Silence Unending",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "They came from below",
+									"entries": [
+										"Legends tell that her only quarrels came from below. A well-documented fact is that she loathes the spiderkin and drow who envied the crafting of Dwarves and Gnomes and sought to unmake what they built. Yet Morvael did not answer their malice with wrath, she merely answered with silence. This, naturally, has caused many tense alliances and relations between the folk of the stone beneath."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ilbrant",
+			"title": "Deity of Madness, Enslavement and Ruin",
+			"altNames": [
+				"The Prince of Shackles"
+			],
+			"alignment": [
+				"C",
+				"E"
+			],
+			"province": "Annihalation, Dragons, Enslavement, Hatred, Madness, Poison, Torture and Tyranny",
+			"pantheon": "Ilúvë",
+			"category": [
+				"The Evanur"
+			],
+			"domains": [
+				"Death",
+				"Grave",
+				"Madness",
+				"Tempest",
+				"War"
+			],
+			"symbol": "Black Crescent",
+			"source": "LandsOfExile",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"When the first light cracked open the dark, it is said that this deity stirred in its wake. It stirred not to perceive, but to consume.  Every faith calls him something different: the Great Maw, the Endless Coil, the Wound Beneath the World. None speak his name above a whisper.",
+						"Some say that It was never born from the heavens but came from beyond them; a hunger, mistaken for a god. When the divine hosts bound him, the chains became the constellations, the scars across the sky the seams of his prison. It is said the gods still keep watch, for if they ever looked away, the stars themselves would begin to fall inward.",
+						{
+							"type": "entries",
+							"name": "Coiled in the void, dreaming of teeth",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Jagged Spirals",
+									"entries": [
+										"His form is carved into forbidden tablets: a vast, segmented serpent devouring its own body, an ouroboros of decay. Those who dream of him wake gasping, their minds full of whispers that promise dominion and immortality. Promises that rot the soul from within."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dur Maeth",
+			"title": "Goddess of Enlightenment & Honor",
+			"altNames": [
+				"Sehanine",
+				"Mistress of the Moonbow",
+				"The Moonweaver"
+			],
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
+			"pantheon": "Ilúvë",
+			"category": [
+				"Deities of Radiance",
+				"The Natural Three",
+				"The Evanur"
+			],
+			"domains": [
+				"Knowledge",
+				"Life",
+				"Light",
+				"Order"
+			],
+			"symbol": "Crescent moon",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/AwLHsLB.png"
+				}
+			},
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"In the oldest stories, Dur Maeth walked among mortals not as a queen but as a teacher. She served as the thread binding city and soul together. It was she who taught that power without mercy is only noise, and that law, must be tempered by compassion and common sense.",
+						"Her temples are libraries first and sanctuaries second, their walls traced with runes that shift when read by different minds. No one hears her now, yet her silence feels deliberate, as if she listens instead. Dreams of her come bright and geometric: lattices of thought, vast cities of glass and memory. Her faithful believe these are glimpses of her mind, where every act of kindness adds another light to an endless skyline.",
+						"Among all the gods, she is the hardest to define. Neither distant nor near, neither stern nor gentle. Only present, like the thought that civilization itself might, for a fleeting instant, understand its own soul."
+							]
+				}
+			],
+			"source": "LandsOfExile"
+		}
+	]
+}
