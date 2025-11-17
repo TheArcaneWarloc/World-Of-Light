@@ -37,7 +37,7 @@
 				"Tempest",
 				"Trickery"
 			],
-			"symbol": "A perfectly balanced scale",
+			"symbol": "A road leading away from a single gold coin",
 			"symbolImg": {
 				"type": "image",
 				"href": {
@@ -79,7 +79,7 @@
 				"C",
 				"N"
 			],
-			"province": "Ambition, Fire, Magic, Ruin and The Sun",
+			"province": "Ambition, Fire, Magic and The Sun",
 			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
@@ -134,7 +134,7 @@
 				"N"
 			],
 			"province": "Death, Fate, Night, Nature and The Moon",
-			"pantheon": "Ilúvë",
+			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
 			],
@@ -188,7 +188,7 @@
 				"G"
 			],
 			"province": "Crafting, Dreams, Engineering, Invention, Knowledge and Technology",
-			"pantheon": "Ilúvë",
+			"pantheon": "Caradhen",
 			"category": [
 				"Gods of The Firmament"
 			],
@@ -242,9 +242,9 @@
 				"E"
 			],
 			"province": "Annihalation, Dragons, Enslavement, Hatred, Madness, Poison, Torture and Tyranny",
-			"pantheon": "Ilúvë",
+			"pantheon": "Caradhen",
 			"category": [
-				"The Evanur"
+				"Gods of The Echelon Court"
 			],
 			"domains": [
 				"Death",
@@ -253,7 +253,7 @@
 				"Tempest",
 				"War"
 			],
-			"symbol": "Black Crescent",
+			"symbol": "A ",
 			"source": "LandsOfExile",
 			"entries": [
 				{
@@ -281,34 +281,28 @@
 		{
 			"name": "Dur Maeth",
 			"title": "Goddess of Enlightenment & Honor",
-			"altNames": [
-				"Sehanine",
-				"Mistress of the Moonbow",
-				"The Moonweaver"
-			],
 			"alignment": [
 				"C",
 				"G"
 			],
-			"province": "Autumn, Dreams, Illusion, Love, Moonlight, Night and The Moons",
-			"pantheon": "Ilúvë",
+			"province": "Enlightenment, Honor, Justice, Law and Politics",
+			"pantheon": "Caradhen",
 			"category": [
-				"Deities of Radiance",
-				"The Natural Three",
-				"The Evanur"
+				"Gods of The Firmament"
 			],
 			"domains": [
 				"Knowledge",
 				"Life",
 				"Light",
-				"Order"
+				"Order",
+				"Peace"
 			],
-			"symbol": "Crescent moon",
+			"symbol": "A perfectly balanced scale",
 			"symbolImg": {
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://i.imgur.com/AwLHsLB.png"
+					"url": ""
 				}
 			},
 			"entries": [
@@ -318,7 +312,7 @@
 						"In the oldest stories, Dur Maeth walked among mortals not as a queen but as a teacher. She served as the thread binding city and soul together. It was she who taught that power without mercy is only noise, and that law, must be tempered by compassion and common sense.",
 						"Her temples are libraries first and sanctuaries second, their walls traced with runes that shift when read by different minds. No one hears her now, yet her silence feels deliberate, as if she listens instead. Dreams of her come bright and geometric: lattices of thought, vast cities of glass and memory. Her faithful believe these are glimpses of her mind, where every act of kindness adds another light to an endless skyline.",
 						"Among all the gods, she is the hardest to define. Neither distant nor near, neither stern nor gentle. Only present, like the thought that civilization itself might, for a fleeting instant, understand its own soul."
-							]
+					]
 				}
 			],
 			"source": "LandsOfExile"
