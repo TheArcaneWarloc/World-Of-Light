@@ -8825,34 +8825,6 @@
 		},
 
 		{
-			"className": "Sorcerer",
-			"classSource": "XPHB",
-			"name": "Fiendish Bloodline",
-			"shortName": "Fiend",
-			"source": "WorldOfLight",
-			"subclassFeatures": [
-				"Fiendish Bloodline|Sorcerer||Fiend|WorldOfLight|1",
-				"Ogre Manipulation|Sorcerer||Fiend|WorldOfLight|6",
-				"Boiling Power|Sorcerer||Fiend|WorldOfLight|14",
-				"Transformation|Sorcerer||Fiend|WorldOfLight|18"
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/ObojimaTallGrass/Subclasses/oni-bloodline-sorcerer.webp"
-						},
-						"credit": "Alexander Cloos",
-						"width": 3440,
-						"height": 3440
-					}
-				]
-			}
-		},
-
-		{
 			"className": "Warlock",
 			"classSource": "XPHB",
 			"name": "Hexblade (Variant)",
