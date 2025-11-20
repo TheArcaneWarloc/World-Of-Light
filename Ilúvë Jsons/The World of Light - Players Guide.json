@@ -3427,9 +3427,11 @@
 		{
 			"name": "Thaumaturgic Expert",
 			"source": "WorldOfLight",
+			"category": "G",
 			"prerequisite": [
 				{
-					"spellcasting": true
+					"level": 4,
+					"spellcasting2020": true
 				}
 			],
 			"ability": [
@@ -3444,12 +3446,19 @@
 				}
 			],
 			"entries": [
-				"Through your repeated exposure of the natural flow of arcane magic throughout Ilúvë, you've adapted to attune with additional enchantments, though the process can by physically taxing. You gain the following benefits:",
+				"Through your repeated exposure of the natural flow of arcane magic throughout Ilúvë, you've adapted to attune with additional enchantments, though the process can by physically taxing. You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"You have advantage on Intelligence ({@skill Arcana}) checks when investigating the nature of a magical object or device.",
-						"You can attune to a maximum of four magical items, rather than the normal limit of three. Other attunement limitations still apply."
+					"type": "entries",
+					"name": "Arcane Knowledge",
+					"entries": [
+						"You have advantage on Intelligence ({@skill Arcana}) and Intelligence ({@skill Investigation}) checks when discerning the nature of a magical object or device."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Attunement",
+					"entries": [
+						"You gain an additional attunement slot. This benefit does not stack, nor can you take this feat more than once. Other attunement limitations still apply."
 					]
 				}
 			]
@@ -3459,21 +3468,36 @@
 			"source": "WorldOfLight",
 			"prerequisite": [
 				{
-					"spellcasting": true,
-					"level": {
-						"level": 8
+					"level": 8,
+					"spellcasting2020": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"int",
+							"cha"
+						]
 					}
 				}
 			],
 			"entries": [
-				"Through intense focus, training, and dedication, you've unlocked what even some of the mages of Arcanix would have dreamed of; you have harnessed the techniques of rapid spellcasting.",
-				"You are no longer limited to only one non-cantrip spell per turn. However, should you cast two or more spells in a single turn, only one of them can be of 3rd level or higher.",
+				"Through intense focus, training, and dedication, you've gained the ability to cast your spells in the most efficient manner possible. You gain the following benefit.",
+				{
+					"type": "entries",
+					"name": "Rapid Casting",
+					"entries": [
+						"You are no longer limited to only one non-cantrip spell per turn. However, should you cast two or more spells in a single turn, only one of them can be of 3rd level or higher."
+					]
+				},
 				{
 					"type": "inset",
 					"name": "Rules Tip: Casting Multiple Spells",
 					"page": 190,
 					"entries": [
-						"Normally, when you cast a spell as a bonus action, you can't use your action to also cast a spell that turn unless that spell is a cantrip—{@note see {@book PHB p202|PHB|10|Bonus Action}.} The Spelldriver feat removes that restriction, but the focus necessary to channel multiple spells in the same round still limits the overall power of those spells."
+						"Normally, when you cast a spell as a bonus action, you can't use your action to also cast a spell that turn, unless that spell is a cantrip—{@note see {@book PHB p202|PHB|10|Bonus Action}.} The Arcanixian Celerity feat removes that restriction, but the focus necessary to channel multiple spells in the same round still limits the overall power of those spells."
 					]
 				}
 			]
@@ -3490,30 +3514,64 @@
 					]
 				}
 			],
-			"entries": [
-				"Due to extensive exposure to the dark, and possible supernatural abilities, you have an unmatched ability to fight adversaries in the dark. You gain the following benefits:",
+			"ability": [
 				{
-					"type": "list",
-					"items": [
-						"You gain Darkvision with a radius of 60 feet. If you already have darkvision, then the radius of your darkvision increases by 30 feet, to a maximum of 120 feet.",
-						"You have advantage on Dexterity ({@skill Stealth}) checks while in dim light or nonmagical darkness.",
-						"You can try to hide when you are lightly obscured from the creature from which you are hiding.",
-						"When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.",
+					"dex": 1
+				}
+			],
+			"entries": [
+				"Due to extensive exposure to the dark, and possible supernatural abilities, you have an unmatched ability to fight adversaries in the dark. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You gain Darkvision with a radius of 60 feet. If you already have darkvision, then the radius of your darkvision increases by 30 feet, to a maximum of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Night Eye",
+					"entries": [
 						"Dim light doesn't impose disadvantage on your Wisdom ({@skill Perception}) checks relying on sight."
 					]
 				},
-				"{@i NOTE: This feat replaces the Skulker feat.}"
+				{
+					"type": "entries",
+					"name": "Prowler",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth}) checks while in dim light or nonmagical darkness."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadowstalker",
+					"entries": [
+						"You can try to {@action Hide|XPHB} when you are lightly obscured from the creature from which you are hiding."
+					]
+				}
 			]
 		},
 		{
 			"name": "Mending Affinity",
 			"source": "WorldOfLight",
-			"entries": [
-				"Your body has begun to adapt extremely well to healing itself through extraordinary means, gifting you the following benefits:",
+			"prerequisite": [
 				{
-					"type": "list",
-					"items": [
-						"When a creature uses a {@item healer's kit|WorldOfLight} to stabilize you when you are dying, you also regain hit points equal to your proficiency modifier.",
+					"level": 4
+				}
+			],
+			"entries": [
+				"Your body has begun to adapt extremely well to healing itself through extraordinary mean. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Revitalization",
+					"entries": [
+						"When a creature uses a {@item healer's kit|WorldOfLight} to stabilize you when you are dying, you also regain hit points equal to your proficiency modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overheal",
+					"entries": [
 						"Whenever you regain hit points as a result of a spell, potion, or class ability, you regain additional hit points equal to your proficiency modifier."
 					]
 				}
@@ -3529,32 +3587,58 @@
 			"source": "WorldOfLight",
 			"prerequisite": [
 				{
-					"spellcasting": true
+					"level": 4,
+					"spellcasting2020": true
 				}
 			],
 			"entries": [
-				"Countless hours have been spent training your mind to maintain focus on concurrent incantations, taxing as the process may be.",
+				"Countless hours have been spent training your mind to maintain focus on concurrent incantations, taxing as the process may be. You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"If you attempt to cast a spell that requires concentration while already concentrating on an existing spell, you can maintain concentration on both spells simultaneously.",
-						"If you take damage during this time, you must make a concentration check for each spell individually.",
-						"At the end of each turn where you have two spells you are concentrating on, you must make a Constitution saving throw (DC equals 8 + both spells' levels combined). On a success, you maintain concentration on both spells. On a failure, you lose concentration on both spells."
+					"type": "entries",
+					"name": "Coupled Concentration",
+					"entries": [
+						"If you attempt to cast a spell that requires concentration while already concentrating on an existing spell, you can maintain concentration on both spells simultaneously. If you take damage during this time, you must make a concentration check for each spell individually. At the end of each turn where you have two spells you are concentrating on, you must make a Constitution saving throw (DC equals 8 + both spells' levels combined). On a success, you maintain concentration on both spells. On a failure, you lose concentration on both spells."
 					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1,
+					"cha": 1,
+					"int": 1,
+					"wis": 1
 				}
 			]
 		},
 		{
 			"name": "Thrown Arms Master",
 			"source": "WorldOfLight",
-			"entries": [
-				"You've honed your ability to lob weaponry into the fray, including weapons not meant for ranged combat. You gain the following benefits:",
+			"prerequisite": [
 				{
-					"type": "list",
-					"items": [
-						"Simple and martial melee weapons without the thrown property can be treated as if they have the thrown property. One-handed weapons have a range of 20/60, while two-handed weapons have a range of 15/30.",
-						"Weapons that naturally have the thrown property increase their range by +20/+40.",
-						"When you miss with a thrown weapon attack using a {@i light} weapon, the weapon immediately boomerangs back into your grasp."
+					"level": 4
+				}
+			],
+			"entries": [
+				"You've honed your ability to lob weaponry into the fray, including weapons not meant for ranged combat. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improvised Throwing",
+					"entries": [
+						"Simple and martial melee weapons without the thrown property can be treated as if they have the thrown property. One-handed weapons have a range of 20/60, while two-handed weapons have a range of 15/30."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Greater Distance",
+					"entries": [
+						"Weapons that naturally have the thrown property increase their range by +20/+40."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curved Fling",
+					"entries": [
+						"When you miss with a thrown weapon that has the Light property, the weapon immediately boomerangs back into your grasp."
 					]
 				}
 			],
@@ -3575,17 +3659,31 @@
 			"source": "WorldOfLight",
 			"prerequisite": [
 				{
-					"spellcasting": true
+					"level": 4,
+					"spellcasting2020": true
 				}
 			],
 			"entries": [
-				"Thanks to extensive practice with ranged spellcasting and its limitations, you gain the following benefits:",
+				"Thanks to extensive practice with ranged spellcasting and its limitations, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"Before you make a ranged spell attack with a spell you know, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the spell's damage.",
-						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged spell attack rolls.",
-						"If you make a ranged spell attack roll and hit the target, you can disengage as a bonus action."
+					"type": "entries",
+					"name": "Overcharge",
+					"entries": [
+						"Before you make a ranged spell attack with a spell you know, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the spell's damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Casting in Melee",
+					"entries": [
+						"Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls with spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Distraction",
+					"entries": [
+						"If you make a ranged spell attack roll and hit the target, you can {@action Disengage|XPHB} as a {@variantrule Bonus Action|XPHB}."
 					]
 				}
 			]
@@ -3601,8 +3699,27 @@
 					]
 				}
 			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
 			"entries": [
-				"You are considered a paragon of your class, a formidable foe, and an even greater ally. You choose one subclass from (one of) your class's list, from among the Barbarian, Fighter, Monk or Rogue, and gain it's level 3 feature(s). If you choose a subclass that grants you the spellcasting feature, you are considered a 3rd-level caster for the purposes of this feat (meaning your spellcasting feature does not improve as you gain levels in the class)."
+				"You are considered a paragon of your class, a formidable foe, and an even greater ally. You gain the following benefit.",
+				{
+					"type": "entries",
+					"name": "Minor Archetype",
+					"entries": [
+						"Choose one subclass from (one of) your class's list, from among the Barbarian, Fighter, Monk or Rogue, and gain its level 3 feature(s). If you choose a subclass that grants you the spellcasting feature, you are considered a 3rd-level caster for the purposes of this feat (meaning your spellcasting feature does not improve as you gain levels in the class)."
+					]
+				}
 			]
 		}
 	],
