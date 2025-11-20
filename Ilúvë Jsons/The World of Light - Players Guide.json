@@ -7814,7 +7814,7 @@
 			"entries": [
 				"This spell unleashes magic that rips the souls from living creatures you can see within range.",
 				"Each creature in a 30-foot radius sphere centered on a point you choose within range must succeed on a Charisma saving throw, taking {@dice 15d12 + 30} necrotic damage, or half as much on a successful one.",
-				"If a creature fails its saving throw and is reduced to 0 hit points by this spell, it instantly dies, and it's soul is completely torn asunder, and it can't be ressurected, not even by means of a {@spell wish} spell."
+				"If a creature fails its saving throw and is reduced to 0 hit points by this spell, it instantly dies, and it's soul is completely torn asunder, and it can't be resurrected, not even by means of a {@spell wish} spell."
 			],
 			"damageInflict": [
 				"necrotic"
