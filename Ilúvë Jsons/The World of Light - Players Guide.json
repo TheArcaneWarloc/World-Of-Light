@@ -11037,7 +11037,7 @@
 			]
 		},
 		{
-			"name": "Aegis of the Radiant Star",
+			"name": "Seraphic Aegis",
 			"source": "WorldOfLight",
 			"featureType": [
 				"EI"
@@ -11051,8 +11051,8 @@
 						},
 						"classSource": "XPHB"
 					},
-						"feature": [
-						"Hex Warrior|WorldOfLight"
+						"optionalfeature": [
+						"hex warrior|WorldOfLight"
 						]
 				}
 			],

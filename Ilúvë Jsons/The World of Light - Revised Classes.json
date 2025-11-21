@@ -113,6 +113,17 @@
 			]
 		},
 		{
+			"name": "Venatorial Focus",
+			"source": "WorldOfLightClasses",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"level": 5,
+			"entries": [
+				"{@i 5th-level ranger {@variantrule optional class features|tce|optional feature}}",
+				"Your Hunter's Mark die is now a {@dice d8} instead of a {@dice d6}."
+			]
+		},
+		{
 			"name": "Relentless Hunter",
 			"source": "WorldOfLightClasses",
 			"className": "Ranger",
@@ -120,7 +131,7 @@
 			"level": 13,
 			"entries": [
 				"{@i 13th-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the original Relentless Hunter feature}",
-				"Your Hunter's Mark no longer requires {@status Concentration|XPHB}."
+				"Your Hunter's Mark no longer requires {@status Concentration|XPHB}. Additionally, your Hunter's Mark die is now a {@dice d12} instead of a {@dice d8}."
 			]
 		},
 		{
@@ -132,7 +143,7 @@
 			"entries": [
 				"{@i 20th-level ranger {@variantrule optional class features|tce|optional feature}, which replaces the original Foe Slayer feature}",
 				"Your connection with the natural world has exalted you to greater heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.",
-				"In addition, the damage die of your Hunter's Mark is now a {@dice d20} rather than a {@dice d6}."
+				"In addition, the damage die of your Hunter's Mark is now a {@dice d20} rather than a {@dice d12}."
 			]
 		}
 	]
